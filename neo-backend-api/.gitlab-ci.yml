@@ -1,0 +1,52 @@
+stages:
+- build-dev
+- publish-dev
+- build-prod
+- publish-prod
+
+variables:
+  IMAGE_BUILD_DEV: '$REGISTRY/neo-backend-dev:$CI_COMMIT_SHORT_SHA'
+  IMAGE_LATEST_DEV: '$REGISTRY/neo-backend-dev:latest'
+  IMAGE_BUILD_PRD: '$REGISTRY/neo-backend:$CI_COMMIT_SHORT_SHA'
+  IMAGE_LATEST_PRD: '$REGISTRY/neo-backend:latest'
+
+before_script:
+    - docker login -u $REG_USER -p $REG_PASS $LOGIN_REGISTRY
+
+build-dev:
+  stage: build-dev
+  only:
+    - develop
+  tags:
+    - extranet-ci
+  script:
+    - docker build -t $IMAGE_BUILD_DEV -t $IMAGE_LATEST_DEV . --no-cache
+    - docker push $IMAGE_BUILD_DEV
+    - docker push $IMAGE_LATEST_DEV
+
+publish-dev:
+  stage: publish-dev
+  only:
+    - develop
+  trigger: 
+    project: ExtranetNeo/neo-backend-deploy
+    branch: develop
+
+build-prod:
+  stage: build-prod
+  only:
+    - master
+  tags:
+    - extranet-ci
+  script:
+    - docker build -t $IMAGE_BUILD_PRD -t $IMAGE_LATEST_PRD . --no-cache
+    - docker push $IMAGE_BUILD_PRD
+    - docker push $IMAGE_LATEST_PRD
+
+publish-prod:
+  stage: publish-prod
+  only:
+    - master
+  trigger: 
+    project: ExtranetNeo/neo-backend-deploy
+    branch: master
