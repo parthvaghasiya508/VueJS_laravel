@@ -1,0 +1,85 @@
+$square-button-background: #e2e3e6;
+$square-button-color: $semigray;
+$square-button-active-background: $primary;
+$square-button-active-color: $white;
+$square-button-disabled-background: #dedee2;
+$square-button-disabled-color: $white;
+
+.btn.rounded-pill {
+  border-radius: 100px;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+  padding: 10px 18px;
+  border: none;
+  display: flex;
+  align-items: center;
+  outline: none !important;
+  box-shadow: none !important;
+  svg {
+    margin-right: 12px;
+  }
+  /*
+  &.btn-primary {
+    color: $primary;
+    &:hover {
+      color: $primary;
+    }
+  }
+  */
+  &.btn-outline-primary {
+    background-color: $white;
+    &:hover {
+      color: $primary;
+      background-color: $notes-background;
+    }
+  }
+  &.btn-outline-danger {
+    background-color: #fff;
+  }
+  &.btn-sm {
+    padding: 5px 18px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+.btn.btn-square {
+  border-radius: 4px;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 600;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none !important;
+  box-shadow: none !important;
+  opacity: 1 !important;
+
+  color: $square-button-color;
+  background-color: $square-button-background;
+
+  &.active {
+    color: $square-button-active-color;
+    background-color: $square-button-active-background;
+  }
+  &.disabled, &:disabled {
+    color: $square-button-disabled-color;
+    background-color: $square-button-disabled-background;
+  }
+}
+
+.btn.btn-text {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  color: inherit;
+  outline: none;
+  box-shadow: none;
+}

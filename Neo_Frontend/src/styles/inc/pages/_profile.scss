@@ -1,0 +1,35 @@
+.page-profile {
+  color: $semigray;
+
+  .list {
+    padding: 55px;
+
+    p {
+      &.first-name,
+      &.last-name,
+      &.phone-number,
+      &.email,
+      &.password {
+        font-weight: 600;
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .panel-footer {
+      padding-left: 55px;
+      padding-right: 55px;
+
+      .btn-outline-primary {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+.dropdown-item {
+  &.active {
+    background: transparent;
+  }
+}
+

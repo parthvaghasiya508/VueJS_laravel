@@ -1,0 +1,32 @@
+.guests-price-wrapper {
+  background-color: $white;
+  border-radius: 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 28px 30px;
+  width: 350px;
+  > div {
+    flex: 0 0 50%;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    p {
+      margin: 0;
+      white-space: nowrap;
+      svg {
+        + svg {
+          margin-left: 3px;
+        }
+        margin-bottom: 2px;
+      }
+    }
+    .price {
+      color: $primary;
+      span {
+        font-weight: 400;
+        //font-size: 13px;
+      }
+    }
+  }
+}

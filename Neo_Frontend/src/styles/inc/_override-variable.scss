@@ -1,0 +1,60 @@
+// Colors
+$primary: #4a90e2;
+$light: #f2f7fd;
+$secondary: #f7981c;
+$success: #27ae60;
+$danger: #eb6057;
+
+// Button
+$btn-font-size: 17px;
+$btn-padding-x: 1.5rem;
+$btn-font-weight: 600;
+$btn-padding-y: 0.625rem;
+$btn-line-height: 23px;
+$btn-padding-x-lg: 2rem;
+
+// Form
+$form-grid-gutter-width: 30px;
+$form-group-margin-bottom: 20px;
+$input-height: 45px;
+$input-focus-box-shadow: none;
+$input-line-height: 1.375;
+$input-padding-x: 1.125rem;
+$input-placeholder-color: #a1a6ae;
+$input-border-color: #ccced3;
+$input-disabled-bg: #fbfbfb;
+$input-disabled-color: #91929d;
+
+// Progress
+$progress-height: 13px;
+$progress-bg: #d2e3f8;
+$progress-border-radius: 32px;
+
+// intl-tel-input
+$flagsImagePath: '/assets/images/';
+
+// Tooltip, Popover
+$tooltip-opacity: 1;
+$popover-max-width: 600px;
+
+// Modals
+$modal-backdrop-bg: rgba(0, 0, 0, 0.2);
+$modal-backdrop-opacity: 1;
+
+// Breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 690px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1366px,
+  xxl: 1680px
+);
+
+$container-max-widths: (
+  sm: 660px,
+  md: 720px,
+  lg: 990px,
+  xl: 1300px,
+  xxl: 1600px
+);

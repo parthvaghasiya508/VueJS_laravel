@@ -1,0 +1,51 @@
+@mixin title-lg {
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 600;
+  text-align: left;
+}
+
+@mixin title-md {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  text-align: left;
+}
+
+@mixin title-sm {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.title {
+  @include title-lg;
+  @include media-breakpoint-down(sm) {
+    @include title-sm;
+  }
+}
+
+.text-lg {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.text-md {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.text-sm {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.text-xs {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+}

@@ -1,0 +1,37 @@
+.invalid-tooltip, .valid-tooltip {
+  padding: 0.15rem 0.4rem;
+  margin-top: 0.05rem;
+  font-size: 0.7rem;
+  line-height: 1.2;
+}
+
+.form-group {
+  input[type="text"] + [password-toggler] .password-visible,
+  input[type="password"] + [password-toggler] .password-invisible {
+    display: none;
+  }
+  [password-toggler] {
+    top: ( $input-height / 2 );
+    right: 7px;
+    position: absolute;
+    transform: translateY(-50%);
+  }
+  [password-generator] {
+    top: ( $input-height / 2 );
+    right: 35px;
+    position: absolute;
+    transform: translateY(-50%);
+  }
+  &:not(.input-no-icon) {
+    input.is-invalid + [password-toggler],
+    input.is-valid + [password-toggler] {
+      margin-right: 18px;
+    }
+    input.is-invalid + [password-toggler] + [password-generator],
+    input.is-valid + [password-toggler] + [password-generator] {
+      margin-right: 18px;
+    }
+  }
+}
+
+

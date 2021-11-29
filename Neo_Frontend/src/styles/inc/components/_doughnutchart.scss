@@ -1,0 +1,11 @@
+.doughnut-chart {
+  padding-top: 20%;
+  height: $doubleHeight;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  &-wrapper {
+    width: 80%;
+  }
+}

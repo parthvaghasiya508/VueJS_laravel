@@ -1,0 +1,378 @@
+.page-policies {
+  color: $semigray;
+
+  .page-cxl-pol, .page-bgarant, .page-pymt-pol {
+    margin-bottom: 20px;
+  }
+  @include media-breakpoint-down(sm) {
+    .page-cxl-pol, .page-bgarant, .page-pymt-pol {
+      background: $white;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.17);
+      padding: 12px 30px;
+    }
+    .page-cxl-pol {
+      border-top-left-radius: 25px;
+      border-top-right-radius: 25px;
+    }
+  }
+
+  .add-new-pol {
+    margin: 15px 0;
+    @include media-breakpoint-down(sm) {
+      margin: 0;
+    }
+  }
+  .add-new-pol-block {
+    @include media-breakpoint-down(sm) {
+      padding: 20px 0 30px;
+    }
+  }
+
+  .panel-title {
+    margin-bottom: 30px;
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 22px;
+    }
+  }
+
+  .panel-content {
+    margin-top: 0;
+    margin-bottom: 0;
+    @include media-breakpoint-down(sm) {
+      box-shadow: none;
+    }
+    .head-line {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 55px;
+      margin: 0;
+      cursor: pointer;
+      @include media-breakpoint-down(sm) {
+        line-height: 30px;
+        text-align: center;
+      }
+      ~ div {
+        display: none;
+      }
+      &.opened {
+        background-color: transparent;
+        ~ div {
+          display: block;
+        }
+      }
+    }
+
+    .list {
+      //border-left: 6px solid $primary;
+      background: $white;
+      padding: 55px;
+      border-radius: 10px;
+      &.left-edge {
+        overflow: hidden;
+        position: relative;
+        &:before {
+          content: '';
+          position: absolute;
+          left: 0; top: 0; bottom: 0;
+          width: 6px;
+          background-color: $primary;
+        }
+      }
+      .nothing {
+        text-align: center;
+        font-size: 20px;
+        line-height: 26px;
+      }
+      .policies-table {
+        margin-top: 20px;
+        th, td {
+          padding: 0 15px;
+          font-size: 14px;
+          line-height: 19px;
+          &:first-of-type {
+            padding-left: 24px;
+          }
+          &:last-of-type {
+            padding-right: 24px;
+            text-align: right;
+          }
+        }
+        th {
+          font-weight: 600;
+          height: 45px;
+          background-color: $notes-background;
+          white-space: nowrap;
+          &.w-id {
+            width: 110px;
+          }
+          &.w-name {
+            width: 465px;
+          }
+          &:first-child {
+            border-top-left-radius: 22.5px;
+          }
+          &:last-child {
+            border-top-right-radius: 22.5px;
+          }
+        }
+        tr.separator {
+          vertical-align: top;
+          &.before {
+            height: 12px;
+            box-shadow: 0 -1px 0 $panel-lines-light-color;
+          }
+          &.after {
+            height: 12px;
+          }
+        }
+        tbody:first-of-type tr.separator.before {
+          box-shadow: none;
+        }
+        td {
+          height: 24px;
+          line-height: 24px;
+          vertical-align: top;
+          &.actions {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            button {
+              margin-left: 25px;
+            }
+            svg {
+              font-size: 22px;
+              color: $notes-light-color;
+            }
+          }
+        }
+        p {
+          margin: 0;
+          white-space: nowrap;
+          &.c-name {
+            width: 300px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+        }
+      }
+    }
+
+    .list-item {
+      font-size: 14px;
+      line-height: 24px;
+      &:last-of-type {
+        border-bottom: none;
+        padding-bottom: 0;
+        .line {
+          border: none;
+        }
+      }
+      .d-flex {
+        justify-content: space-between;
+      }
+      .c-1 {
+        width: calc(100% - 50px);
+      }
+      .line {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border-bottom: 1px solid $panel-lines-light-color;
+      }
+      .c-2 {
+        width: calc(50% - 25px);
+      }
+      p {
+        margin: 0;
+        @include media-breakpoint-down(sm) {
+          &.c-name {
+            width: 200px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            text-align: right;
+          }
+        }
+      }
+      .label {
+        font-weight: 600;
+        font-size: 14px;
+        padding: 0;
+        color: $semigray;
+      }
+      .small {
+        font-size: 12px;
+      }
+      .nothing {
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+        padding: 60px 0 35px;
+      }
+      .nr {
+        // flex: 0 0 45px;
+        white-space: nowrap;
+      }
+      .dots {
+        color: $dropdown-icon-color;
+        margin-top: 25px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+  .form-modal {
+    .cp-name, .pp-name {
+      margin: 10px 0 20px;
+      width: 50%;
+      @include media-breakpoint-down(sm) {
+        width: 100%;
+      }
+    }
+    .cp-desc {
+      margin-bottom: 20px;
+    }
+    textarea.pp-desc {
+      height: 150px;
+      margin-bottom: 20px;
+    }
+    .cp-time-wrapper, .pp-time-wrapper {
+      display: flex;
+    }
+    .cell-edit-field {
+      &.smaller {
+        max-width: 107px;
+        margin-right: 15px;
+      }
+      &.cp-time-unit, &.cp-time-drop, &.pp-time-unit {
+        padding-left: 0;
+        width: 100%;
+      }
+      &.cp-time-unit {
+        margin-left: 15px;
+        margin-right: 30px;
+      }
+      .cp-time, .pp-time {
+        margin-bottom: 0;
+      }
+      &.cp-fee-relation {
+        padding-left: 15px;
+        width: 20%;
+      }
+      .cp-fee-multiplier {
+        margin-bottom: 0;
+        width: 107px;
+      }
+    }
+    .row-edit {
+      &.row-cp-name {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      &.row-cp-time {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        flex-flow: column nowrap;
+        align-items: flex-start;
+        height: 100%;
+        .cell-edit-label {
+          margin-bottom: 20px;
+          max-width: 100%;
+        }
+      }
+    }
+    .lang-selector {
+      margin-bottom: 30px;
+    }
+    .cp-fee-title {
+      font-weight: 600;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    @include media-breakpoint-down(sm) {
+      .modal-body {
+        h5 {
+          text-align: left;
+          padding-bottom: 0;
+        }
+      }
+      .row-edit {
+        &.row-cp-fee, &.row-cp-time,
+        &.row-pp-type, &.row-pp-fee, &.row-pp-time {
+          margin-top: 20px;
+          margin-bottom: 20px;
+          flex-flow: column nowrap;
+          align-items: flex-start;
+          height: 100%;
+        }
+      }
+      .cell-edit-label {
+        max-width: calc(50% - 50px);
+        margin-bottom: 20px;
+        &.smaller {
+          max-width: calc(50% - 50px);
+        }
+      }
+      .cell-edit-field {
+        max-width: 100%;
+        &.bigger {
+          max-width: 206px;
+        }
+        &.cp-time-unit {
+          width: 100%;
+          margin-right: 0;
+        }
+        &.cp-fee-relation {
+          width: 100%;
+          padding-right: 15px;
+        }
+      }
+      .cp-time-wrapper {
+        flex-flow: column nowrap;
+        align-items: flex-start;
+        .cp-time-overlay {
+          display: flex;
+          margin-bottom: 25px;
+          width: 100%;
+        }
+      }
+    }
+    @include media-breakpoint-up(md) {
+      .cell-edit-label {
+        max-width: 137px;
+        &.double {
+          max-width: 274px;
+        }
+      }
+      .cell-edit-field {
+        &.single {
+          max-width: 137px;
+        }
+        &.double {
+          max-width: 274px;
+          .amount-percent-field {
+            width: 100%;
+          }
+        }
+        &.cp-time-drop {
+          width: 60%;
+        }
+      }
+      .cp-time-overlay {
+        display: flex;
+        width: 40%;
+      }
+    }
+    .cell-edit-field {
+      &.inverted {
+        background-color: $white;
+        border-radius: 10px;
+        margin: 0;
+      }
+    }
+    .cell-guests-price {
+      justify-content: flex-end;
+    }
+  }
+}

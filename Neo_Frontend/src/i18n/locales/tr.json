@@ -1,0 +1,1089 @@
+{
+  "yes": "Evet",
+  "no": "Hayır",
+  "id": "ID",
+  "error": "Hata",
+  "actions": "Aksiyon",
+  "feedback": "Geri bildirim",
+  "feedback-form": {
+    "title": "Geri bildirim formu",
+    "button": "Göndermek",
+    "message": "Sorgunuz için teşekkürler (#%s)! En kısa sürede sizinle iletişime geçeceğiz."
+  },
+  "langs": {
+    "en": "İngilizce",
+    "de": "Almanca",
+    "ru": "Rusça",
+    "tr": "Türkçe",
+    "zh": "Çince",
+    "pt": "Portekizce",
+    "it": "İtalyan",
+    "es": "İspanyol",
+    "fr": "Fransızca",
+    "pl": "Lehçe",
+    "nl": "Flemenkçe",
+    "ro": "Romence",
+    "sl": "Slovence",
+    "ar": "Arapça"
+  },
+  "links": {
+    "home": "Anasayfa",
+    "benefits": "Hizmetler",
+    "highlights": "Ayarlar",
+    "devconnect": "API",
+    "price": "Fiyatlar"
+  },
+  "menu": {
+    "products": "Ürünler",
+    "property": "İşletme",
+    "connectivity": "Sistem Sağlığı",
+    "system-health": "Systemgesundheit",
+    "systemhealth": "Systemgesundheit",
+    "logout": "Çıkış",
+    "legal": "Yasal",
+    "users": "Kullanıcılar ve Erişim"
+  },
+  "date": {
+    "from": "Başlangıç tarihi",
+    "until": "Bitiş tarihi",
+    "unlim": "Sınırsız",
+    "price": "Fiyat",
+    "customize-validity": "Geçerliliği özelleştirin",
+    "validity-period": "Geçerli tarih aralığı",
+    "validity-periods": "Geçerli tarih aralıkları",
+    "blockout-periods": "Dönem sonu",
+    "button-add-blockout": "Dönem sonu ekle",
+    "button-add-validity": "Geçerlilik süresi ekleyin",
+    "price-periods": "Fiyat dönemleri",
+    "button-add-price-period": "Fiyat dönemi ekle"
+  },
+  "datepicker": {
+    "value-format": "DD MMM YYYY",
+    "title-format": "MMMM YYYY",
+    "no-value": "Tarih yok Seçildi",
+    "today": "Bugün"
+  },
+  "buttons": {
+    "add-more": "Add more",
+    "add-new": "Add new",
+    "close": "Kapat",
+    "cancel": "Iptal",
+    "save": "Kaydet",
+    "update": "Güncelle",
+    "add": "Ekle",
+    "edit": "Düzenle",
+    "delete": "Sil",
+    "duplicate": "Klonla",
+    "get-started": "Başla",
+    "back": "Geri",
+    "continue": "Devam et",
+    "finish": "Bitti ",
+    "copy": "Kopyala",
+    "edit-langs": "Dil düzenle"
+  },
+  "addr": {
+    "street": "Cadde, numara",
+    "zip": "Posta kodu",
+    "city": "Şehir",
+    "state": "Federal Eyalet",
+    "country": "Ülke",
+    "first-name": "İsim",
+    "last-name": "Soyisim",
+    "hotel-name": "Tesis adı",
+    "property-or-hotel-name": "Tesis adı veya otel adı"
+  },
+  "restrictions": {
+    "minlos": "Minimum konaklama",
+    "minlos-tip": "Toplam X gece konaklama şartı",
+    "maxlos": "Maksimum konaklama",
+    "maxlos-tip": "En fazla X geceleme sınırı",
+    "csale": "Satışa kapat",
+    "csale-tip": "Satışa kapatırsanız müsait odalar kapanır.",
+    "carr": "Giriş tarihini kapat",
+    "carr-tip": "Bu tarihlerde misafir konaklayabilir ancak yeni giriş alınmaz.",
+    "cdep": "Çıkış tarihini kapat",
+    "cdep-tip": "Bu tarihlerde misafir konaklayabilir ancak çıkış yapamaz."
+  },
+  "bgarant": "Rezervasyon garantisi",
+  "bgarants": {
+    "1": {
+      "text": "Yok",
+      "title": "Garanti yok",
+      "desc": "Rezervasyonu işlemini tamamlamak için ön ödeme yada kredi kartı gerekmez."
+    },
+    "3": {
+      "text": "Kriptolu Virtual kart ",
+      "title": "Kredi kartı",
+      "desc": "Rezervasyon işlemini tamamlamak ve onaylamak için kredi kartı gerekir. Ön ödeme gerekli olabilir."
+    }
+  },
+  "channel-update-types": [
+    "Rates and Availability",
+    "Availability only",
+    "Rates only",
+    "No updates"
+  ],
+  "guests-prices": {
+    "price": "Fiyat | Günlük fiyat",
+    "guests": "Kişi sayısı",
+    "min": "(Alt sınır fiyatı)",
+    "max": "(Üst sınır fiyatı)"
+  },
+  "placeholder": {
+    "email": "name@company.com",
+    "password": "Parola"
+  },
+  "login": {
+    "title": "Hoşgeldiniz",
+    "heading": "Tekrar hoşgeldiniz",
+    "tip": "Lütfen giriş yapmak için E-Posta ve parolanızı giriniz",
+    "button-login": "Giriş",
+    "remember-me": "Beni hatırla",
+    "link-reset-password": "Parolanızı mı unuttunuz?",
+    "login": "Mevcut hesabınız var mı? {login}"
+  },
+  "forgot-pwd": {
+    "title": "Parolanızı mı unuttunuz",
+    "heading": "Parolanızı mı unuttunuz?",
+    "tip": "Lütfen e-postanızı girin ve size açıklamaları gönderelim",
+    "button-send": "Açıklamaları gönder",
+    "sent-heading": "Açıklamalar gönderildi!",
+    "sent-to": "Şifrenizi sıfırlamak için açıklamalar şu adrese gönderildi",
+    "sent-tip": "Bu e-postayı 5 dakika içinde alacaksınız. Spam klasörünüzü de kontrol ettiğinizden emin olun."
+  },
+  "change-pwd": {
+    "title": "Parolanızı değiştir",
+    "sent-heading": "E-posta gönderildi!",
+    "sent-to": "Şifrenizi sıfırlamak için açıklamalar şu adrese gönderildi",
+    "sent-tip": "Bu e-postayı 5 dakika içinde alacaksınız. Spam klasörünüzü de kontrol ettiğinizden emin olun."
+  },
+  "reset-pwd": {
+    "title": "Şifreyi yenile",
+    "heading": "Şifrenizi sıfırlayın",
+    "tip": "Lütfen yeni şifrenizi girin ve onaylayın",
+    "password-new": "Yeni şifre",
+    "password-confirm": "Yeni şifreyi onayla",
+    "button-reset": "Şifreyi sıfırla",
+    "button-try-again": "Tekrar deneyin"
+  },
+  "change-email": {
+    "title": "E-posta değiştir",
+    "heading": "E-postanızı değiştirin",
+    "tip": "Lütfen yeni e-posta girin ve onaylayın",
+    "email-new": "Yeni E-posta",
+    "email-confirm": "Yeni Epostayı Onayla",
+    "button-change": "E-posta değiştir",
+    "button-try-again": "Tekrar deneyin",
+    "sent-heading": "E-posta gönderildi!",
+    "sent-to": "E-postanızı değiştirmek için talimatlar adresine gönderildi",
+    "sent-tip": "Bu e-postayı 5 dakika içinde alacaksınız. Spam klasörünüzü de kontrol ettiğinizden emin olun."
+  },
+  "signup": {
+    "title": "Kaydol",
+    "agreement": "Kaydolarak şunları kabul etmiş olursunuz {tos} ve {privacy}.",
+    "link-tos": "Kullanım Şartları",
+    "link-privacy": "Gizlilik Politikası",
+    "signup": "Hesabınız yok mu? {signup}",
+    "button-signup": "Kaydol",
+    "steps": {
+      "0": {
+        "tip": "Kaydolmak için lütfen e-postanızı girin",
+        "button": "@:buttons.continue"
+      },
+      "1": {
+        "tip": "Lütfen şifre girin",
+        "button": "@:signup.button-signup"
+      }
+    },
+    "verify": {
+      "title": "Doğrula",
+      "heading": "Lütfen e-postanızı kontrol edin",
+      "tip": "CultBooking'e başlamak için sadece bir adım uzaktasınız. Kayıt işlemini tamamlamak için lütfen e-postanızı kontrol edin. Adresinde size bir kayıt bağlantısı gönderdik:",
+      "email-resent": "E-posta adresinize yeni bir doğrulama bağlantısı gönderildi.",
+      "resend": "Kayıt bağlantısını almadınız mı? {resend}.",
+      "button-resend": "Tekrar gönder"
+    }
+  },
+  "details": {
+    "steps": {
+      "0": {
+        "title": "Bilgileriniz",
+        "tip": "Lütfen tam adınızı giriniz",
+        "button": "@:buttons.continue"
+      },
+      "1": {
+        "title": "Mülk Detayları",
+        "tip": "Lütfen tesis veya otel adını ve iletişim bilgilerini girin",
+        "button": "CultBooking’e giriş yapın",
+        "button-skip": "Bu adımı atla"
+      }
+    }
+  },
+  "setup": {
+    "title": "Kurulum | Kurulum - Adım {n} | Kurulum - Adım {n}",
+    "page-title": "Kurulum sihirbazı",
+    "steps": {
+      "0": {
+        "greeting": "Merhaba, {name}!",
+        "heading": "CultBooking kurulum sihirbazına hoş geldiniz",
+        "tip": "Kurulum sihirbazı size bu süreç boyunca rehberlik edecek."
+      },
+      "1": {
+        "title": "Temel bilgiler",
+        "greeting": "Hoşgeldiniz, {hotel}!",
+        "tip": "Bize işletmenizin adını ve ilgili kişileri söyleyerek başlayın..",
+        "section-hotel": "Mülkünüzün adı nedir?",
+        "section-contacts": "İşletmenizin iletişim bilgileri nelerdir?",
+        "section-currency": "Para biriminiz nedir?",
+        "currency-tip": "Bu, yerel para biriminiz veya bazı yabancı para biriminiz olabilir."
+      },
+      "2": {
+        "tip": "Bize işletmenizdeki oda tipleri hakkında bilgi verin"
+      },
+      "4": {
+        "tip": "Bize işletmenizin fiyat planlarından bahsedin"
+      },
+      "5": {
+        "title": "Bağlantı al",
+        "heading": "URL bağlantısı oluştur",
+        "tip": "Çevrimiçi ödeme ile doğrudan rezervasyonu kabul etmek için bu bağlantıyı paylaşın: Kredi Kartı, PayPal ve daha fazlası.",
+        "engine-url": "Rezervasyon motoru URL'niz:",
+        "link-visit-engine": "Rezervasyon motoru web sitenizi ziyaret edin",
+        "msg-copied": "Kopyalandı",
+        "learn-more": "Daha fazlasını öğrenmek istermisiniz?",
+        "links": [
+          "Facebook sayfasına rezervasyon",
+          "Blogspot kullanarak bir aile yanında ücretsiz konaklama web sitesi nasıl oluşturulur?",
+          "Size ücretsiz olarak profesyonel bir web sitesi oluşturalım (yalnızca nitelikli oteller için)"
+        ]
+      }
+    }
+  },
+  "join": {
+    "title": "Yeni bir Otele erişiminiz var.",
+    "error": {
+      "content": "Bir hata var. Lütfen giriş yapın ve sağ üst köşedeki otel listesine gidin ve Otelinizi seçin."
+    }
+  },
+  "maintenance": {
+    "title": "Bakım için kapalıyız.",
+    "subtitle": "Yakında dön!"
+  },
+  "pages": {
+    "legal": {
+      "title": "Yasal",
+      "tabs": {
+        "terms": "Şartlar ve koşullar",
+        "gdpr": "GDPR",
+        "protection": "Veri Koruma Anlaşması"
+      },
+      "buttons": {
+        "download-pdf": "Indir PDF"
+      }
+    },
+    "dashboard": {
+      "title": "Gösterge Paneli",
+      "button-download": "PDF raporunu indir",
+      "settings": "Ayarlar",
+      "charts": {
+        "pie": {
+          "direct": "doğrudan",
+          "indirect": "Dolaylı"
+        },
+        "dough": {
+          "title": "doğrudan/Dolaylı"
+        }
+      },
+      "groups": {
+        "book": {
+          "title": "kitaplarda"
+        },
+        "channel": {
+          "title": "Kanal"
+        },
+        "ibe": {
+          "title": "IBE"
+        },
+        "kpi": {
+          "title": "KPI's"
+        },
+        "term": {
+          "title": "Uzun Vadeli"
+        }
+      }
+    },
+    "reservations": {
+      "title": "Rezervasyonlar",
+      "search-for": "Ara",
+      "search-for-options": {
+        "stay-period": "Konaklama aralığı",
+        "check-in": "Giriş",
+        "check-out": "Çıkış",
+        "booking-period": "Rezervasyon dönemi"
+      },
+      "formats": {
+        "check-date": "D MMM YYYY",
+        "check-time": "HH:mm:ss"
+      },
+      "button-show": "Göster",
+      "button-filters": "Filtreler",
+      "button-excel-download": "Excel olarak İndir",
+      "button-cancel": "İptal",
+      "button-reply": "Cevapla",
+      "button-details": "Detayları göster",
+      "no-bookings": "Belirtilen dönem için müsaitlik yok, lütfen başka bir tarih aralığı seçin",
+      "headers": {
+        "guest": "Misafir",
+        "qty": "Adet",
+        "room": "Oda",
+        "checkin": "Giriş",
+        "checkout": "Çıkış",
+        "status": "Durum",
+        "rateplan": "Fiyat planı",
+        "totalprice": "Toplam fiyat",
+        "creditcard": "Kredi kartı",
+        "bookingdate": "Rezervasyon tarihi",
+        "notes": "Notlar",
+        "channel": "Kanal",
+        "bookingid": "Rezervasyon Kimliği ID"
+      },
+      "nights": "1 gece | {n} geceleme",
+      "guests": "1 misafir | {n} misafir",
+      "guests-amt": {
+        "adults": "1 yetişkint | {n} yetişkin",
+        "children": "1 çocuk | {n} çocuklar",
+        "both": "{adults} ve {children}"
+      },
+      "total": "Toplam: {n}",
+      "per-night": "{n} / Gecelik",
+      "status": {
+        "14": "Tamam",
+        "15": "İptal edildi",
+        "16": "Tamam",
+        "18": "No-show",
+        "cancel": "İptal",
+        "noshow": "No-show"
+      },
+      "cancel-modal": {
+        "title-cancel": "Rezervasyonu iptal et",
+        "title-noshow": "No show olarak işaretle",
+        "text-cancel": "İptal durumunun rezervasyonun tamamı için geçerli olduğunu lütfen unutmayın.",
+        "text-noshow": "No show durumunun tüm rezervasyon için geçerli olduğunu lütfen unutmayın.",
+        "text-warning": "Bu değişiklik geri alınamaz.",
+        "confirm-cancel": "{id} rezervasyonu gerçekten iptal etmek istiyor musun?",
+        "confirm-noshow": "{id} numaralı rezervasyonu gerçekten No Show olarak işaretlemek istiyor musunuz?",
+        "reason": "Sebep"
+      },
+      "person-modal": {
+        "title": "Numaralı rezervasyon için müşteri verileri {id}",
+        "no-data": "Veri yok",
+        "no-remarks": "Açıklama yok",
+        "booker-address": "Adres (Booker)",
+        "guest-address": "Adres (Guest)",
+        "guest-remarks": "Misafir açıklaması",
+        "room-remarks": "Oda açıklaması",
+        "channel-remarks": "Kanal açıklamaları"
+      }
+    },
+    "calendar": {
+      "title": "Takvim",
+      "rooms": "Müsait oda yok | 1 oda | {n} oda",
+      "rooms-all": "Tüm odalar",
+      "restrictions": "Kısıtlama yok | 1 kısıtlama  | {n} kısıtlamalar",
+      "restrictions-all": "Tüm kısıtlamalar",
+      "button-search": "Periyod ayarla",
+      "button-quick-update": "Hızlı güncelleme",
+      "scroller-date-format": "MMM YYYY",
+      "room-id": "Oda tipi {id}",
+      "room-status": "Oda durumu",
+      "room-avail": "Müsaitlik",
+      "room-price": "Fiyat",
+      "update-modal": {
+        "title": "Hızlı güncelleme",
+        "select-range-and-days": "Aralığı ve haftanın günlerini seçin",
+        "date-range": "Tarih aralığı",
+        "days": "Günler",
+        "days-all": "Hepsi",
+        "select-rooms": "Oda seçin",
+        "what-to-edit": "Neyi düzenleyeceğinizi seçin",
+        "avail": "Müsaitlik",
+        "avail-tip": "Satılacak oda sayısını güncelleyin",
+        "price": "Fiyat",
+        "price-tip": "{currency} Günlük fiyat",
+        "status": "Durum",
+        "status-open": "Satışa açık",
+        "status-closed": "Satışa kapalı",
+        "change-more": "Daha fazla kısıtlama değişikliği",
+        "nights": "Geceleme"
+      }
+    },
+    "masterdata": {
+      "title": "Ana veriler",
+      "tabs": {
+        "property": "Tesis",
+        "address": "Adres",
+        "ids": "IDler",
+        "certs": "Sertifikalar"
+      },
+      "certs": {
+        "name": "İsim",
+        "upload-date": "Güncelleme tarihi",
+        "stars": "Yıldız",
+        "issued-by": "Veren kuruluş"
+      },
+      "button-add-certificate": "Sertifika ekle",
+      "property-name": "Tesis adı",
+      "property-tel": "Tesis telefon numarası",
+      "property-tel-ntl": "Ulusal format",
+      "property-tel-intl": "Uluslararası biçim",
+      "capacity": "Kapasite",
+      "capacity-rooms": "Odalar",
+      "capacity-beds": "Yatak",
+      "primary-email": "Birincil e-posta adresi",
+      "primary-email-tip": "Rezervasyonlar, değişiklikler, iptaller için.",
+      "alt-email": "Alternatif e-posta adresi",
+      "alt-email-tip": "Yönetim için",
+      "website": "İnternet sayfası",
+      "choose-currency": "Para birimini seçin",
+      "geodata": "Coğrafi veriler",
+      "geodata-tip": "Coğrafi veriler oluşturmak için lütfen ziyaret edin",
+      "latitude": "Enlem",
+      "longitude": "Boylam",
+      "button-show-location": "Konumu Göster",
+      "button-add-logo": "Logo resmi ekleyin",
+      "button-change-logo": "Logo resmini değiştir",
+      "alert-saved": "Başarıyla kaydedildi"
+    },
+    "facilities": {
+      "title": "Facilities",
+      "heading": "Top Facilities",
+      "description": "Listing your facilities can really help influence guests to book! Tell them which you have by clicking on checkboxes.",
+      "button-revert-changes": "Revert changes"
+    },
+    "channels": {
+      "title": "Kanallar",
+      "title-mappings": "Channel Mapping / {name}",
+      "title-activate": "{name} Kanalını Etkinleştir",
+      "title-update": "{name} Kanalını Güncelle",
+      "heading": "Kanal aktivasyonu ve yayınlama",
+      "headers": {
+        "name": "İsim / URL",
+        "name": "İsim",
+        "mapping": "Yayınlama",
+        "ids": "Tesis kimliği ID",
+        "status": "Durum"
+      },
+      "tabs": {
+        "urls": "URLs",
+        "available": "Available",
+        "connected": "Connected",
+        "promos": "Promotions",
+        "contracts": "Contracts",
+        "settings": "Settings",
+        "product": "Ürün"
+      },
+      "connected-all": "Hepsi yayında",
+      "connected-some": "{count}/{total} Yayında olanlar",
+      "connected-none": "Yayınla",
+      "button-activate": "Etkinleştir",
+      "button-deactivate": "Devre dışı bırak",
+      "button-block": "Bloke",
+      "status": {
+        "active": "Etkinleştirildi",
+        "inactive": "Devre dışı bırakıldı",
+        "blocked": "Bloke edildi"
+      },
+      "map-modal": {
+        "title": "Kanal yayınlama",
+        "checkbox-toggle-all": "Seç/Tüm seçimleri kaldır",
+        "nothing-to-connect": "Henüz yayınlanacak bir şey yok"
+      },
+      "connect": {
+        "period": "Period",
+        "property-id": "Property ID",
+        "transmission-period": "Transmission period",
+        "transmission-end-date": "Transmission end date",
+        "transmission-format": "D MMM YYYY",
+        "time-units": {
+          "d": "Day | Days",
+          "w": "Week | Weeks",
+          "m": "Month | Months",
+          "y": "Year | Years"
+        },
+        "time-units-values": {
+          "d": "1 day | {n} days",
+          "w": "1 week | {n} weeks",
+          "m": "1 month | {n} months",
+          "y": "1 year | {n} years"
+        },
+        "btn-change-settings": "Change Settings",
+        "btn-update-rateplans": "RatePlans'ı Güncelle",
+        "btn-connect": "Connect",
+        "btn-disconnect": "Disconnect",
+        "tab-pending": "Pending",
+        "tab-connected": "Connected",
+        "tab-mapping": "Mapping",
+        "my-rate-plans": "My rate plans",
+        "no-pending": "No pending plans",
+        "no-connected": "No connected plans",
+        "no-plans": "No plans",
+        "selected-connections-count": "1 connection selected | {n} connections selected",
+        "selected-changes-count": "1 change | {n} changes",
+        "mapped-room": "Room",
+        "mapped-plan": "Plan",
+        "error-invalid-property-data": "Failed to load channel rate plans. Check whether Property Data is valid.",
+        "alert-connected": "Successfully connected",
+        "alert-disconnected": "Successfully disconnected",
+        "alert-updated": "Successfully updated",
+        "alert-activated": "Kanal etkinleştirildi"
+      },
+      "settings": {
+        "color-customization": "Color Customization",
+        "language": "Language",
+        "additional-features" : "Additional features"
+      },
+      "product": {
+        "top": {
+          "header": "%200 daha fazla rezervasyon alın!",
+          "description": "Online rezervasyon motorunu markanızın görünümü ve hissi ile özelleştirin. Logonuzu, renklerinizi, adresinizi, e-posta ve telefon numaranızı, dillerinizi, para birimlerinizi ve çok daha fazlasını ekleyin.",
+          "btn-activate": "Şimdi aktifleştir",
+          "info": "Web sitenizi en karlı çevrimiçi satış kanalına dönüştürün"
+        },
+        "features": {
+          "calendar": "CultBooking, oteller, moteller, pansiyonlar, pansiyonlar, pansiyonlar ve pansiyonlar için bir <a href='#'>otel rezervasyon motorudur</a> veya rezervasyon düğmesidir. misafir evleri, apartmanlar, villalar veya diğer mülk ve konaklama sağlayıcıları.",
+          "booking": "Misafirler, doğrudan web sitenizden, sosyal medya platformlarından veya reklam kampanyalarından hızlı ve sorunsuz bir şekilde oda rezervasyonu yapabilir, bu da sadık misafirler ve maksimum çevrimiçi gelir elde edilmesini sağlar.",
+          "commission": "Komisyon ücretleri konusunda endişeli misiniz? Rezervasyon almaya başlamak için web sitenize basit bir kod ekleyerek komisyonsuz rezervasyonların keyfini çıkarın."
+        },
+        "try": {
+          "title": "Denemek!",
+          "description": "<a href='#'>Bir varış ve ayrılış tarihi seçin</a>, ardından müsait odaları ve fiyatları görmek için aramayı tıklayın.",
+          "check-in": "Giriş",
+          "check-out": "Ödeme",
+          "search": "Arama",
+          "promo-code": "Promosyon kodunuz var mı?"
+        },
+        "details": {
+          "responsive": {
+            "title": "Sorumlu tasarım",
+            "description": {
+              "top": "<strong>CultBooking otel rezervasyon motoru</strong> kendini yeniden biçimlendirecek ve herhangi bir cep telefonu veya tablet cihazına uyarlanacaktır. Kullanıcı bir mobil cihazdayken daha büyük gezinme düğmeleri, yeniden biçimlendirilmiş içerik ve optimize edilmiş resimler görünür.",
+              "bottom": "Müşterileriniz hangi cihazı kullanıyor olursa olsun, misafir deneyimi güzel UX/UI tasarımı ve sezgisel bir rezervasyon süreci ile başlar."
+            }
+          },
+          "booking": {
+            "title": "7/24 rezervasyon butonu",
+            "description":"Günün her saati doğrudan rezervasyonları cezbetmek için rezervasyon motorumuzu kullanın. Komisyonsuz doğrudan rezervasyonlar ve etkili teknoloji dahil olmak üzere CultBooking'in sunduğu tüm avantajlarla web sitenizde dönüşümleri artırın."
+          },
+          "conversion": {
+            "title": "%100 dönüşüm odaklı",
+            "description": {
+              "top": "Hedefimiz basit — müşterilerinizi sadık konuklara dönüştürmenize yardımcı olmak. Otomatik makine öğrenimi, ısı haritaları ve A/B testi, rezervasyon sürecini optimize etmemize ve geliri ve işi artırmamıza olanak tanır.",
+              "bottom": "Belirli Temel Performans Göstergelerini (KPI'lar) kullanarak size piyasadaki en yüksek dönüşüm oranlarını sağlamak için buradayız: yüksek dönüşüm oranları, kesinleşmiş rezervasyonlar ve onaylanmış rezervasyonlar."
+            }
+          },
+          "integration": {
+            "title": "Entegrasyon kolaylaştı",
+            "description": {
+              "top": "İşlemlerinizi basitleştirin. <br> Karmaşık kurulum veya zor ayarlar hakkında endişelenmeyin - rezervasyon motoru basit bir snippet ile web sitenize entegre edilebilir. Eklemek için kodu ve geliştiriciyi sağlıyoruz.",
+              "bottom": "Rezervasyon motoru ayrıca Kanal Yöneticiniz ve Mülk Yönetim Sisteminiz (PMS) ile entegredir."
+            }
+          }
+        },
+        "footer": {
+          "title": "Web sitenizi en karlı çevrimiçi satış kanalına dönüştürün veya daha fazla bilgi için bizimle iletişime geçin!",
+          "btn-activate":"Şimdi aktifleştir",
+          "btn-ask": "Bir soru sor"
+        }
+      }
+    },
+    "bookingengine": {
+      "title": "Rezervasyon motoru"
+    },
+    "emergencystop": {
+      "title": "Acil durdurma"
+    },
+    "outages": {
+      "title": "kesintiler"
+    },
+    "suppliershealth": {
+      "title": "tedarikçiler sağlık"
+    },
+    "channelshealth": {
+      "title": "Kanallar Sağlık",
+      "headers": {
+        "your-channels": "Senin Kanalların",
+        "last-handshake": "Son el Sıkışma",
+        "activity": "Aktivite"
+      },
+      "no-data": "No Data"
+    },
+    "mealplans": {
+      "title": "Meal Plans",
+      "heading": "Your meal plans",
+      "button-add": "Add meal plan",
+      "no-meals": "No meal plans yet",
+      "alert-saved": "Başarıyla kaydedildi",
+      "alert-deleted": "Başarıyla silindi",
+      "headers": {
+        "name": "Name",
+        "type": "Type"
+      },
+      "modal": {
+        "title-add": "New meal plan",
+        "title-edit": "[{id}] {name}",
+        "section-meal-name": "Name your meal plan",
+        "section-meal-type": "Meal type selection",
+        "description": "Description",
+        "section-basic-rate": "Basic Rate",
+        "section-weekdays": "Weekdays",
+        "travel-opts": {
+          "days": "Weekdays"
+        },
+        "period-days" : ["Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi", "Pazar"],
+        "unlimited-validity": "Unlimited validity"
+      }
+    },
+    "promotions": {
+      "title": "Promosyonlar",
+      "heading": "Promosyonlarınız"
+    },
+    "contracts": {
+      "title": "Sözleşmeler",
+      "heading": "Sözleşmeleriniz"
+    },
+    "policies": {
+      "title": "Politikalar",
+      "time-units": {
+        "hour": "Saat | 1 saat | {n} saat",
+        "day": "Gün | 1 gün | {n} gün",
+        "week": "Hafta | 1 hafta | {n} hafta",
+        "month": "Ay | 1 ay | {n} ay",
+        "year": "Yıl | 1 yıl | {n} yıl"
+      },
+      "cancel": {
+        "title": "İptal koşulları",
+        "button-add": "İptal koşulu ekle",
+        "headers": {
+          "name": "İsim",
+          "time": "İptal zamanı",
+          "fee": "İptal ücreti"
+        },
+        "drop-times": {
+          "BeforeArrival": "giriş öncesi",
+          "AfterBooking": "rezervasyondan sonra",
+          "AfterConfirmation": "rezervasyon sonrası"
+        },
+        "basis-types": {
+          "FullStay": "tam konaklama",
+          "Nights": "Gece"
+        },
+        "cancel-time": "{what} {when}",
+        "cancel-time-none": "Yok",
+        "cancel-fee": {
+          "FullStay": "{amount}{symbol} | Konaklama süresinin% {percents} kadarı",
+          "Nights": "1 gece | {n} gece"
+        },
+        "cancel-fee-none": "Yok",
+        "modal": {
+          "title-add": "Yeni iptal şartı",
+          "title-edit": "İptal şartını düzenle",
+          "name": "İptal koşulları",
+          "description": "Açıklama",
+          "section-time": "İptal zamanı",
+          "section-fee": "İptal ücreti",
+          "fee": "Ücret",
+          "fee-relation": "Ücret ilişkisi"
+        }
+      },
+      "bgarant": {
+        "title": "Rezervasyon garantisi",
+        "headers": {
+          "type": "Tip"
+        }
+      },
+      "payment": {
+        "title": "Ödeme şartları",
+        "button-add": "Ödeme şartı ekle",
+        "headers": {
+          "name": "İsim",
+          "time": "Ödeme zamanı",
+          "fee": "Ödeme miktarı",
+          "type": "Ödeme tipi"
+        },
+        "types": {
+          "Deposit": "Depozito",
+          "PrePay": "Ön ödeme"
+        },
+        "payment-time-none": "Yok",
+        "payment-fee": "{amount}{symbol} | {percents}%",
+        "payment-fee-none": "Yok",
+        "modal": {
+          "title-add": "Yeni ödeme şartı",
+          "title-edit": "Ödeme şartı düzenle",
+          "name": "100% Ön ödemeli",
+          "description": "Açıklama",
+          "section-type": "Ödeme tipi",
+          "section-time": "Ödeme zamanı",
+          "section-fee": "Ödeme miktarı",
+          "fee": "Ücret",
+          "fee-relation": "ilgili olarak"
+        }
+      }
+    },
+    "photos": {
+      "title": "Resimler",
+      "button-library": "Medya kütüphanesi",
+      "upload": {
+        "button-browse": "Dosyalara göz atın",
+        "dragndrop": "Sürükle & Bırak",
+        "or": "yada"
+      },
+      "library": {
+        "title": "Medya kütüphanesi",
+        "lowres-only": "Düşük çözünürlüklü resimleri göster",
+        "search": "Ara",
+        "name": "İsim",
+        "display-name": "Görünen isim",
+        "low-resolution": "Düşük çözünürlük",
+        "related-to-rooms": "Odalar ile ilgili",
+        "no-image-selected": "İmaj seçili değil",
+        "dragnmove": "Sürükle &  Taşı",
+        "or-click-to-open": "veya açmak için tıklayın"
+      }
+    },
+    "roomtypes": {
+      "title": "Oda tipleri",
+      "heading": "Oda tipleriniz",
+      "button-add": "Yeni oda ekle",
+      "footer": "Oda ve tesis kimliği, PMS'nizi bağlamak için gereklidir.",
+      "no-rooms": "Oda tipi henüz mevcut değil",
+      "headers": {
+        "name": "İsim",
+        "amount": "Miktar",
+        "occupancy": "Doluluk",
+        "validuntil": "Şu tarihe kadar geçerlidir",
+        "blockout-days": "Bloke günleri",
+        "number": "Sayı"
+      },
+      "modal": {
+        "title-add": "Yeni oda tipi",
+        "title-edit": "[{id}] {name}",
+        "section-room-name": "Oda tipinizin adı",
+        "section-room-type": "Oda tipi seçimi",
+        "section-amount": "Bu tipteki oda sayısı",
+        "section-initial-price": "İlk fiyat / gece",
+        "section-occupancy": "Bu odada kaç misafir konaklayabilir?",
+        "section-occupancy-tip": "Bu standart doluluk, kaç yatağınız var.",
+        "section-occupancy-more": "Standart doluluktan daha az veya daha fazla kişi konaklayabilir mi (isteğe bağlı)?",
+        "initial-price-tip": "Oda fiyatını daha sonra takvimde değiştirebilirsiniz",
+        "description": "Açıklama",
+        "min-occupancy": "Minimum doluluk",
+        "max-occupancy": "Maksimum doluluk"
+      }
+    },
+    "rateplans": {
+      "title": "Ücretlendirme planı",
+      "heading": "Ücretlendirme planınız",
+      "button-add": "Yeni ücretlendirme planı oluştur",
+      "no-plans": "Henüz ücretlendirme planı yok",
+      "search": "Ara",
+      "headers": {
+        "name": "İsim",
+        "linked-room": "Bağlantılı oda tipi",
+        "meal-plan": "Yemek planı",
+        "min-stay": "En az konaklama",
+        "cancel-policy": "İptal şartları"
+      },
+      "modal": {
+        "title-add": "Yeni ödeme planı",
+        "title-edit": "[{id}] {name}",
+        "section-connect": "Fiyat planını oda tipine bağlayın",
+        "section-plan-name": "Fiyat planınızın adı nedir?",
+        "section-room-type": "Oda tipi seçimi",
+        "section-settings": "Ayarlar",
+        "section-price": "Fiyat bölümü",
+        "section-bookable": "Bookable Period",
+        "description": "Açıklama",
+        "days-all": "Hepsi",
+        "travel-days": "Seyahat günleri",
+        "travel-opts": {
+          "bdays": "Rezerve edilebilir günler",
+          "adays": "Giriş günleri",
+          "ddays": "Çıkış günleri"
+        },
+        "los": "Konaklama süresi",
+        "minimum": "Minimum",
+        "maximum": "Maksimum",
+        "standard": "Standart",
+        "bookable": {
+          "anytime": "Guest can book anytime",
+          "periods": "Guest can book from",
+          "periods-dates": "{from} to {to}",
+          "fromto": "Guest can book from {from} to {to} before arrival",
+          "until": "Guest can book until {days} before arrival",
+          "within":"Guest can book within {days} before arrival",
+          "button-add-period": "New period",
+          "placeholder-start-date": "Start date",
+          "placeholder-end-date": "End date",
+          "placeholder-days": "day | days"
+        },
+        "meal-type": "Yemek tipi",
+        "cancel-policies": "İptal şartları",
+        "cancel-all": "Tüm şartlar",
+        "cancel-some": "Şart yok | 1 şart | {n} şartlar",
+        "payment-policy": "Ödeme şartı",
+        "no-payment-policy": {
+          "name": "Ödeme şartı yok",
+          "desc": ""
+        },
+        "price": "Fiyat",
+        "price-for": "{occupancy} için fiyat",
+        "price-occupancy": "1 kişi/gece | {n} kişi/gece",
+        "standard-price": "Standart fiyat",
+        "standard-price-tip": "Günlük standart fiyat takvimden alınır.",
+        "fixed-price": "Sabit fiyat",
+        "fixed-price-tip": "Fiyat tüm zamanlar için aynı",
+        "standard-price-more": "Standart fiyatta ek ücret veya indirim",
+        "surcharge": "Ek ücret",
+        "reduction": "İndirim",
+        "occupancy-more": "Standart doluluktan daha fazla veya daha az misafir sayısına izin veriyor musunuz?",
+        "occupancy-pricing": "1 kişi için ek ücret veya indirim",
+        "children-bed": "Çocuklar için ilave yatak",
+        "age": "Yaş",
+        "languages": "Diller",
+        "rate-plan-description": "Fiyat planı açıklaması",
+        "room-type": "Oda tipi",
+        "guests-occupancy-more": "Standart doluluktan daha fazla veya daha az misafir",
+        "price-occupancy-two-person": "2 kişi / gece fiyatı"
+      }
+    },
+    "nearby": {
+      "title": "What's nearby",
+      "transportation": "Transportation",
+      "shopping-and-dining": "Shopping and Dining",
+      "culture-and-history": "Culture and History",
+      "next-airport": "Next airport",
+      "next-train-station": "Next train station",
+      "next-mortorway-exit": "Next motorway exit",
+      "public-transportation": "Public transportation",
+      "city-center": "City center",
+      "airport-code": "Airport code",
+      "next-train-station-code": "Train station code",
+      "motorway-code": "Motorway code",
+      "city-center-code": "City center code",
+      "distance": "Distance",
+      "units": "Units",
+      "type": "Type",
+      "button-revert-changes": "Revert Changes",
+      "metro-station": "Metro Station",
+      "trolley-station": "Trolley Station"
+    },
+    "groups": {
+      "title": "Mülk Grupları",
+      "placeholder": "Search",
+      "btn-add": "Yeni grup ekle",
+      "no-groups": "Henüz grup yok",
+      "filter-no-hotels": "Bu filtreyle eşleşen grup yok",
+      "headers": {
+        "name": "Grup ismi",
+        "properties": "Özellik Sayısı",
+        "url": "Özel URL"
+      },
+      "tabs": {
+        "groups": "Gruplar"
+      },
+      "modal": {
+        "title-add": "Yeni bir grup oluştur",
+        "title-edit": "Grubu düzenleyin",
+        "field": {
+          "bdomain": {
+            "title": "Rezervasyon alan adı",
+            "placeholder": "mydomain.com"
+          },
+          "edomain": {
+            "title": "Extranet alan adı",
+            "placeholder": "admin.mydomain.com"
+          },
+          "group": {
+            "title": "Grup ismi",
+            "placeholder": "Prefered name"
+          }
+        },
+        "checkbox": {
+          "all": "HERŞEY",
+          "reservation": "Rezervasyon",
+          "calendar": "Takvim",
+          "rateplans": "Planları değerlendirin",
+          "connectivity": "Bağlantı",
+          "property": "Property",
+          "masterdata": "Emlak",
+          "contact": "İlgili kişi",
+          "facilities": "Tesisler"
+        }
+      }
+    },
+    "users": {
+      "title": "Kullanıcılar ve Roller",
+      "no-users": "Henüz kullanıcı yok",
+      "filter-no-users": "Bu filtreyle eşleşen kullanıcı yok",
+      "btnAdd": "Yeni kullanıcı ekleyin",
+      "btnInvite": "Kullanıcıyı Davet Et",
+      "filter-tip": "Arama",
+      "check": "Yalnızca atanan kullanıcılar",
+      "tabs": {
+        "users": "Kullanıcılar",
+        "roles": "Roller"
+      },
+      "headers": {
+        "name": "İsim",
+        "properties": "Emlak Kimliği ve Adı",
+        "login": "Kullanıcı Girişi / E-posta",
+        "role": "Rol"
+      },
+      "modal": {
+        "invite": {
+          "title-add": "Kullanıcı davet edin",
+          "field-email": "Rollerden birini seçin",
+          "field-email-placeholder": "Judy@gmail.com",
+          "field-role": "Rol",
+          "field-role-placeholder": "Rollerden birini seçin"
+        },
+        "role": {
+          "title": "Rol: Gelir Yöneticisi",
+          "field-name-role": "Rol ismi",
+          "placeholder-name-role": "Gelir yöneticisi",
+          "premmission": {
+            "all": "HERŞEY",
+            "reservation": "Rezervasyon",
+            "calendar": "Takvim",
+            "rateplans": "Planları değerlendirin",
+            "connectivity": "Bağlantı",
+            "property": "Property",
+            "masterdata": "Emlak",
+            "contact": "İlgili kişi",
+            "facilities": "Tesisler"
+          }
+        },
+        "newUser": {
+          "title": "Yeni kullanıcı oluştur",
+          "field-property": "Emlak",
+          "field-role": "Rol",
+          "field": {
+            "name": {
+              "first": {
+                "title": "İsim",
+                "placeholder": "Judy"
+              },
+              "last": {
+                "title": "Soyadı",
+                "placeholder": "Doe"
+              }
+            },
+            "login": {
+              "title": "Kullanıcı girişi / E-posta adresi",
+              "placeholder": "Judy@gmail.com"
+            },
+            "language": {
+              "title": "Dil"
+            },
+            "password": {
+              "title": "Parola",
+              "title-confirm": "Şifreyi Onayla"
+            },
+            "property": "Emlak*",
+            "role": "Rol"
+          },
+          "title-add-owner": "{group} mülk grubuna bir sahip atayın."
+        },
+        "title": "Status Change",
+        "button-on": "Yes, turn them ON",
+        "button-off": "Yes, turn them OFF",
+        "question": "Are you sure that you want to make {all} distribution channels (including CultBooking) {mode}?"
+      },
+      "roles": {
+        "title": "roller",
+        "no-hotels": "No roles yet",
+        "filter-no-hotels": "Henüz rol yok",
+        "btnAdd": "Yeni Rol Ekle",
+        "check": "Yalnızca özel Rolleri göster",
+        "headers": {
+          "name": "İsim",
+          "properties": "Kimlik ve Mülk",
+          "users": "Kullanıcı Sayısı",
+          "role": "Roller"
+        }
+      }
+    },
+    "group": {
+      "title": "Emlak Grubu"
+    },
+    "invoices": {
+      "title": "faturalar",
+      "tabs": {
+        "unpaid": "ödenmemiş",
+        "paid": "Paralı"
+      },
+      "headers": {
+        "beneficiary": "yararlanıcı",
+        "invoice": "Fatura #",
+        "produced": "Üretilmiş",
+        "period-from": "itibaren dönem",
+        "period-to": "Dönem",
+        "sum": "toplam",
+        "paid": "Paralı",
+        "download": "İndirmek"
+      },
+      "heading": "Faturalarınız",
+      "filter-tip": "Faydalanıcıya/Faturaya Göre Arama #",
+      "filter-by-invoice": "Faturaya Göre Ara #",
+      "show-per-page": "Sayfa başına göster",
+      "sum-format": "%{currency} %{amount}",
+      "no-unpaid-invoices": "Ödenmemiş fatura yok",
+      "no-paid-invoices": "Ödenen fatura yok",
+      "format": "DD MMM YYYY"
+    }
+  },
+  "auth": {
+    "expired": {
+      "title": "Süre doldu",
+      "head": "Oturum süresi doldu",
+      "text": "Lütfen sayfayı yeniden yükleyin ve tekrar giriş yapın..",
+      "button": "Sayfayı yenile"
+    }
+  },
+  "tel-iso": "tr",
+  "errors": {
+    "too-many-attempts": "{message} Tekrar deneyin {when}",
+    "tel": {
+      "0": "Geçersiz telefon",
+      "1": "Geçersiz ülke kodu",
+      "2": "Çok kısa",
+      "3": "Çok uzun",
+      "4": "@:errors.tel.0",
+      "-99": "@:errors.tel.0"
+    }
+  },
+  "validation": {
+    "required": "Bu alan gereklidir",
+    "required_string": "Bu alan gereklidir",
+    "email": "Bu alanda geçerli bir e-posta olmalıdır",
+    "accepted": "Bunu kabul etmelisiniz",
+    "sameAs": " {target} eşleşmiyor",
+    "is_not": "{other} olmamalı",
+    "min": "En az {length} karakter olmalı",
+    "max": "En fazla {length} olabilir",
+    "confirmed": "Konfirme onay eşleşmiyor",
+    "between": "Sayı aralığı {min}-{max} olmalıdır",
+    "numeric": "Bu alanda bir sayı olmalıdır",
+    "minvalue": "En az {min} yada daha fazla olmalıdır",
+    "maxvalue": "En fazla {max} yada daha az olmalıdır",
+    "url": "Geçersiz URL",
+    "date_format": "Geçersiz tarih biçimi",
+    "password-uppercase-letters": "Parola en az bir büyük harf içermelidir",
+    "password-lowercase-letters": "Parola en az bir küçük harf içermelidir",
+    "password-numbers": "Parola en az bir numara içermelidir",
+    "password-special-chars": "Parola en az bir özel karakter içermelidir, örneğin! @ # ?",
+    "password-no-spaces": "TParola boşluk içermemelidir",
+    "telValid": "Geçersiz telefon"
+  }
+}

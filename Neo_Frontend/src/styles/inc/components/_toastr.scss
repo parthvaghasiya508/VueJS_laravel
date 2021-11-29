@@ -1,0 +1,280 @@
+// Mix-ins
+@mixin borderRadius($radius) {
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin boxShadow($boxShadow) {
+  -moz-box-shadow: $boxShadow;
+  -webkit-box-shadow: $boxShadow;
+  box-shadow: $boxShadow;
+}
+
+@mixin opacity($opacity) {
+  $opacityPercent: $opacity * 100;
+  opacity: $opacity;
+}
+
+@mixin wordWrap($wordWrap: break-word) {
+  -ms-word-wrap: $wordWrap;
+  word-wrap: $wordWrap;
+}
+
+// Variables
+$toastr-black: #000000;
+$toastr-grey: #999999;
+$toastr-light-grey: #CCCCCC;
+$toastr-white: #FFFFFF;
+$toastr-near-black: #030303;
+$toastr-green: #27AE60;
+$toastr-red: #EB5757;
+$toastr-blue: #4a90e2;
+$toastr-orange: #F7981C;
+$toastr-default-container-opacity: 1;
+
+// Styles
+.toast-title {
+  font-weight: 700;
+}
+
+.toast-message {
+  @include wordWrap();
+
+  a,
+  label {
+    color: $toastr-white;
+  }
+
+  a:hover {
+    color: $toastr-light-grey;
+    text-decoration: none;
+  }
+}
+
+.toast-close-button {
+  position: relative;
+  right: -0.3em;
+  top: -0.3em;
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  color: $toastr-white;
+  -webkit-text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+  @include opacity(0.8);
+
+  &:hover,
+  &:focus {
+    color: $toastr-black;
+    text-decoration: none;
+    cursor: pointer;
+    @include opacity(0.4);
+  }
+}
+
+/*Additional properties for button version
+ iOS requires the button element instead of an anchor tag.
+ If you want the anchor version, it requires `href="#"`.*/
+button.toast-close-button {
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+
+//#endregion
+
+.toast-top-center {
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+
+.toast-bottom-center {
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+.toast-top-full-width {
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+
+.toast-bottom-full-width {
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+.toast-top-left {
+  top: 12px;
+  left: 12px;
+}
+
+.toast-top-right {
+  top: 12px;
+  right: 12px;
+}
+
+.toast-bottom-right {
+  right: 12px;
+  bottom: 12px;
+}
+
+.toast-bottom-left {
+  bottom: 12px;
+  left: 12px;
+}
+
+.toast-container {
+  position: fixed;
+  z-index: 1999;
+  // The container should not be clickable.
+  pointer-events: none;
+
+  * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  > div {
+    position: relative;
+    pointer-events: auto;
+    overflow: hidden;
+    margin: 8px 0 6px;
+    padding: 13px 14px 13px 48px;
+    line-height: 18px;
+    font-size: 14px;
+    width: 360px;
+    border: none !important;
+    @include borderRadius(4px);
+    background-position: 12px 10px;
+    background-repeat: no-repeat;
+    @include boxShadow(none);
+    color: $toastr-white;
+    @include opacity($toastr-default-container-opacity);
+    &:not(:last-child) {
+      margin-bottom: 8px;
+    }
+  }
+
+  > :hover {
+    @include boxShadow(none);
+    @include opacity($toastr-default-container-opacity);
+    cursor: pointer;
+  }
+
+  > .toast-info {
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z' fill='white'/%3E%3C/svg%3E%0A") !important;
+  }
+
+  > .toast-error {
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12,3.19l7,3.11V11c0,4.52-2.98,8.69-7,9.93C7.98,19.69,5,15.52,5,11V6.3L12,3.19 M12,1L3,5v6c0,5.55,3.84,10.74,9,12 c5.16-1.26,9-6.45,9-12V5L12,1L12,1z M11,7h2v2h-2V7z M11,11h2v6h-2V11z' fill='white'/%3E%3C/svg%3E%0A") !important;
+  }
+
+  > .toast-success {
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm4.59-12.42L10 14.17l-2.59-2.58L6 13l4 4 8-8z' fill='white'/%3E%3C/svg%3E%0A") !important;
+  }
+
+  > .toast-warning {
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 5.99L19.53 19H4.47L12 5.99M12 2L1 21h22L12 2zm1 14h-2v2h2v-2zm0-6h-2v4h2v-4z' fill='white'/%3E%3C/svg%3E%0A") !important;
+  }
+
+  /*overrides*/
+  &.toast-top-center > div,
+  &.toast-bottom-center > div {
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &.toast-top-full-width > div,
+  &.toast-bottom-full-width > div {
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.toast {
+  background-color: $toastr-near-black;
+  //&:before {
+  //  position: absolute;
+  //  display: block;
+  //  content: '';
+  //  background: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm4.59-12.42L10 14.17l-2.59-2.58L6 13l4 4 8-8z' fill='white'/%3E%3C/svg%3E%0A");
+  //  width: 24px;
+  //  height: 24px;
+  //  z-index: 9999;
+  //}
+}
+
+.toast-success {
+  background-color: $toastr-green;
+}
+
+.toast-error {
+  background-color: $toastr-red;
+}
+
+.toast-info {
+  background-color: $toastr-blue;
+}
+
+.toast-warning {
+  background-color: $toastr-orange;
+}
+
+.toast-progress {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  background-color: $toastr-black;
+  @include opacity(0.4);
+}
+
+/*Responsive Design*/
+
+@media all and (max-width: 240px) {
+  .toast-container {
+
+    > div {
+      padding: 8px 8px 8px 50px;
+      width: 11em;
+    }
+
+    & .toast-close-button {
+      right: -0.2em;
+      top: -0.2em;
+    }
+  }
+}
+
+@media all and (min-width: 241px) and (max-width: 480px) {
+  .toast-container {
+    > div {
+      padding: 8px 8px 8px 50px;
+      width: 18em;
+    }
+
+    & .toast-close-button {
+      right: -0.2em;
+      top: -0.2em;
+    }
+  }
+}
+
+@media all and (min-width: 481px) and (max-width: 768px) {
+  .toast-container {
+    > div {
+      padding: 15px 15px 15px 50px;
+      width: 25em;
+    }
+  }
+}

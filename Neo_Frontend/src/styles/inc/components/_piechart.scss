@@ -1,0 +1,60 @@
+.pie-chart {
+  height: $doubleHeight;
+  text-align: center;
+  padding: 10%;
+  &-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-inner {
+      width: 50%;
+      canvas {
+        height: 290px;
+        width: 100%;
+      }
+    }
+    &-legend {
+      &-item {
+        display: flex;
+        margin-bottom: 1em;
+        &-color {
+          width: 2em;
+          height: 2em;
+        }
+        &:first-child {
+          .pie-chart-content-legend-item-color {
+            background-color: $direct-color;
+          }
+        }
+        &:nth-child(2) {
+          .pie-chart-content-legend-item-color {
+            background-color: $indirect-color;
+          }
+        }
+        &-title {
+          font-size: 1.2em;
+          margin-left: 1em;
+        }
+      }
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    &-title {
+      font-size: 20px;
+    }
+    &-content {
+      &-legend {
+        &-item {
+          &-title {
+            font-size: 0.8em;
+          }
+        }
+      }
+    }
+  }
+}

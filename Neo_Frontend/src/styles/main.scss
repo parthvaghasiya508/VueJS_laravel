@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
+@import 'inc/override-variable';
+@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap-vue/src/index";
+@import '~slim-select/dist/slimselect';
+@import '~intl-tel-input/src/css/intlTelInput';
+@import "~overlayscrollbars/css/OverlayScrollbars.css";
+
+@import 'inc/variables';
+@import 'inc/global';
+@import 'inc/components/index';
+@import 'inc/pages/index';

@@ -1,0 +1,62 @@
+.table-wrapper {
+  height: auto;
+  //max-height: $doubleHeight;
+  padding: 20px;
+  .table-title {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0 40px 0;
+  }
+  .table {
+    font-size: 14px;
+    font-weight: 400;
+    thead {
+      background-color: #f2f3f6;
+      th {
+        line-height: 40px;
+        border: none;
+        &:first-child {
+          border-top-left-radius: 22.5px;
+        }
+        &:last-child {
+          border-top-right-radius: 22.5px;
+        }
+        &:not(:first-child) {
+          padding-right: 24px;
+          text-align: right;
+        }
+      }
+    }
+    tbody {
+      tr {
+        line-height: 55px;
+        border-bottom: 2px solid #DEDEE2;
+        &:last-child {
+          td {
+            background-color: #f2f3f6;
+          }
+        }
+        td:not(:first-child) {
+          padding-right: 24px;
+          text-align: right;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1082px) {
+  .table-wrapper {
+    min-height: 500px !important;
+    max-height: 700px !important;
+    overflow: scroll;
+  }
+}
+
+@media only screen and (max-width: 689px) {
+  .table-wrapper {
+    min-height: 500px !important;
+    max-height: 700px !important;
+    overflow: scroll;
+  }
+}
+

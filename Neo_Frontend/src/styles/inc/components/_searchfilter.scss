@@ -1,0 +1,31 @@
+.search-filter {
+  position: relative;
+  display: inline-block;
+
+  @include media-breakpoint-down(sm) {
+    width: 100%;
+  }
+  input {
+    width: 270px;
+    height: 45px;
+    background: $white;
+    border-radius: 99px;
+    border-color: #d9dce1;
+
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+    }
+  }
+  &.noborder input {
+    border: none;
+  }
+  .search-icon, .reset-icon {
+    position: absolute;
+    right: 18px;
+    top: 2px;
+    bottom: 0;
+    line-height: 45px;
+    padding: 0;
+    color: $dropdown-icon-color;
+  }
+}

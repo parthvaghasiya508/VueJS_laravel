@@ -1,0 +1,12 @@
+.waterfall-chart {
+  height: $doubleHeight;
+  width: 100%;
+  padding: 20px;
+  .chart-container {
+    height: 100%;
+    width: 35vw;
+    .canvasjs-chart-credit {
+      display: none;
+    }
+  }
+}

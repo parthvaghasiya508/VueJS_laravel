@@ -1,0 +1,16 @@
+.mobile-responsive {
+  h6 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  > ul > li {
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid $panel-lines-light-color;
+  }
+}

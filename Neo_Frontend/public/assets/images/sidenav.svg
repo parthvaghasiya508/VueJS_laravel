@@ -1,0 +1,26 @@
+<svg fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <symbol id="rect0" width="160" height="13">
+    <rect width="160" height="13" rx="6.5" fill="currentColor" />
+  </symbol>
+  <symbol id="rect1" width="130" height="13">
+    <rect width="130" height="13" rx="6.5" fill="currentColor" />
+  </symbol>
+  <symbol id="rect2" width="130" height="13">
+    <rect width="130" height="13" rx="6.5" fill="currentColor" />
+  </symbol>
+  <symbol id="rect3" width="100" height="13">
+    <rect width="100" height="13" rx="6.5" fill="currentColor" />
+  </symbol>
+  <symbol id="circle0" width="22" height="22">
+    <circle cx="11" cy="11" r="11" fill="currentColor" />
+  </symbol>
+  <symbol id="p1" width="28" height="27">
+    <path d="M28 2.86736C28 -10.4607 28 27 28 27C14.4408 27 20.687 26.9999 20.687 26.9999C20.687 26.9999 -10.1104 27 3.44884 27C17.0081 27 28 16.1955 28 2.86736Z" fill="currentColor"/>
+  </symbol>
+  <symbol id="p2" width="28" height="27">
+    <path d="M28 24.1326C28 37.4607 28 0 28 0C14.4408 0 20.687 0.000118991 20.687 0.000118991C20.687 0.000118991 -10.1104 0 3.44884 0C17.0081 0 28 10.8045 28 24.1326Z" fill="currentColor"/>
+  </symbol>
+  <symbol id="p3" width="265" height="47">
+    <path d="M0 23.5C0 10.5213 10.5213 0 23.5 0H265V47H23.5C10.5213 47 0 36.4787 0 23.5Z" fill="currentColor"/>
+  </symbol>
+</svg>

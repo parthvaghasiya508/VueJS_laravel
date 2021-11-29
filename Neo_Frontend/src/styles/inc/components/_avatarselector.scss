@@ -1,0 +1,106 @@
+$empty-background: #f6f9fe;
+
+.avatar-selector-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  height: auto;
+  input[type="file"] {
+    display: none;
+  }
+  & div {
+    position: relative;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .camera {
+      display: none;
+      color: $primary;
+    }
+    &.empty {
+      cursor: pointer;
+      height: 80px;
+      width: 80px;
+      border-radius: 100%;
+      border: 1px solid $primary;
+      > img {
+        display: none;
+      }
+      .camera {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        & svg {
+          display: block;
+          margin: auto;
+        }
+      }
+      &.dragging > .camera {
+        transition: transform 0.2s ease-in-out;
+        transform: scale(1.4);
+      }
+      .controls {
+        justify-content: center;
+      }
+    }
+    &:hover .controls {
+      opacity: 1;
+    }
+  }
+  .controls {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 15px;
+    button, span {
+      display: inline-block;
+      width: auto;
+      background-color: transparent;
+      color: #4A90E2;
+      font-size: 14px;
+      font-weight: 600;
+      border: none;
+      &:nth-child(2) {
+        margin: 0;
+        color: #FF948D;
+      }
+      outline: none;
+      &:hover {
+        color: $primary;
+      }
+    }
+    span {
+      cursor: pointer;
+      color: $primary;
+      line-height: 19px;
+    }
+    opacity: 1;
+    .icon-delete {
+      margin-bottom: 2px;
+    }
+  }
+  img {
+    object-fit: cover;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 1px solid #6EA6E8;
+    padding: 2px;
+  }
+  .btn-avatar-nav {
+    height: 20px !important;
+    line-height: 20px !important;
+    outline: none !important;
+    margin: 5px 0 !important;
+    &:active {
+      border: none !important;
+    }
+  }
+}

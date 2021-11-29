@@ -1,0 +1,130 @@
+$upload-progress-bg: #edf4fc;
+$upload-progress-bar-bg: linear-gradient(90deg, $primary 1%, #CA86FF 100%);
+
+.drop {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  &.tiny {
+    width: unset;
+    display: inline-flex;
+    cursor: pointer;
+  }
+  justify-content: center;
+  align-items: center;
+  .drop-cloud {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 35px;
+    color: $primary;
+    > svg {
+      transition: transform 0.2s ease-in-out;
+    }
+    &.dragging > svg {
+      transform: scale(1.4);
+    }
+  }
+  .drag-drop {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 24px;
+    margin-top: 21px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: $semigray;
+  }
+  .drag-or-drop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 24px;
+    margin-top: 1px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    color: $semigray;
+  }
+  .drag-drop-btn {
+    display: block;
+    width: 168px;
+    margin: 5px auto 0;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  &.compact {
+    .drag-drop {
+      margin-top: 8px;
+    }
+    .drag-drop-btn {
+      padding: 0 10px;
+      font-size: 14px;
+      width: 113px;
+      height: 32px;
+      line-height: 32px;
+    }
+    .drop-cloud {
+      margin-top: 0;
+      height: 35px;
+      svg {
+        width: 48px;
+      }
+    }
+  }
+  input[type="file"] {
+    display: none;
+  }
+  .upload-progress {
+    width: 197px;
+    text-align: center;
+    font-size: 26px;
+    .percents {
+      margin-bottom: 16px;
+    }
+    .progress {
+      height: 10px;
+      background-color: $upload-progress-bg;
+      .progress-bar {
+        background: $upload-progress-bar-bg;
+      }
+    }
+  }
+  @include media-breakpoint-down(lg) {
+    .drop-cloud {
+      margin-top: 20px;
+    }
+    .drag-drop-btn {
+      width: 138px;
+    }
+    .upload-progress {
+      width: 138px;
+    }
+  }
+}
+
+.drop-add-image {
+  display: inline-flex;
+  height: 40px;
+  background: $drop-box-color;
+  border-radius: 74px;
+  color: $primary;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  .add {
+    padding: 0 12px;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  @include media-breakpoint-down(sm) {
+    margin: 0 auto;
+    display: flex;
+    z-index: 10;
+  }
+}

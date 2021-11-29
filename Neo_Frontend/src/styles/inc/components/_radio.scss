@@ -1,0 +1,95 @@
+$radio-size: 18px;
+$radio-border-size: 1px;
+$radio-on-border-size: 2px;
+$radio-button-size: 10px;
+$radio-color: #5a5c6c;
+$radio-on-color: $primary;
+$radio-disabled-color: #c8c9ce;
+$radio-tick-color: #eee;
+$radio-button-pos: ($radio-size - $radio-button-size - $radio-on-border-size * 2) / 2;
+
+.radio-wrapper {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  &:hover {
+    input:not(:disabled):not(.disabled) {
+      & + .radio-label {
+        border-color: $radio-on-color;
+        border-width: $radio-on-border-size;
+      }
+    }
+  }
+  small {
+    line-height: 18px;
+    font-size: inherit;
+    margin-left: 14px;
+    font-weight: inherit;
+    color: inherit;
+    label { cursor: pointer; }
+  }
+  input[type='radio'] {
+    display: none;
+
+    &:checked {
+      & + .radio-label {
+        border-color: $radio-on-color;
+        border-width: $radio-on-border-size;
+        .radio-button {
+          transform: none;
+        }
+      }
+    }
+    &:disabled, &.disabled {
+      & + .radio-label {
+        &:hover {
+          border-color: $radio-disabled-color;
+          box-shadow: none;
+        }
+        cursor: default;
+        border-color: $radio-disabled-color;
+      }
+
+      & ~ small {
+        color: $radio-disabled-color;
+        label { cursor: default; }
+      }
+
+      &:checked {
+        & + .radio-label {
+          .radio-button {
+            background-color: $radio-disabled-color;
+            transform: none;
+          }
+        }
+      }
+    }
+  }
+
+  .radio-label {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0;
+
+    flex: 0 0 $radio-size;
+    transition: all 0.2s;
+    width: $radio-size;
+    height: $radio-size;
+    border-radius: $radio-size;
+    border: $radio-border-size solid $radio-color;
+
+    .radio-button {
+      position: absolute;
+      left: $radio-button-pos;
+      right: $radio-button-pos;
+      width: $radio-button-size;
+      height: $radio-button-size;
+      transition: all 0.2s;
+      transform: scale(0);
+      border-radius: $radio-button-size;
+      background-color: $radio-on-color;
+    }
+  }
+}

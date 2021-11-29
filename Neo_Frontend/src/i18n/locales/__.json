@@ -1,0 +1,8 @@
+{
+  "formats": {
+    "date": {
+      "short": "D MMM YYYY",
+      "datepicker": "D MMM YYYY"
+    }
+  }
+}

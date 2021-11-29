@@ -1,0 +1,134 @@
+.head-line-md {
+  padding: 0 30px;
+}
+.promo-block.padded {
+  padding: 40px 60px;
+  @include media-breakpoint-down(md) {
+    width: 100%;
+    overflow-y: scroll;
+  }
+}
+.promo-block {
+  @include media-breakpoint-down(md) {
+    width: 100%;
+    overflow-y: scroll;
+  }
+  @include media-breakpoint-down(md) {
+    &:not(.padded) {
+      padding: 25px 30px;
+      overflow-x: auto;
+    }
+  }
+  .promo-header {
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    .search-filter {
+      margin-right: 30px;
+      input {
+        width: 322px;
+      }
+    }
+    &-filters {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    .btn {
+      padding-right: 50px;
+      padding-left: 50px;
+    }
+  }
+  th,
+  td {
+    padding: 0 15px;
+    font-size: 14px;
+    line-height: 19px;
+    &:first-of-type {
+      padding-left: 24px;
+    }
+    &:last-of-type {
+      padding-right: 24px;
+      text-align: right;
+    }
+  }
+  th {
+    font-weight: 600;
+    height: 45px;
+    background-color: $notes-background;
+    white-space: nowrap;
+    &.w-id {
+      width: 110px;
+    }
+    &.w-plans {
+      width: 465px;
+    }
+    &:first-child {
+      border-top-left-radius: 22.5px;
+    }
+    &:last-child {
+      border-top-right-radius: 22.5px;
+    }
+  }
+  tr.separator {
+    vertical-align: top;
+    &.before {
+      height: 12px;
+      box-shadow: 0 -1px 0 $panel-lines-light-color;
+    }
+    &.after {
+      height: 12px;
+    }
+  }
+  tbody:first-of-type tr.separator.before {
+    box-shadow: none;
+  }
+  td {
+    min-height: 24px;
+    line-height: 24px;
+    vertical-align: top;
+    text-align: left;
+    &.w-empty {
+      height: 100px;
+      vertical-align: middle;
+      font-weight: 600;
+      text-align: center;
+    }
+    &.actions {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      button {
+        margin-left: 15px;
+      }
+      svg {
+        font-size: 22px;
+        color: $notes-light-color;
+      }
+    }
+  }
+  p {
+    margin: 0;
+    white-space: nowrap;
+  }
+  .link-fields {
+    margin-bottom: 40px;
+  }
+  .cell-link-field {
+    max-width: 865px;
+  }
+  .cell-link-tip {
+    display: flex;
+    align-items: center;
+    flex-grow: 0;
+    white-space: nowrap;
+    a {
+      font-weight: 600;
+      //color: $primary;
+      font-size: 17px;
+      line-height: 24px;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.page-admin-group {
+  @include media-breakpoint-down(sm) {
+    padding: 25px 30px 0;
+    box-shadow: none;
+    background-color: white !important;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    .panel-content {
+      box-shadow: none;
+    }
+    .head-line {
+      line-height: 30px;
+      text-align: center;
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    .panel-title {
+      padding-left: 50px;
+    }
+  }
+}
+

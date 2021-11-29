@@ -1,0 +1,81 @@
+.component-facilities {
+  .panel-content {
+    .head-line {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 55px;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      > span {
+        white-space: nowrap;
+      }
+      .spinner {
+        display: inline-block;
+        margin-left: 15px;
+        text-align: left;
+        position: relative;
+        top: -1px;
+      }
+      @include media-breakpoint-down(sm) {
+        line-height: 30px;
+        text-align: center;
+      }
+    }
+    .pt-6 {
+      padding-top: 30px;
+    }
+    .description-line {
+      font-size: 15px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .checkbox-wrapper {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    .checkbox-wrapper > small,
+    .checkbox-wrapper > small > label {
+      width: 100%;
+    }
+    .facility-item {
+      font-size: 15px;
+      font-weight: 600;
+      display: inline-block;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      width: calc(100% - 2px);
+    }
+    .facilities-area {
+      background: $white;
+      padding: 55px;
+      border-radius: 10px;
+      @include media-breakpoint-down(sm) {
+        padding: 10px !important;
+      }
+    }
+    @include media-breakpoint-down(sm) {
+      box-shadow: none;
+      margin-top: 22px;
+      margin-bottom: 0px;
+    }
+  }
+  .panel-footer {
+    margin: 80px 40px;
+    div {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    button {
+      min-width: 185px;
+      max-width: 300px;
+      @include media-breakpoint-down(sm) {
+        max-width: 100%;
+      }
+    }
+    @include media-breakpoint-down(sm) {
+      margin: 0 0px 40px 0px;
+    }
+  }
+}

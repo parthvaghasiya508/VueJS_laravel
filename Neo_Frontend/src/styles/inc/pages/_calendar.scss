@@ -1,0 +1,544 @@
+$room-aside-width: 217px;
+$room-aside-sm-width: 158px;
+$room-bookable-background: #e4faed;
+$room-blocked-background: #fff1ed;
+$room-bookable-color: #5acd7a;
+$room-blocked-color: #eb6057;
+$room-cell-border: #d9dce1;
+
+.page-calendar {
+  color: $semigray;
+
+  @include media-breakpoint-down(sm) {
+    padding: 25px 15px 0;
+    background: $white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.17);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+
+  .sticky-top {
+    box-shadow: 40px 0 0 $light, -10px 0 0 $light;
+    background-color: $light;
+    @include media-breakpoint-down(sm) {
+      box-shadow: 40px 0 0 $white, -10px 0 0 $white;
+      top: -298px;
+      background-color: $white;
+    }
+  }
+  label {
+    margin-bottom: 6px;
+  }
+  @include media-breakpoint-down(sm) {
+    .cell-rooms {
+      margin-bottom: 20px;
+    }
+    .cell-restrictions {
+      margin-bottom: 15px;
+    }
+    .cell-button {
+      margin-top: 20px;
+    }
+  }
+
+  .os-host {
+    overflow: visible !important;
+    margin-top: 2.22rem;
+  }
+  .os-scrollbar-horizontal {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    height: 7px !important;
+    bottom: -1px !important;
+    .os-scrollbar-handle {
+      width: 43% !important;
+      background: $scrollbar-handle-color !important;
+    }
+  }
+
+  .dates-panel {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-bottom: 0;
+    margin-right: -30px;
+    @include media-breakpoint-down(sm) {
+      margin-right: -15px;
+      margin-left: -15px;
+      border-top-left-radius: 0;
+      margin-top: 20px;
+    }
+  }
+  .day-panels {
+    margin-right: -30px;
+    > div {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .first-shown {
+      border-top-left-radius: 0;
+      margin-top: 0;
+    }
+    @include media-breakpoint-down(sm) {
+      margin-right: -15px;
+      margin-left: -15px;
+      > div {
+        border-radius: 0;
+      }
+    }
+  }
+
+  .day {
+    width: 48px;
+    height: 40px;
+    flex-shrink: 0;
+  }
+
+  .dates-header {
+    height: 90px;
+    border-bottom: 2px solid $panel-lines-dark-color;
+    .dates-scroller {
+      //width: 217px;
+      flex: 0 0 $room-aside-width;
+      @include media-breakpoint-down(sm) {
+        flex: 0 0 $room-aside-sm-width;
+      }
+      padding: 22px 20px;
+      display: flex;
+      align-items: flex-end;
+      border-right: 1px solid $panel-lines-light-color;
+      .date-scroll {
+        cursor: pointer;
+        color: #91929d;
+        &:disabled, &.disabled {
+          color: #c8c9ce;
+          cursor: default;
+          pointer-events: none;
+        }
+        &:first-child {
+          margin-right: 8px;
+        }
+        &:nth-child(2) {
+          margin-right: 40px;
+        }
+        &:nth-child(3) {
+          margin-right: 8px;
+        }
+      }
+    }
+    .dates-container {
+      width: calc(100% - #{$room-aside-width});
+      @include media-breakpoint-down(sm) {
+        width: calc(100% - #{$room-aside-sm-width});
+      }
+    }
+    .dates {
+      flex: 1 1;
+      .month {
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+        line-height: 18px;
+        flex: 0 0 auto;
+        &:not(:first-child) {
+          box-shadow: -1px 0 0 #D9DCE1;
+        }
+        > span {
+          color: #91929d;
+          padding: 0 8px;
+          display: block;
+          margin: 11px 0 7px;
+        }
+        .days {
+          color: $semigray;
+          .day {
+            padding: 0 8px 10px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            .t {
+              margin-bottom: 4px;
+            }
+            .wd {
+              font-size: 15px;
+              line-height: 20px;
+              font-weight: 600;
+            }
+            &.we {
+              &,& .wd {
+                font-weight: bold
+              }
+            }
+            &.wee {
+              border-right: 1px solid $panel-lines-medium-color;
+            }
+          }
+        }
+      }
+    }
+  }
+  .room-header {
+    padding: 14px 18px;
+    .name {
+      color: $primary;
+      font-weight: 600;
+    }
+    .id {
+      color: #545d6c;
+    }
+  }
+  .room-data {
+    //height: 40px;
+    //padding-bottom: 8px;
+    .day {
+      border-top: 1px solid $room-cell-border;
+      border-right: 1px solid $room-cell-border;
+      background-color: #fff;
+      //box-shadow: 0 0 0 1px $room-cell-border;
+    }
+    .headers {
+      flex: 0 0 $room-aside-width;
+      @include media-breakpoint-down(sm) {
+        flex: 0 0 $room-aside-sm-width;
+      }
+      border-right: 1px solid $panel-lines-light-color;
+      .header {
+        position: relative;
+        padding-left: 18px;
+        line-height: 40px;
+        font-weight: 600;
+        font-size: 14px;
+        &::before {
+          display: block;
+          content: '';
+          position: absolute;
+          left: 18px; right: 0; top: 0;
+          border-top: 1px solid $panel-lines-light-color;
+        }
+        //&::after {
+        //  display: block;
+        //  content: '';
+        //  position: absolute;
+        //  left: 18px; right: 0; bottom: 0;
+        //  border-bottom: 1px solid $panel-lines-light-color;
+        //}
+        &.restriction {
+          font-size: 12px;
+          font-weight: 600;
+          background-color: #f6f9fe;
+          fill: #545d6c;
+          display: flex;
+          align-items: center;
+          span {
+            margin-right: 6px;
+          }
+        }
+        &.last-shown {
+          border-bottom-left-radius: 10px;
+          height: 41px;
+        }
+        .asset {
+          color: #a5adbb;
+          font-weight: 400;
+          float: right;
+          margin-right: 12px;
+        }
+      }
+    }
+    .rows {
+      display: flex;
+      flex: 1 1;
+      overflow-x: hidden;
+      flex-direction: column;
+      padding-left: 1px;
+      margin-left: -1px;
+      .data {
+        display: flex;
+        &.last-shown {
+          .day {
+            height: 41px;
+            &.selected {
+              border-bottom: 1px solid $primary;
+            }
+          }
+        }
+      }
+    }
+  }
+  .room-status {
+    .day {
+      position: relative;
+      &::before, &::after {
+        display: block;
+        content: '';
+        position: absolute;
+        top: 5px;
+        bottom: 5px;
+      }
+      &::before {
+        left: -2px;
+        right: 22px;
+      }
+      &::after {
+        right: 4px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        left: 22px;
+      }
+      &.bookable {
+        background-color: $room-bookable-background;
+        &::before, &::after {
+          background-color: $room-bookable-color;
+        }
+      }
+      &.blocked {
+        background-color: $room-blocked-background;
+        &::before, &::after {
+          background-color: $room-blocked-color;
+        }
+      }
+      &:first-of-type, &.blocked + .bookable, &.bookable + .blocked {
+        &::before {
+          left: 4px;
+          border-top-left-radius: 50px;
+          border-bottom-left-radius: 50px;
+        }
+      }
+      &.bookable + .bookable, &.blocked + .blocked {
+        &::after {
+          left: -20px;
+        }
+      }
+    }
+  }
+  .room-editable {
+    .day {
+      input {
+        margin: 7px 4px;
+        padding: 0;
+        height: 24px;
+        width: 38px;
+        text-align: center;
+        font-size: 13px;
+        @include media-breakpoint-down(md) {
+          font-size: 16px;
+        }
+        line-height: 18px;
+        border-radius: 4px;
+        background-color: #fff;
+        &:disabled {
+          color: lighten($semigray, 25%);
+        }
+      }
+      .custom-control {
+        //height: 100%;
+        justify-content: center;
+        margin-top: 8px;
+      }
+      &.bookable input {
+        //border: 1px solid #e6e9ed;
+        border: none;
+      }
+      &.blocked {
+        background-color: #ffebe6;
+        input {
+          //background-color: #fff1ed;
+          background-color: #ffebe6;
+          //border-color: #fff1ed;
+          border: none;
+        }
+      }
+      &.selected {
+        position: relative;
+        //background-color: #edf4fc;
+        border-color: $primary;
+        box-shadow: -1px 1px 0 $primary, -1px 0 0 $primary, 0 1px 0 $primary, inset 0 0 0 1px $primary;
+        //border-radius: 4px;
+      }
+    }
+  }
+
+  .day-updated {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: $primary;
+  }
+
+  .form-modal {
+    .modal-body {
+      .cell-qu-rooms {
+        margin-bottom: 10px;
+      }
+      @include media-breakpoint-up(md) {
+        .cell-qu-from, .cell-qu-until {
+          max-width: 275px;
+        }
+      }
+      .row-weekdays {
+        margin-top: 20px;
+        h5 {
+          padding: 0;
+          height: 40px;
+          line-height: 40px;
+        }
+      }
+      .cell-weekdays {
+        height: 40px;
+        align-items: center;
+        margin-right: -7px;
+        .wd-item {
+          height: 32px;
+          &.wd-all {
+            background: $notes-background;
+          }
+          border-radius: 4px;
+          line-height: 32px;
+          padding: 4px 6px 4px 7px;
+          margin-right: 16px;
+          small {
+            margin-left: 15px;
+          }
+        }
+      }
+      .cell-edit-field {
+        max-width: 95px;
+        input {
+          padding-left: 0.75rem;
+          padding-right: 0.75rem;
+          text-align: center;
+        }
+      }
+      .cell-edit-fields {
+        .radio-wrapper:first-of-type {
+          margin-right: 32px;
+        }
+      }
+    }
+
+    @include media-breakpoint-down(sm) {
+      .modal-body {
+        .cell-qu-from, .cell-qu-until {
+          margin-bottom: 15px;
+        }
+        .row-weekdays {
+          margin-top: 0;
+          h5 {
+            margin: 15px 0 7px;
+            height: initial;
+            line-height: initial;
+          }
+        }
+        .cell-weekdays {
+          flex-wrap: wrap;
+          margin-left: -7px;
+          height: auto;
+          .checkbox-wrapper small {
+            margin-left: 10px;
+          }
+          .wd-item {
+            margin-right: 15px;
+            width: calc(25% - 15px);
+            margin-top: 8px;
+          }
+        }
+        .cell-edit-label {
+          max-width: none;
+        }
+        .cell-edit-field {
+          max-width: 165px;
+        }
+        .row-qu-grnt {
+          height: auto;
+          align-items: flex-start !important;
+          margin-bottom: 20px;
+          .cell-edit-label {
+            margin-top: 5px;
+          }
+          .cell-edit-fields {
+            margin-top: 11px;
+            .radio-wrapper {
+              flex-direction: column;
+              align-items: flex-start;
+              small {
+                margin-left: 0;
+                margin-top: 10px;
+                line-height: 20px;
+              }
+              &:first-of-type {
+                margin-right: 28px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@include media-breakpoint-only(md) {
+  .page-calendar {
+    .cell-rooms, .cell-restrictions {
+      max-width: 50%;
+      margin-bottom: 15px;
+    }
+    .cell-button {
+      max-width: 100%;
+      margin-top: 30px;
+    }
+  }
+  .nosidebar .page-calendar {
+    .cell-rooms {
+      max-width: calc(100% - 245px);
+    }
+    .cell-restrictions {
+      max-width: 245px;
+    }
+    .cell-button {
+      max-width: 245px;
+      margin-top: 0;
+    }
+    .cell-from, .cell-until {
+      max-width: calc( (100% - 245px ) / 2);
+    }
+    .tooltip-inner {
+      max-width: unset;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .page-calendar {
+    .cell-rooms {
+      max-width: calc(100% - 275px);
+    }
+    .cell-restrictions {
+      max-width: 275px;
+    }
+    .cell-rooms, .cell-restrictions {
+      margin-bottom: 15px;
+    }
+    .cell-button {
+      max-width: 275px;
+      margin-top: 0;
+    }
+    .cell-from, .cell-until {
+      max-width: calc( (100% - 275px ) / 2);
+    }
+    .tooltip-inner {
+      max-width: unset;
+    }
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .page-calendar .cell-top-row {
+    max-width: 825px;
+  }
+}

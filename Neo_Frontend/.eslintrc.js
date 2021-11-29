@@ -1,0 +1,95 @@
+module.exports = {
+  root: true,
+  env: {
+    node: true,
+  },
+  extends: [
+    'plugin:vue/essential',
+    'plugin:promise/recommended',
+    '@vue/airbnb',
+  ],
+  parserOptions: {
+    parser: 'babel-eslint',
+  },
+  rules: {
+    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'promise/prefer-await-to-then': 'warn',
+    'promise/prefer-await-to-callbacks': 'warn',
+    'max-len': [
+      'error',
+      120,
+      2,
+      {
+        ignorePattern: '(^|\\s+)<path\\s',
+        ignoreUrls: true,
+        ignoreComments: false,
+        ignoreRegExpLiterals: true,
+        ignoreStrings: true,
+        ignoreTemplateLiterals: true,
+      },
+    ],
+  },
+  globals: {
+    $: true,
+    ZammadChat: true,
+  },
+  overrides: [
+    {
+      files: ['*.vue'],
+      rules: {
+        indent: 'off',
+        'vue/html-indent': [
+          'error',
+          2,
+          {
+            ignores: [
+              'JSXElement',
+              'JSXElement > *',
+              'JSXAttribute',
+              'JSXIdentifier',
+              'JSXNamespacedName',
+              'JSXMemberExpression',
+              'JSXSpreadAttribute',
+              'JSXExpressionContainer',
+              'JSXOpeningElement',
+              'JSXClosingElement',
+              'JSXFragment',
+              'JSXOpeningFragment',
+              'JSXClosingFragment',
+              'JSXText',
+              'JSXEmptyExpression',
+              'JSXSpreadChild',
+            ],
+          },
+        ],
+        'vue/script-indent': [
+          'error',
+          2,
+          {
+            baseIndent: 1,
+            switchCase: 1,
+            ignores: [
+              'JSXElement',
+              'JSXElement > *',
+              'JSXAttribute',
+              'JSXIdentifier',
+              'JSXNamespacedName',
+              'JSXMemberExpression',
+              'JSXSpreadAttribute',
+              'JSXExpressionContainer',
+              'JSXOpeningElement',
+              'JSXClosingElement',
+              'JSXFragment',
+              'JSXOpeningFragment',
+              'JSXClosingFragment',
+              'JSXText',
+              'JSXEmptyExpression',
+              'JSXSpreadChild',
+            ],
+          },
+        ],
+      },
+    },
+  ],
+};

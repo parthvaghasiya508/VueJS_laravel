@@ -1,0 +1,77 @@
+.lang-selector {
+  display: flex;
+  justify-content: space-between;
+  .os-host {
+    overflow: visible !important;
+  }
+  .os-scrollbar-horizontal {
+    display: none !important;
+    top: -1px !important;
+    height: 2px !important;
+    padding: 0 !important;
+    .os-scrollbar-handle {
+      background: $scrollbar-handle-color !important;
+    }
+  }
+  button {
+    svg {
+      margin: 0 3px 1px 0;
+    }
+    @include media-breakpoint-down(sm) {
+      display: none;
+    }
+  }
+  .arrow {
+    color: #91929d;
+    cursor: pointer;
+    &:disabled, &.disabled {
+      color: #c8c9ce;
+      cursor: default;
+      pointer-events: none;
+    }
+    &:first-child {
+      padding-right: 10px;
+    }
+    &:last-child {
+      padding-left: 10px;
+    }
+  }
+  .lang-container {
+    height: 45px;
+    width: calc(100% - 34px);
+    .lang-list {
+      width: 100%;
+      display: flex;
+      flex-grow: 1;
+    }
+    //overflow: scroll;
+    .lang-item {
+      flex: 0 0 auto;
+      cursor: pointer;
+      color: $semigray;
+      font-size: 14px;
+      font-weight: 600;
+      height: 45px;
+      border-bottom: 3px solid $langs-indicator;
+      padding: 0 12px 0 16px;
+      line-height: 45px;
+      > svg {
+        margin: 0 2px 0 6px;
+        color: $langs-icon-color;
+      }
+      &.selected {
+        //> svg {
+        //  margin: 0 0 0 5px;
+        //}
+        color: $primary;
+        border-bottom-color: $langs-selected-indicator;
+      }
+      &.valid {
+        > svg {
+          margin: 0 0 0 4px;
+          color: $langs-selected-icon-color;
+        }
+      }
+    }
+  }
+}

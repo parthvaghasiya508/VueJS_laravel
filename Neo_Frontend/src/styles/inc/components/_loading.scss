@@ -1,0 +1,23 @@
+.btn-loading {
+  background: linear-gradient(-45deg, darken($secondary, 5%), lighten($secondary, 10%), lighten($secondary, 10%), darken($secondary, 5%));
+  background-size: 200% 100%;
+  animation: loading 1s linear infinite;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@keyframes spinning {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}

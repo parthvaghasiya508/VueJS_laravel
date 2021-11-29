@@ -1,0 +1,19 @@
+.score-card-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 20px 10px 20px;
+  &-title {
+    font-size: 20px;
+    margin-top: 65px;
+  }
+  &-svg {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    img {
+      width: 20%;
+      display: inline;
+    }
+  }
+}

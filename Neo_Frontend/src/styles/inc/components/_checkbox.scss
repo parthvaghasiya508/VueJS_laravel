@@ -1,0 +1,89 @@
+$checkbox-size: 18px;
+$checkbox-border-size: 1px;
+$checkbox-border-radius: 2px;
+$checkbox-hover-border-size: 2px;
+$checkbox-color: #5a5c6c;
+$checkbox-on-color: $primary;
+$checkbox-disabled-color: #c8c9ce;
+$checkbox-tick-color: #eee;
+
+.checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  &:hover {
+    input:not(:disabled):not(.disabled) {
+      & + .checkbox-label {
+        border-color: $checkbox-on-color;
+        box-shadow: inset 0 0 0 $checkbox-border-size $checkbox-on-color;
+      }
+    }
+  }
+  small {
+    line-height: 18px;
+    font-size: inherit;
+    margin-left: 14px;
+    font-weight: inherit;
+    color: inherit;
+    label { cursor: pointer; }
+  }
+  input[type='checkbox'] {
+    display: none;
+
+    &:checked {
+      & + .checkbox-label {
+        border-color: $checkbox-on-color;
+        background-color: $checkbox-on-color;
+        .checkbox-tick {
+          transform: none;
+        }
+      }
+    }
+
+    &:disabled, &.disabled {
+      & + .checkbox-label {
+        &:hover {
+          border-color: $checkbox-disabled-color;
+          box-shadow: none;
+        }
+        border-color: $checkbox-disabled-color;
+        cursor: default;
+      }
+
+      & ~ small {
+        color: $checkbox-disabled-color;
+        label { cursor: default; }
+      }
+
+      &:checked {
+        & + .checkbox-label {
+          background-color: $checkbox-disabled-color;
+          .checkbox-tick {
+            transform: none;
+          }
+        }
+      }
+    }
+  }
+
+  .checkbox-label {
+    flex: 0 0 $checkbox-size;
+    transition: all 0.2s;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    border-radius: $checkbox-border-radius;
+    border: $checkbox-border-size solid $checkbox-color;
+    width: $checkbox-size;
+    height: $checkbox-size;
+
+    .checkbox-tick {
+      position: absolute;
+      transform: scale(0);
+      transition: all 0.2s;
+      color: $checkbox-tick-color;
+    }
+  }
+}

@@ -1,0 +1,1436 @@
+{
+  "yes": "Ja",
+  "no": "Nein",
+  "id": "ID",
+  "actions": "Aktionen",
+  "feedback": "Rückmeldung",
+  "feedback-form": {
+    "title": "Feedback-Formular",
+    "button": "einreichen",
+    "message": "Vielen Dank für Ihre Anfrage (#%s)! Wir melden uns schnellstmöglich bei Ihnen."
+  },
+  "langs": {
+    "en": "Englisch",
+    "de": "Deutsch",
+    "ru": "Russisch",
+    "tr": "Türkisch",
+    "zh": "Chinesisch",
+    "pt": "Portugiesisch",
+    "it": "Italienisch",
+    "es": "Spanisch",
+    "fr": "Französisch",
+    "pl": "Polnisch",
+    "nl": "Niederländisch",
+    "ro": "Rumänisch",
+    "sl": "Slowenisch",
+    "ar": "Arabisch"
+  },
+  "links": {
+    "benefits": "Leistungen",
+    "highlights": "Funktionen",
+    "devconnect": "API",
+    "price": "Preise",
+    "home": "Startseite"
+  },
+  "menu": {
+    "products": "Produkte",
+    "property": "Objektdaten",
+    "connectivity": "Konnektivität",
+    "system-health": "Systemgesundheit",
+    "systemhealth": "Systemgesundheit",
+    "logout": "Ausloggen",
+    "users": "Benutzer & Zugriff",
+    "administration": "Verwaltung",
+    "contract-t&c": "Vertrag / T&C",
+    "gdpr": "DSGVO",
+    "data-protection-agreement": "Datenschutz-Vereinbarung",
+    "billing": "Rechnungen",
+    "billing-address": "Rechnungsadresse",
+    "invoice-archive": "Rechnungsarchiv",
+    "payment": "Zahlung",
+    "management": "Einstellungen",
+    "invoices": "Rechnungen",
+    "profile": "Profil",
+    "legal": "Rechtliches",
+    "admin": "Verwaltung",
+    "other": "Sonstiges"
+  },
+  "date": {
+    "from": "Von",
+    "until": "Bis",
+    "unlim": "Unbegrenzt",
+    "price": "Preis",
+    "customize-validity": "Gültigkeit anpassen",
+    "validity-period": "Gültigkeitszeitraum",
+    "validity-periods": "Gültigkeitszeiträume",
+    "blockout-periods": "Sperrzeit",
+    "button-add-blockout": "Sperrzeit hinzufügen",
+    "button-add-validity": "Gültigkeitszeitraum hinzufügen",
+    "price-periods": "Preisperioden",
+    "button-add-price-period": "Preisperiode hinzufügen",
+    "from-placeholder": "Startdatum",
+    "until-placeholder": "Enddatum"
+  },
+  "datepicker": {
+    "value-format": "DD MMM YYYY",
+    "title-format": "MMMM YYYY",
+    "no-value": "Kein Datum ausgewählt",
+    "today": "Heute"
+  },
+  "buttons": {
+    "close": "Schließen",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "update": "Aktualisieren",
+    "add": "Hinzufügen",
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "duplicate": "Verdoppeln",
+    "get-started": "Jetzt loslegen",
+    "back": "Zurück",
+    "continue": "Weiter",
+    "copy": "Kopieren",
+    "edit-langs": "Sprachen bearbeiten",
+    "add-more": "Mehr hinzufügen",
+    "add-new": "Neu hinzufügen",
+    "remove": "Entfernen",
+    "finish": "Beenden",
+    "change-email": "E-Mail ändern",
+    "change-password": "Passwort ändern",
+    "revert": "Änderungen rückgängig machen",
+    "manage-plans": "Pläne verwalten",
+    "import": "Importieren"
+  },
+  "addr": {
+    "street": "Straße, Nr",
+    "zip": "Postleitzahl",
+    "city": "Stadt",
+    "state": "Bundesland",
+    "country": "Land",
+    "state-or-province": "Bundesstaat oder Provinz",
+    "first-name": "Vorname",
+    "last-name": "Nachname",
+    "hotel-name": "Name des Objekts",
+    "property-or-hotel-name": "Name des Objekts oder des Hotels",
+    "phone": "Telefon",
+    "property-phone": "Geschäftl. Tel.",
+    "property-email": "Geschäftl. Email"
+  },
+  "restrictions": {
+    "minlos": "MinLoS",
+    "minlos-tip": "Ein Gast, der an diesem Abend bleibt, muss mindestens X Nächte buchen.",
+    "maxlos": "MaxLoS",
+    "maxlos-tip": "Ein Gast, der in dieser Nacht bleibt, kann höchstens X Nächte buchen.",
+    "csale": "Kein Verkauf",
+    "csale-tip": "Wenn Sie den Verkauf stoppen, ist das Zimmer nicht mehr verfügbar.",
+    "carr": "Für die Ankunft geschlossen",
+    "carr-tip": "Gäste können bis zu diesem Datum bleiben, aber sie können nicht einchecken.",
+    "cdep": "Für die Abreise geschlossen",
+    "cdep-tip": "Gäste können bis zu diesem Datum bleiben, aber nicht auschecken."
+  },
+  "bgarant": "Buchungsgarantie",
+  "bgarants": {
+    "1": {
+      "text": "Keines",
+      "title": "Keine Gewährleistung",
+      "desc": "Es wird keine Kreditkarte benötigt, um die Reservierung abzuschließen und die Transaktion zu bestätigen."
+    },
+    "3": {
+      "text": "CC/DC/Gutschein",
+      "title": "Kreditkarte",
+      "desc": "Um die Reservierung abzuschließen und die Transaktion zu bestätigen, wird eine Kreditkarte benötigt. Eventuell ist eine Vorauszahlung erforderlich."
+    }
+  },
+  "guests-prices": {
+    "price": "Preis | Tagespreis",
+    "guests": "Anzahl der Gäste",
+    "min": "(Mindestpreis)",
+    "max": "(Maximaler Preis)"
+  },
+  "placeholder": {
+    "email": "name@firma.com",
+    "password": "Passwort",
+    "filter-hotel": "Objekt-ID oder Name"
+  },
+  "login": {
+    "title": "Willkommen",
+    "heading": "Willkommen zurück",
+    "tip": "Bitte geben Sie Ihre E-Mail-Adresse und Ihr Passwort ein, um sich in Ihr Konto einzuloggen",
+    "remember-me": "Herinner mij",
+    "link-reset-password": "Haben Sie Ihr Passwort vergessen?",
+    "login": "Haben Sie schon ein Konto? {login}",
+    "button-login": "Angemeldet"
+  },
+  "forgot-pwd": {
+    "title": "Passwort vergessen",
+    "heading": "Haben Sie Ihr Passwort vergessen?",
+    "tip": "Bitte E-Mail eingeben und wir senden Ihnen die Anleitungen",
+    "button-send": "Anleitungen zusenden",
+    "sent-heading": "Anleitungen wurden zugesandt!",
+    "sent-to": "Anleitungen zum Zurücksetzen des Passwortes wurden zugesandt",
+    "sent-tip": "Sie werden innerhalb von 5 Minuten eine E-Mail bekommen. Schauen Sie bitte auch im Spam-Ordner nach."
+  },
+  "change-pwd": {
+    "title": "Passwort Veränderung",
+    "sent-heading": "E-Mail gesendet!",
+    "sent-to": "Anleitungen zum Zurücksetzen des Passwortes wurden zugesandt",
+    "sent-tip": "Sie werden innerhalb von 5 Minuten eine E-Mail bekommen. Schauen Sie bitte auch im Spam-Ordner nach."
+  },
+  "reset-pwd": {
+    "title": "Passwort zurücksetzen",
+    "heading": "Setzen Sie Ihr Passwort zurück",
+    "tip": "Bitte neues Passwort eingeben und bestätigen",
+    "password-new": "Neues Passwort",
+    "password-confirm": "Neues Passwort bestätigen",
+    "button-reset": "Passwort zurücksetzen",
+    "button-try-again": "Versuchen Sie es noch einmal"
+  },
+  "change-email": {
+    "title": "E-Mail Veränderung",
+    "heading": "Ändern Sie Ihre E-Mail",
+    "tip": "Bitte geben Sie eine neue E-Mail ein und bestätigen Sie diese",
+    "email-new": "Neue e-mail",
+    "email-confirm": "Neue E-Mail bestätigen",
+    "button-change": "E-Mail Veränderung",
+    "button-try-again": "Versuch es noch einmal",
+    "sent-heading": "E-Mail gesendet!",
+    "sent-to": "Anweisungen zum Ändern Ihrer E-Mail wurden an gesendet",
+    "sent-tip": "Sie werden innerhalb von 5 Minuten eine E-Mail bekommen. Schauen Sie bitte auch im Spam-Ordner nach."
+  },
+  "signup": {
+    "title": "Anmelden",
+    "agreement": "Beim Anmelden stimmen Sie unseren {tos} und {privacy} zu.",
+    "link-tos": "Nutzungsbedingungen",
+    "link-privacy": "Datenschutzbestimmungen",
+    "signup": "Ich habe kein Konto. {signup}",
+    "button-signup": "Anmelden",
+    "steps": {
+      "0": {
+        "tip": "Bitte zum Anmelden E-Mail eingeben",
+        "button": "@:buttons.continue"
+      },
+      "1": {
+        "tip": "Geben Sie bitte Ihr Passwort zum Anmelden ein",
+        "button": "@:signup.button-signup"
+      }
+    },
+    "verify": {
+      "title": "Überprüfung",
+      "heading": "Bitte Ihre E-mail überprüfen",
+      "tip": "Nur noch einen Schritt und Sie können mit CultBooking anfangen. Bitte überprüfen Sie Ihre E-Mails, um die Anmeldung abzuschliessen. Wir haben einen Anmeldelink geschickt an:",
+      "email-resent": "Wir haben einen neuen Bestätigungslink an Ihre E-Mail-Adresse geschickt.",
+      "resend": "Anmeldelink nicht angekommen? {resend}.",
+      "button-resend": "Nochmal schicken"
+    },
+    "perms": {
+      "title": "Keine Berechtigungen",
+      "hint": "Sie haben noch keine Berechtigung. Bitten Sie Ihren Manager, dieses Problem zu lösen.",
+      "button": "Seite neu laden"
+    }
+  },
+  "details": {
+    "steps": {
+      "0": {
+        "title": "Ihre Daten",
+        "tip": "Geben Sie bitte Ihren vollständigen Namen",
+        "button": "@:buttons.continue"
+      },
+      "1": {
+        "title": "Immobiliendaten",
+        "tip": "Geben Sie bitte den Immobilien-oder Hotelnamen sowien Kontaktdaten",
+        "button": "Zu CultBooking",
+        "button-skip": "Überspringe diesen Schritt"
+      }
+    },
+    "property-register-later": "Ich habe keinen Betrieb, oder möchte ihn später registrieren",
+    "property-register-now": "Ich habe einen Betrieb und möchte ihn jetzt registrieren"
+  },
+  "setup": {
+    "title": "Einstellungen | Einstellungen - Schritt {n} | Einstellungen - Schritt {n}",
+    "page-title": "Einstellungsassistent",
+    "steps": {
+      "0": {
+        "greeting": "Hallo {name}!",
+        "heading": "Willkommen bei CultBooking-Einstellungs Assistenten",
+        "tip": "Unser Einstellungsassistent wird Sie durch den ganzen Vorgang führen."
+      },
+      "1": {
+        "title": "Haupt-Infos",
+        "greeting": "Willkommen {hotel}!",
+        "tip": "Nennen Sie den Objektnamen und die Kontaktdaten.",
+        "section-hotel": "Wie heißt Ihr Objekt?",
+        "section-contacts": "Wie sind die Kontaktdaten für Ihr Objekt?",
+        "section-currency": "Währung?",
+        "currency-tip": "Es kann die lokale Währung oder eine ausländische Währung sein."
+      },
+      "2": {
+        "tip": "Welche Zimmerkategorien hat Ihr Objekt?"
+      },
+      "4": {
+        "tip": "Wie sieht es mit den Zimmerpreisen aus?"
+      },
+      "5": {
+        "title": "Link erhalten",
+        "heading": "URL Link erstellen",
+        "tip": "Diesen Link teilen, um das direkte Buchen mit online Zahlung zu erlauben: Kreditkarte, PayPal usw.",
+        "engine-url": "URL Ihrer Buchungsmachine:",
+        "link-visit-engine": "Besuchen Sie die Website Ihrer Buchungsmaschine",
+        "msg-copied": "Kopiert",
+        "learn-more": "Mehr dazulernen?",
+        "links": [
+          "Installieren der Buchungsmaschine auf der Facebook-Seite",
+          "Wie kann man kostenlos mit Blogspot eine Seite für Unterkünfte erstellen?",
+          "Wir können für ausgewählte Hotels kostenlos eine professionelle Webseite erstellen"
+        ]
+      }
+    }
+  },
+  "join": {
+    "title": "Sie haben Zugang zu einem neuen Hotel.",
+    "error": {
+      "content": "Es ist ein Fehler aufgetreten. Bitte loggen Sie sich ein und gehen Sie zur Hotelliste in der oberen rechten Ecke und wählen Sie Ihr Hotel aus."
+    }
+  },
+  "maintenance": {
+    "title": "Wir sind wegen Wartungsarbeiten außer Betrieb.",
+    "subtitle": "Bin bald wieder da!"
+  },
+  "pages": {
+    "legal": {
+      "pages": [
+        {
+          "id": 2,
+          "slug": "legal-notice",
+          "title": "Dienstanbieter"
+        },
+        {
+          "id": 7,
+          "slug": "terms-and-conditions",
+          "title": "Allgemeine Geschäftsbedingungen (AGB)"
+        },
+        {
+          "id": 3,
+          "slug": "privacy-policy",
+          "title": "Datenschutzerklärung"
+        },
+        {
+          "id": 5,
+          "slug": "data-processing-agreement",
+          "title": "Auftragsdatenverarbeitung DSGVO"
+        },
+        {
+          "id": 8,
+          "slug": "data-processors",
+          "title": "Übersicht der Auftragsverarbeiter"
+        }
+      ],
+      "button-download-pdf": "PDF Herunterladen",
+      "title": "Rechtliches",
+      "title-main": "CultBooking Rechtliche Seiten"
+    },
+    "dashboard": {
+      "title": "Instrumententafel",
+      "button-download": "PDF-Bericht herunterladen",
+      "settings": "die Einstellungen",
+      "charts": {
+        "pie": {
+          "direct": "Direkte",
+          "indirect": "Indirekt"
+        },
+        "dough": {
+          "title": "Direkte/Indirekt"
+        }
+      },
+      "groups": {
+        "book": {
+          "title": "Zu den Büchern"
+        },
+        "channel": {
+          "title": "Kanal"
+        },
+        "ibe": {
+          "title": "IBE"
+        },
+        "kpi": {
+          "title": "KPI's"
+        },
+        "term": {
+          "title": "Langfristig"
+        }
+      }
+    },
+    "reservations": {
+      "title": "Reservierungen",
+      "search-for": "Suche nach",
+      "search-for-options": {
+        "stay-period": "Aufenthaltsdauer",
+        "check-in": "Einchecken",
+        "check-out": "Auschecken",
+        "booking-period": "Buchungszeitraum"
+      },
+      "formats": {
+        "check-date": "D MMM YYYY",
+        "check-time": "HH:mm:ss"
+      },
+      "button-show": "Anzeigen",
+      "button-filters": "Filter",
+      "button-excel-download": "Excel herunterladen",
+      "button-cancel": "Abbrechen",
+      "button-reply": "Antworten",
+      "button-details": "Details ansehen",
+      "no-bookings": "Es sind keine Buchungen für diese Dauer verfügbar. Bitte suchen Sie für einen anderen Zeitraum.",
+      "headers": {
+        "guest": "Gast",
+        "qty": "Menge",
+        "room": "Zimmer",
+        "checkin": "Einchecken",
+        "checkout": "Auschecken",
+        "status": "Status",
+        "rateplan": "Tarif",
+        "totalprice": "Gesamtpreis",
+        "creditcard": "Kreditkarte",
+        "bookingdate": "Buchungsdatum",
+        "notes": "Anmerkungen",
+        "channel": "Kanal",
+        "bookingid": "Buchungsnummer"
+      },
+      "nights": "1 Nacht | {n} Nächte",
+      "guests": "1 Gast | {n} Gäste",
+      "guests-amt": {
+        "adults": "1 Erwachsener | {n} Erwachsene",
+        "children": "1 Kind | {n} Kinder",
+        "both": "{adults} und {children}"
+      },
+      "total": "Gesamt: {n}",
+      "per-night": "{n} / Nacht",
+      "status": {
+        "14": "OK",
+        "15": "Storniert",
+        "16": "OK",
+        "18": "Nichtanreise",
+        "cancel": "Stornieren",
+        "noshow": "Nichtanreise"
+      },
+      "cancel-modal": {
+        "title-cancel": "Reservierung stornieren",
+        "title-noshow": "Als Nichtanreise kennzeichnen",
+        "text-cancel": "Bitte beachten, dass der Stornierungsstatus für die ganze Buchung gilt.",
+        "text-noshow": "Bitte beachten, dass der Nichtanreisestatus für die ganze Buchung gilt.",
+        "text-warning": "Sie können diese Änderung nicht rückgängig machen.",
+        "confirm-cancel": "Möchten Sie diese Buchungsnummer/ID {id} wirklich stornieren?",
+        "confirm-noshow": "Möchten Sie diese Buchungsnummer/ID {id} wirklich als Nichtanreisestatus markieren?",
+        "reason": "Grund"
+      },
+      "person-modal": {
+        "title": "Kundendaten für Buchungsnummer {id}",
+        "no-data": "Keine Daten",
+        "no-remarks": "Keine Bemerkungen",
+        "booker-address": "Adresse (Buchungsperson)",
+        "guest-address": "Adresse (Gast)",
+        "guest-remarks": "Bemerkungen Gast",
+        "room-remarks": "Bemerkungen Zimmer",
+        "channel-remarks": "Bemerkungen Kanal"
+      },
+      "credit-card-details-modal": {
+        "title": "Details zur Kreditkarte"
+      }
+    },
+    "calendar": {
+      "title": "Kalender",
+      "rooms": "Keine Zimmer | 1 Zimmer | {n} Zimmer",
+      "rooms-all": "Alle Zimmer",
+      "restrictions": "Keine Einschränkungen | 1 Einschränkung | {n} Einschränkungen",
+      "restrictions-all": "Alle Einschränkungen",
+      "button-search": "Zeitraum einstellen",
+      "button-quick-update": "Aktualisieren",
+      "scroller-date-format": "MMM YYYY",
+      "room-id": "Zimmer-ID {id}",
+      "room-status": "Zimmer-Status",
+      "room-avail": "Verfügbarkeit",
+      "room-price": "Preis",
+      "update-modal": {
+        "title": "Aktualisieren",
+        "select-range-and-days": "Dauer und Wochentage auswählen",
+        "date-range": "Zeitraum",
+        "days": "Tage",
+        "days-all": "Alles",
+        "select-rooms": "Zimmer auswählen",
+        "what-to-edit": "Was soll bearbeitet werden?",
+        "avail": "Verfügbarkeit",
+        "avail-tip": "Aktualisieren der verfügbaren Zimmer",
+        "price": "Preis",
+        "price-tip": "{currency} Tagespreis",
+        "status": "Status",
+        "status-open": "Verfügbar",
+        "status-closed": "Nicht verfügbar",
+        "change-more": "Mehr Einschränkungen zum Ändern",
+        "nights": "Nächte"
+      }
+    },
+    "masterdata": {
+      "title": "Stammdaten",
+      "tabs": {
+        "property": "Objekt",
+        "address": "Adresse",
+        "ids": "IDs",
+        "certs": "Zertifikate",
+        "nearby": "Was ist in der Nähe"
+      },
+      "certs": {
+        "name": "Name",
+        "upload-date": "Upload Datum",
+        "stars": "Sterne",
+        "issued-by": "Ausgestellt von"
+      },
+      "button-add-certificate": "Zertifikat hinzufügen",
+      "property-name": "Objektname",
+      "property-type": "Typ der Objekt",
+      "property-tel": "Telefonnummer des Objekts",
+      "property-tel-ntl": "Nationales Format",
+      "property-tel-intl": "Internationales Format",
+      "capacity": "Kapazität",
+      "capacity-rooms": "Zimmer",
+      "capacity-beds": "Betten",
+      "primary-email": "Erste E-Mail-Adresse",
+      "primary-email-tip": "Für Reservierungen, Änderungen, Stornierungen.",
+      "alt-email": "Zusätzliche E-Mail-Adresse",
+      "alt-email-tip": "Für Verwaltung",
+      "website": "Webseite",
+      "choose-currency": "Währung auswählen",
+      "geodata": "Geodaten",
+      "geodata-tip": "Um Ihre Geodaten zu bestimmen, besuchen Sie bitte",
+      "latitude": "Breitengrad",
+      "longitude": "Höhengrad",
+      "button-show-location": "Position anzeigen",
+      "button-add-logo": "Logo hinzufügen",
+      "button-change-logo": "Logo-Bild ändern",
+      "alert-saved": "Erfolgreich gespeichert",
+      "choose-group": "Gruppe wählen"
+    },
+    "channels": {
+      "title": "Kanäle",
+      "heading": "Aktivierung und Verbindung von Kanälen",
+      "headers": {
+        "name-url": "Name / URL",
+        "name": "Name",
+        "mapping": "Verbindung",
+        "ids": "Objekt IDs",
+        "status": "Status"
+      },
+      "connected-all": "Alle verbunden",
+      "connected-some": "{count}/{total} verbunden",
+      "connected-none": "Verbinden",
+      "button-activate": "Aktivieren",
+      "button-deactivate": "Deaktivieren",
+      "button-block": "Blockieren",
+      "status": {
+        "active": "Aktiviert",
+        "inactive": "Deaktiviert",
+        "blocked": "Blockiert"
+      },
+      "map-modal": {
+        "title": "Kanal Verbindung",
+        "checkbox-toggle-all": "Alles Auswählen / Markierungen aufheben",
+        "nothing-to-connect": "Noch nichts zu verbinden"
+      },
+      "title-mappings": "Kanalzuordnung / {name}",
+      "title-activate": "{name}-Kanal aktivieren",
+      "title-update": "{name}-Kanal aktualisieren",
+      "filter-tip": "Suche nach Name/ID",
+      "filter-none": "Keine Kanäle, die diesem Filter entsprechen",
+      "tabs": {
+        "urls": "URLs",
+        "available": "Verfügbar",
+        "connected": "Verbunden",
+        "promos": "Werbeaktionen",
+        "contracts": "Verträge",
+        "settings": "Einstellungen",
+        "product": "Produkt"
+      },
+      "no-available": "Keine weiteren verfügbaren Kanäle zum Verbinden",
+      "no-connected": "Noch keine angeschlossenen Kanäle",
+      "urls": {
+        "main-link": "Link zu Ihrer Hauptbetrieb",
+        "custom-link": "Benutzerdefinierter Link zu ausgewählten Zimmertypen und/oder Ratenplänen:",
+        "custom-link-tip": "Um einen benutzerdefinierten Link zu erstellen, wählen Sie einen oder mehrere Zimmertypen und/oder Tarifpläne aus.",
+        "open-in-new-tab": "In neuer Registerkarte öffnen",
+        "no-mapped-products": "Noch keine zugeordneten Produkte"
+      },
+      "promo": {
+        "search": "Suche",
+        "all-promos": "Überfälliges einbeziehen",
+        "button-add-promo": "Neue Aktion hinzufügen",
+        "button-add-contract": "Neuen Vertrag hinzufügen",
+        "headers": {
+          "promo": "Name und Code der Aktion",
+          "contract": "Vertragsname und -code",
+          "discount": "Rabatt",
+          "plans": "Zimmertypen und Produkte",
+          "validity": "Gültigkeit"
+        },
+        "modal": {
+          "title-add-promo": "Neue Aktion",
+          "title-add-contract": "Neuer Vertrag",
+          "title-edit-promo": "Aktion bearbeiten: {code}",
+          "title-view-promo": "Aktion ansehen: {code}",
+          "title-edit-contract": "Vertrag bearbeiten: {code}",
+          "title-view-contract": "Vertrag ansehen: {code}",
+          "field-name-promo": "Name der Werbeaktion",
+          "field-name-contract": "Vertragsname",
+          "field-code-promo": "Werbeaktion Code",
+          "field-code-contract": "Vertragscode",
+          "field-name-placeholder-promo": "Wählen Sie einen Namen für Ihre Werbeaktion, z. B: Werbeaktion 2021",
+          "field-name-placeholder-contract": "Wählen Sie einen Namen für Ihren Vertrag, z. B.: Vertrag 2021",
+          "field-code-placeholder-promo": "Wählen Sie einen Code für Ihre Promo, z. B.: PROMO2021",
+          "field-code-placeholder-contract": "Wählen Sie einen Code für Ihren Vertrag, z. B.: VERTRAG2021",
+          "field-discount": "Rabatt",
+          "field-plans": "Tarifpläne",
+          "field-validity": "Gültigkeitsdauer"
+        },
+        "no-codes-promo": "Noch keine Promotionen",
+        "no-codes-contract": "Noch keine Verträge",
+        "filter-no-codes-promo": "Keine auf diesen Filter zutreffenden Sonderangebote",
+        "filter-no-codes-contract": "Keine Verträge zu diesem Filter"
+      },
+      "connect": {
+        "period": "Zeitraum",
+        "property-data": "Eigenschaft Daten",
+        "transmission-period": "Zeitraum der Übertragung",
+        "transmission-end-date": "Datum des Übertragungsendes",
+        "transmission-format": "D MMM YYYY",
+        "time-units": {
+          "d": "Tag | Tage",
+          "w": "Woche | Wochen",
+          "m": "Monat | Monate",
+          "y": "Jahr | Jahre"
+        },
+        "time-units-values": {
+          "d": "1 Tag | {n} Tage",
+          "w": "1 Woche | {n} Wochen",
+          "m": "1 Monat | {n} Monate",
+          "y": "1 Jahr | {n} Jahre"
+        },
+        "btn-change-settings": "Einstellungen ändern",
+        "btn-update-rateplans": "Tarifpläne aktualisieren",
+        "btn-connect": "Verbinden",
+        "btn-disconnect": "Trennen",
+        "tab-pending": "Ausstehend",
+        "tab-connected": "Verbunden",
+        "tab-mapping": "Abbilden",
+        "my-rate-plans": "Meine Tarifpläne",
+        "no-pending": "Keine ausstehenden Pläne",
+        "no-connected": "Keine verbundenen Pläne",
+        "no-plans": "Keine Pläne",
+        "selected-connections-count": "1 Verbindung ausgewählt | {n} Verbindungen ausgewählt",
+        "selected-changes-count": "1 Änderung | {n} Änderungen",
+        "mapped-room": "Raum",
+        "mapped-plan": "Tarif",
+        "error-invalid-property-data": "Fehler beim Laden von Kanalgebührenplänen. Prüfen Sie, ob die Eigenschaftsdaten gültig sind.",
+        "alert-connected": "Erfolgreich verbunden",
+        "alert-disconnected": "Erfolgreich getrennt",
+        "alert-updated": "Erfolgreich aktualisiert",
+        "alert-activated": "Kanal aktiviert"
+      },
+      "settings": {
+        "color-customization": "Color Customization",
+        "language": "Language",
+        "additional-features" : "Additional features"
+      },
+      "product": {
+        "top": {
+          "header": "Erhalten Sie 200% mehr Buchungen!",
+          "description": "Passen Sie die Online-Buchungsmaschine an das Erscheinungsbild Ihrer Marke an. Fügen Sie Ihr Logo, Farben, Adresse, E-Mail und Telefonnummer, Sprachen, Währungen und vieles mehr hinzu.",
+          "btn-activate": "Jetzt aktivieren",
+          "info": "Verwandeln Sie Ihre Website in den profitabelsten Online-Vertriebskanal"
+        },
+        "features": {
+          "calendar": "CultBooking ist eine <a href='#'>Hotelbuchungsmaschine</a> oder Buchungsschaltfläche für Hotels, Motels, Hostels, B&Bs, Lodges &amp; Pensionen, Apartments, Villen oder andere Immobilien- und Unterkunftsanbieter.",
+          "booking": "Gäste können Zimmer schnell und nahtlos direkt über Ihre Website, Social-Media-Plattformen oder Werbekampagnen buchen, was zu treuen Gästen und einem maximalen Online-Umsatz führt.",
+          "commission": "Besorgt über Provisionsgebühren? Genießen Sie provisionsfreie Buchungen, indem Sie Ihrer Website einen einfachen Code hinzufügen, um Reservierungen zu erhalten."
+        },
+        "try": {
+          "title": "Versuch es!",
+          "description": "<a href='#'>Wählen Sie ein An- und Abreisedatum</a> aus und klicken Sie dann auf Suchen, um verfügbare Zimmer und Preise anzuzeigen.",
+          "check-in": "Check-In",
+          "check-out": "Kasse",
+          "search": "Suche",
+          "promo-code": "Haben Sie einen Promo-Code?"
+        },
+        "details": {
+          "responsive": {
+            "title": "Sich anpassendes Design",
+            "description": {
+              "top": "Die <strong>Hotelbuchungsmaschine von CultBooking</strong> formatiert sich selbst neu und passt sich an jedes Mobiltelefon oder Tablet an. Größere Navigationsschaltflächen, neu formatierte Inhalte und optimierte Bilder werden angezeigt, wenn sich der Benutzer auf einem mobilen Gerät befindet.",
+              "bottom": "Egal auf welchem ​​Gerät Ihre Kunden sich befinden, das Gästeerlebnis beginnt mit einem schönen UX/UI-Design und einem intuitiven Buchungsprozess."
+            }
+          },
+          "booking": {
+            "title": "24/7 Buchungsbutton",
+            "description":"Nutzen Sie unsere Buchungsmaschine, um rund um die Uhr Direktbuchungen anzulocken. Steigern Sie die Conversions auf Ihrer Website mit allen Vorteilen, die CultBooking zu bieten hat, einschließlich provisionsfreier Direktbuchungen und effektiver Technologie."
+          },
+          "conversion": {
+            "title": "100% Conversion-orientiert",
+            "description": {
+              "top": "Unser Ziel ist einfach – Ihnen zu helfen, Kunden in treue Gäste zu verwandeln. Automatisiertes maschinelles Lernen, Heatmaps und A/B-Tests ermöglichen es uns, den Buchungsprozess zu optimieren und Umsatz und Geschäft zu steigern.",
+              "bottom": "Wir sind hier, um Ihnen mithilfe spezifischer Key Performance Indicators (KPIs) die höchsten Konversionsraten auf dem Markt zu erzielen: hohe Konversionsraten, abgeschlossene Buchungen und bestätigte Reservierungen."
+            }
+          },
+          "integration": {
+            "title": "Integration leicht gemacht",
+            "description": {
+              "top": "Vereinfachen Sie Ihre Abläufe. <br> Machen Sie sich keine Sorgen um komplexe Installationen oder schwierige Einstellungen – die Buchungsmaschine kann mit einem einfachen Snippet in Ihre Website integriert werden. Wir stellen den Code und den Entwickler zum Einfügen bereit.",
+              "bottom": "Die Buchungsmaschine ist auch in Ihren Channel Manager und Ihr Property Management System (PMS) integriert."
+            }
+          }
+        },
+        "footer": {
+          "title": "Machen Sie Ihre Website zum profitabelsten Online-Vertriebskanal oder kontaktieren Sie uns für weitere Informationen!",
+          "btn-activate":"Jetzt aktivieren",
+          "btn-ask": "Stelle eine Frage"
+        }
+      }
+    },
+    "emergencystop": {
+      "title": "Not-Halt"
+    },
+    "outages": {
+      "title": "Ausfälle"
+    },
+    "suppliershealth": {
+      "title": "Lieferantengesundheit"
+    },
+    "bookingengine": {
+      "title": "Buchungsmaschine"
+    },
+    "channelshealth": {
+      "title": "Gesundheit der Kanäle",
+      "headers": {
+        "your-channels": "Deine Kanäle",
+        "last-handshake": "Letzter Händedruck",
+        "activity": "Aktivität"
+      },
+      "no-data": "No Data"
+    },
+    "policies": {
+      "title": "Bedingungen",
+      "time-units": {
+        "hour": "Stunde(n) | 1 Stunde | {n} Stunden",
+        "day": "Tag(e) | 1 Tag | {n} Tage",
+        "week": "Woche(n) | 1 Woche | {n} Wochen",
+        "month": "Monat(e) | 1 Monat | {n} Monate",
+        "year": "Jahr(e) | 1 Jahr | {n} Jahre"
+      },
+      "cancel": {
+        "title": "Stornierungsbedingungen",
+        "button-add": "Stornierungsbestimmung hinzufügen",
+        "headers": {
+          "name": "Name",
+          "time": "Stornierungszeitpunkt",
+          "fee": "Stornierungsgebühr"
+        },
+        "drop-times": {
+          "BeforeArrival": "Vor Ankunft",
+          "AfterBooking": "Nach Buchung",
+          "AfterConfirmation": "Nach Bestätigung"
+        },
+        "basis-types": {
+          "FullStay": "Gesamter Aufenthalt",
+          "Nights": "Nächte"
+        },
+        "cancel-time": "{what} {when}",
+        "cancel-time-none": "Keine",
+        "cancel-fee": {
+          "FullStay": "{amount}{symbol} | {percents}% des gesamten Aufenthalts",
+          "Nights": "1 Nacht | {n} Nächte"
+        },
+        "cancel-fee-none": "Keine",
+        "modal": {
+          "title-add": "Neue Stornierungsbestimmungen",
+          "title-edit": "Stornierungsbestimmungen bearbeiten",
+          "name": "Stornierungsbestimmung",
+          "description": "Beschreibung",
+          "section-time": "Stornierungszeitpunkt",
+          "section-fee": "Stornierungsgebühr",
+          "fee": "Gebühr",
+          "fee-relation": "Bezüglich"
+        }
+      },
+      "bgarant": {
+        "title": "Buchungsgarantien",
+        "headers": {
+          "type": "Art"
+        }
+      },
+      "payment": {
+        "title": "Zahlungsbestimmungen",
+        "button-add": "Zahlungsbestimmungen hinzufügen",
+        "headers": {
+          "name": "Name",
+          "time": "Zahlungszeitpunkt",
+          "fee": "Zahlungsgebühr",
+          "type": "Zahlungsart"
+        },
+        "types": {
+          "Deposit": "Deposit",
+          "PrePay": "Vorauszahlung"
+        },
+        "payment-time-none": "Keine",
+        "payment-fee": "{amount}{symbol} | {percents}%",
+        "payment-fee-none": "Keine",
+        "modal": {
+          "title-add": "Neue Zahlungsbestimmung",
+          "title-edit": "Zahlungsbestimmung bearbeiten",
+          "name": "100% Vorauszahlung",
+          "description": "Beschreibung",
+          "section-type": "Zahlungsart",
+          "section-time": "Zahlungszeitpunkt",
+          "section-fee": "Zahlungsgebühr",
+          "fee": "Gebühr",
+          "fee-relation": "Bezüglich"
+        }
+      }
+    },
+    "photos": {
+      "title": "Fotos",
+      "button-library": "Mediathek",
+      "upload": {
+        "button-browse": "Dateien Durchsuchen",
+        "dragndrop": "Ziehen & Loslassen",
+        "or": "oder"
+      },
+      "library": {
+        "title": "Mediathek",
+        "lowres-only": "Anzeigen von Bildern mit niedriger Auflösung",
+        "search": "Suche",
+        "name": "Name",
+        "display-name": "Name anzeigen",
+        "low-resolution": "Niedrige Auflösung",
+        "related-to-rooms": "In Verbindung mit den Zimmern",
+        "no-image-selected": "Kein Bild ausgewählt",
+        "dragnmove": "Ziehen & Bewegen",
+        "or-click-to-open": "oder Anklicken zum Öffnen"
+      }
+    },
+    "roomtypes": {
+      "title": "Zimmerkategorien",
+      "heading": "Ihre Zimmerkategorien",
+      "button-add": "Neues Zimmer hinzufügen",
+      "footer": "Zimmer ID und Objekt ID sind nötig, um mit dem PMS zu verbinden.",
+      "no-rooms": "Noch keine Zimmerkategorien",
+      "headers": {
+        "name": "Name",
+        "amount": "Anzahl",
+        "occupancy": "Belegung",
+        "validuntil": "Geldig tot",
+        "blockout-days": "Blokkeringsdagen",
+        "number": "Nummer"
+      },
+      "modal": {
+        "title-add": "Neue Zimmerkategorie",
+        "title-edit": "[{id}] {name}",
+        "section-room-name": "Benenne deine Zimmerkategorie",
+        "section-room-type": "Auswahl der Zimmerkategorie",
+        "section-amount": "Anzahl der Zimmer in dieser Kategorie",
+        "section-initial-price": "Anfangspreis / Nacht-",
+        "section-occupancy": "Wieviele Gäste können in diesem Zimmer übernachten?",
+        "section-occupancy-tip": "Wieviel Betten gibt es bei der Standardbelegung?",
+        "section-occupancy-more": "Ist es möglich, mehr oder weniger Personen als die Standardbelegung unterzubringen (optional)?",
+        "initial-price-tip": "Der Zimmerpreis kann später im Kalender geändert werden",
+        "description": "Beschreibung",
+        "min-occupancy": "Mindestbelegung",
+        "max-occupancy": "Maximalbelegung"
+      }
+    },
+    "rateplans": {
+      "title": "Tarife",
+      "heading": "Ihre Tarife hinzufügen",
+      "button-add": "Neue Tarife hinzufügen",
+      "no-plans": "Noch keine Tarife",
+      "search": "Suche",
+      "headers": {
+        "name": "Name",
+        "linked-room": "Verknüpfter Zimmertyp",
+        "meal-plan": "Tarife für Mahlzeiten",
+        "min-stay": "Mindestaufenthalt",
+        "cancel-policy": "Stornierungsbestimmungen"
+      },
+      "modal": {
+        "title-add": "Neue Tarife",
+        "title-edit": "[{id}] {name}",
+        "section-connect": "Verbinden der Tarife mit Zimmerkategorien",
+        "section-plan-name": "Wie heißt der Tarif?",
+        "section-room-type": "Auswahl der Zimmerkategorie",
+        "section-settings": "Einstellungen",
+        "section-price": "Preise",
+        "description": "Beschreibung",
+        "days-all": "Alle",
+        "travel-days": "Reisetage",
+        "travel-opts": {
+          "bdays": "Buchbare Tage",
+          "adays": "Ankunftstage",
+          "ddays": "Abreisetage"
+        },
+        "los": "Länge des Aufenthalts",
+        "minimum": "Mindestens",
+        "maximum": "Höchstens",
+        "standard": "Standard",
+        "meal-type": "Art der Mahlzeiten",
+        "cancel-policies": "Stornierungsbestimmungen",
+        "cancel-all": "Alle Bestimmungen",
+        "cancel-some": "Keine Bestimmungen | 1 Bestimmung | {n} Bestimmungen",
+        "payment-policy": "Zahlungsbestimmung",
+        "no-payment-policy": {
+          "name": "Keine Zahlungsbestimmung",
+          "desc": ""
+        },
+        "price": "Preis",
+        "price-for": "Preis bei {occupancy}",
+        "price-occupancy": "1 Person pro Nacht | {n} Personen pro Nacht",
+        "standard-price": "Standardpreis",
+        "standard-price-tip": "Tages-Standardpreis wird vom Kalender übernommen.",
+        "fixed-price": "Festpreis",
+        "fixed-price-tip": "Gleicher Preis für alle Tage.",
+        "standard-price-more": "Zuschlag oder Rabatt auf den Standardpreis",
+        "surcharge": "Zuschlag",
+        "reduction": "Rabatt",
+        "occupancy-more": "Genehmigen Sie mehr oder weniger Gäste als Standardbelegung?",
+        "occupancy-pricing": "Zuschlag oder Rabatt für 1 Person",
+        "children-bed": "Extra Kinderbett",
+        "age": "Alter",
+        "section-bookable": "Buchbarer Zeitraum",
+        "bookable": {
+          "anytime": "Gast kann jederzeit buchen",
+          "periods": "Gast kann buchen von",
+          "periods-dates": "{from} bis {to}",
+          "fromto": "Gast kann von {from} bis {to} vor Anreise buchen",
+          "until": "Gast kann bis {days} vor Anreise buchen",
+          "within": "Gast kann innerhalb von {days} vor Anreise buchen",
+          "button-add-period": "Neuer Zeitraum",
+          "placeholder-start-date": "Startdatum",
+          "placeholder-end-date": "Enddatum",
+          "placeholder-days": "Tag | Tage"
+        },
+        "languages": "Talen",
+        "rate-plan-description": "Beschrijving van het tariefplan",
+        "room-type": "Kamertype",
+        "guests-occupancy-more": "Gasten meer of minder dan de standaardbezetting",
+        "price-occupancy-two-person": "Prijs voor 2 personen / nacht"
+      }
+    },
+    "groups": {
+      "title": "Objektgruppen",
+      "placeholder": "Suche",
+      "btn-add": "Neue Gruppe hinzufügen",
+      "no-groups": "Noch keine Gruppen",
+      "filter-no-groups": "Keine Gruppen, die diesem Filter entsprechen",
+      "headers": {
+        "name": "Gruppenname",
+        "properties": "Eigenschaften",
+        "url": "Eigene URL",
+        "users": "Benutzer",
+        "owner": "Besitzer"
+      },
+      "tabs": {
+        "groups": "Gruppen"
+      },
+      "modal": {
+        "title-add": "Erstellen Sie eine neue Gruppe",
+        "title-edit": "Gruppe bearbeiten",
+        "field": {
+          "bdomain": {
+            "title": "Domain der Buchungsmaschine",
+            "placeholder": "mydomain.com"
+          },
+          "edomain": {
+            "title": "Domain des Extranets",
+            "placeholder": "admin.mydomain.com"
+          },
+          "group": {
+            "title": "Gruppenname",
+            "placeholder": "Bevorzugter Name"
+          }
+        },
+        "checkbox": {
+          "all": "ALLE",
+          "reservation": "Reservierung",
+          "calendar": "Kalender",
+          "rateplans": "Rate plans",
+          "connectivity": "Konnektivität",
+          "property": "Eigentum",
+          "masterdata": "Stammdaten",
+          "contact": "Gesprächspartner",
+          "facilities": "Einrichtungen"
+        },
+        "field-perms": "Gruppenberechtigungen",
+        "color": {
+          "title": "Anpassen von Farbe und Logo",
+          "main": "Hauptfarbe",
+          "text": {
+            "title": "Textfarbe",
+            "colorwhite": "Weiß",
+            "colordark": "Dunkel"
+          }
+        }
+      },
+      "btn-assign": "Eigentümer erstellen",
+      "manage": {
+        "title": "Gruppe verwalten",
+        "tabs": {
+          "hotels": "Eigenschaften"
+        }
+      }
+    },
+    "users": {
+      "title": "Benutzer und Rollen",
+      "no-users": "Noch keine Benutzer",
+      "filter-no-users": "Keine Benutzer, die diesem Filter entsprechen",
+      "btnAdd": "Neue Benutzer hinzufügen",
+      "btnInvite": "Benutzer einladen",
+      "filter-tip": "Suche",
+      "check": "Nur zugewiesene Benutzer",
+      "headers": {
+        "name": "Name",
+        "properties": "Objekt-ID & Name",
+        "login": "Benutzer Login / Email",
+        "role": "Rolle"
+      },
+      "tabs": {
+        "users": "Benutzer",
+        "roles": "Rollen"
+      },
+      "modal": {
+        "invite": {
+          "title-add": "Benutzer einladen",
+          "field-email": "Benutzer Login / E-Mail-Adresse",
+          "field-email-placeholder": "Judy@gmail.com",
+          "field-role": "Rolle",
+          "field-role-placeholder": "Wählen Sie eine der Rollen aus",
+          "roles": "Keine Rollen | 1 Rolle | {n} Rollen",
+          "roles-all": "Alle Rollen",
+          "alert-sent": "Einladung wurde versendet"
+        },
+        "role": {
+          "title": "Rolle: Einnahmen Manager",
+          "field-name-role": "Rollenname",
+          "placeholder-name-role": "Einnahmen Manager"
+        },
+        "newUser": {
+          "title": "Neuen Benutzer erstellen",
+          "field-property": "Eigentum",
+          "field-role": "Rolle",
+          "field": {
+            "name": {
+              "first": {
+                "title": "Vorname",
+                "placeholder": "Judy"
+              },
+              "last": {
+                "title": "Nachname",
+                "placeholder": "Doe"
+              }
+            },
+            "login": {
+              "title": "Benutzer Login / E-Mail-Adresse",
+              "placeholder": "Judy@gmail.com"
+            },
+            "language": {
+              "title": "Sprache"
+            },
+            "password": {
+              "title": "Passwort",
+              "title-confirm": "Kennwort bestätigen"
+            },
+            "property": "Eigentum*",
+            "role": "Rolle"
+          },
+          "title-add": "Neuen Benutzer anlegen",
+          "title-edit": "Benutzer bearbeiten",
+          "title-add-owner": "Weisen Sie der Eigenschaftsgruppe {group} einen Eigentümer zu.",
+          "perms-all-hotels": "Alle Eigenschaften mit Standardberechtigungen",
+          "perms-all-hotels-tip": "Rollen für bestimmte Eigenschaften können die Standardberechtigungen außer Kraft setzen.",
+          "perms-by-roles": "Spezifiziert durch Rollen",
+          "perms-by-roles-tip": "Benutzer haben nur Zugriff auf Eigenschaften, für die sie Rollen haben.",
+          "default-perms": "Standardberechtigungen",
+          "default-perms-tip": "Kann durch Rollenberechtigungen überschrieben werden",
+          "properties-access": "Zugriff auf Eigenschaften:"
+        },
+        "title": "Status ändern",
+        "button-on": "Ja, schalten Sie sie EIN",
+        "button-off": "Ja, schalten Sie sie AUS",
+        "question": "Sind Sie sicher, dass Sie {all} Vertriebskanäle (einschließlich CultBooking) auf {mode} setzen möchten?"
+      },
+      "roles": {
+        "title": "Rollen",
+        "no-hotels": "Noch keine Rollen",
+        "filter-no-hotels": "Keine Rollen, die diesem Filter entsprechen",
+        "btnAdd": "Neue Rolle hinzufügen",
+        "check": "Nur benutzerdefinierte Rollen anzeigen",
+        "headers": {
+          "name": "Name",
+          "properties": "ID & Eigentum",
+          "users": "Benutzers",
+          "role": "Rollen"
+        },
+        "perms-inherit": "Benutzerberechtigungen vererben",
+        "perms-inherit-tip": "Der Benutzer sollte über Berechtigungen verfügen, um auf diese Eigenschaft zugreifen zu können.",
+        "perms-override": "Benutzerberechtigungen überschreiben oder setzen:",
+        "perms-override-tip": "Endgültige Berechtigungen für diese Eigenschaft, sie überschreiben die Benutzerberechtigungen.",
+        "modal": {
+          "title-add": "Eine neue Rolle erstellen",
+          "title-edit": "Rolle bearbeiten"
+        }
+      },
+      "group-owner": "Besitzer der Gruppe",
+      "invite-sent": "Einladen gesendet"
+    },
+    "group": {
+      "title": "Immobiliengruppe"
+    },
+    "invoices": {
+      "title": "Rechnungen",
+      "tabs": {
+        "unpaid": "Unbezahlt",
+        "paid": "Bezahlt"
+      },
+      "headers": {
+        "beneficiary": "Begünstigter",
+        "invoice": "Rechnung #",
+        "produced": "Erstellt",
+        "period-from": "Zeitraum von",
+        "period-to": "Zeitraum bis",
+        "sum": "Summe",
+        "paid": "Bezahlt",
+        "download": "Herunterladen"
+      },
+      "heading": "Ihre Rechnungen",
+      "filter-tip": "Suche nach Begünstigtem/Rechnungsnummer",
+      "filter-by-invoice": "Zoek op factuur #",
+      "show-per-page": "Pro Seite anzeigen",
+      "sum-format": "%{currency} %{amount}",
+      "no-unpaid-invoices": "Keine unbezahlten Rechnungen",
+      "no-paid-invoices": "Keine bezahlten Rechnungen",
+      "format": "DD MMM YYYY"
+    },
+    "profile": {
+      "title": "Profil-Einstellungen",
+      "tabs": {
+        "personal-data": "Persönliche Daten",
+        "login-data": "Login-Daten",
+        "formats-language": "Formaten & Taal"
+      },
+      "first-name": "Vorname",
+      "last-name": "Nachname",
+      "phone-number": "Rufnummer",
+      "button-add-picture": "Profilbild hinzufügen",
+      "button-change-picture": "Profilbild ändern",
+      "alert-saved": "Erfolgreich gespeichert",
+      "email": "E-Mail Adresse",
+      "password": "Passwort",
+      "email-change-text": "Um die E-Mail zu ändern, klicken Sie bitte auf die untenstehende Schaltfläche:'E-Mail ändern'. Wir senden Ihnen dann eine E-Mail mit den nächsten Schritten.",
+      "password-change-text": "Um das Passwort zu ändern, klicken Sie bitte auf die untenstehende Schaltfläche:'Passwort ändern'. Wir senden Ihnen dann eine E-Mail mit den nächsten Schritten.",
+      "date-format": "Datum formaat",
+      "date-format-placeholder": "Eg: DD-MM-YYYY, DD.MM.YYYY, MM DD YYYY",
+      "number-format": "Nummer formaat",
+      "default-language": "Standaard Taal"
+    },
+    "dashboard": {
+      "title": "Instrumententafel",
+      "button-download": "PDF-Bericht herunterladen"
+    },
+    "contactpersons": {
+      "title": "Kontaktpersonen",
+      "heading": "Kontaktpersonen",
+      "button-add": "Neue Kontaktperson",
+      "no-contacts": "Noch keine Kontakte",
+      "headers": {
+        "position": "Position",
+        "salutation": "Anrede",
+        "language": "Sprache",
+        "surname": "Nachname",
+        "first-name": "Vorname",
+        "phone-number": "Telefon-Nummer",
+        "email-address": "E-Mail Adresse"
+      },
+      "modal": {
+        "title-add": "Neue Kontaktperson hinzufügen",
+        "title-edit": "Person bearbeiten",
+        "position": "Position",
+        "salutation": "Anrede",
+        "language": "Sprache",
+        "surname": "Nachname",
+        "first-name": "Vorname",
+        "phone-number": "Telefon-Nummer",
+        "email-address": "E-Mail Adresse"
+      }
+    },
+    "facilities": {
+      "title": "Einrichtungen",
+      "heading": "Top-Ausstattung",
+      "description": "Die Auflistung Ihrer Einrichtungen kann die Gäste wirklich zum Buchen bewegen! Sagen Sie ihnen, welche Sie haben, indem Sie auf die Checkboxen klicken.",
+      "button-revert-changes": "Änderungen rückgängig machen"
+    },
+    "description": {
+      "title": "Beschreibungen",
+      "heading": "Top-Beschreibungen",
+      "description": "Die Auflistung Ihrer Einrichtungen kann wirklich helfen, die Gäste zum Buchen zu bewegen! Sagen Sie ihnen, welche Sie haben, indem Sie auf die Checkboxen klicken.",
+      "fields": [
+        {
+          "name": "description_long",
+          "title": "Hotelbeschreibung - lange Version"
+        },
+        {
+          "name": "description_short",
+          "title": "Hotelbeschreibung - Kurzversion"
+        },
+        {
+          "name": "liability",
+          "title": "Hinweis zur Haftung"
+        },
+        {
+          "name": "location",
+          "title": "Standortbeschreibung"
+        },
+        {
+          "name": "directions",
+          "title": "Wegbeschreibung"
+        },
+        {
+          "name": "insider_tips",
+          "title": "Insider-Tipps"
+        }
+      ],
+      "long-version": "Hotelbeschreibung - Langversion",
+      "short-version": "Hotelbeschreibung - Kurzversion",
+      "liability-notice": "Haftungshinweis",
+      "location": "Standortbeschreibung",
+      "directions": "Wegbeschreibung",
+      "insider-tips": "Insider-Tipps"
+    },
+    "systems": {
+      "title": "Systeme",
+      "title-full": "Immobilienverwaltung / Kanalmanagement / Umsatzmanagement",
+      "title-sub": "Wir bieten sowohl voll integrierte Systeme als auch solche mit nicht direkter Anbindung an. Bei Systemen mit nicht direkter Anbindung müssen Sie sich mit der Hotelsoftware-Firma in Verbindung setzen, um die Software-Schnittstelle zu CultSwitch in der Hotelsoftware zu aktivieren.",
+      "filter-tip": "Suche nach Name",
+      "filter-none": "Keine Systeme mit diesem Filter",
+      "no-connected": "Kein angeschlossenes PMS",
+      "no-available": "Kein verfügbares PMS",
+      "headers": {
+        "name": "Name / URL",
+        "connection": "Verbindung",
+        "version": "Auswahl der Version",
+        "actions": "Aktionen"
+      },
+      "tabs": {
+        "connected-pms": "Verbunden",
+        "available-pms": "Verfügbar"
+      },
+      "choose-option": "Option wählen",
+      "connection-tooltip": "Nachdem Sie ausgewählt haben, welche Daten automatisch von der Hotelsoftware gesendet werden (z. B. Verfügbarkeit und Preise), können die Daten nicht mehr manuell in der CSI geändert werden. Alle Änderungen können direkt in der Hotelsoftware vorgenommen werden.",
+      "status": {
+        "active": "Aktiviert",
+        "inactive": "Deaktiviert",
+        "blocked": "Gesperrt"
+      },
+      "button-activate": "Aktivieren",
+      "button-deactivate": "Deaktiviert",
+      "modal": {
+        "title-update": "Software aktualisieren",
+        "title-activate": "Software freischalten",
+        "user": "Benutzer",
+        "password": "Passwort",
+        "software": "Software",
+        "software-placeholder": "Software auswählen"
+      },
+      "certificate": {
+        "availability": "Verfügbarkeit",
+        "availability-rates": "Verfügbarkeit + Preise",
+        "availability-rates-conditions": "Verfügbarkeit + Preise + Buchungsbedingungen"
+      }
+    },
+    "mealplans": {
+      "title": "Verpflegung",
+      "heading": "Ihre Mahlzeitenpläne",
+      "button-add": "Essensplan hinzufügen",
+      "no-meals": "Noch keine Essenspläne",
+      "alert-saved": "Erfolgreich gespeichert",
+      "alert-deleted": "Erfolgreich gelöscht",
+      "headers": {
+        "name": "Name",
+        "type": "Typ"
+      },
+      "modal": {
+        "title-add": "Neuer Essensplan",
+        "title-edit": "[{id}] {name}",
+        "section-meal-name": "Benennen Sie Ihren Mahlzeitenplan",
+        "section-meal-type": "Auswahl des Mahlzeitentyps",
+        "description": "Beschreibung",
+        "section-basic-rate": "Grundpreis",
+        "section-weekdays": "Wochentage",
+        "travel-opts": {
+          "days": "Wochentage"
+        },
+        "period-days" : ["maandag", "Dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"],
+        "unlimited-validity": "Unbegrenzte Gültigkeit"
+      }
+    },
+    "promotions": {
+      "title": "Werbeaktionen",
+      "heading": "Ihre Aktionen"
+    },
+    "contracts": {
+      "title": "Verträge",
+      "heading": "Ihre Verträge"
+    },
+    "hotels": {
+      "title": "Eigenschaften",
+      "heading": "Ihre Eigenschaften",
+      "heading-admin": "Alle Objekte",
+      "no-hotels": "Noch keine Eigenschaften",
+      "button-add": "Neue Eigenschaft hinzufügen",
+      "button-import": "Eigenschaften importieren",
+      "button-activate": "Aktivieren",
+      "button-deactivate": "Deaktivieren",
+      "filter-tip": "Suche nach Name/ID",
+      "filter-no-hotels": "Keine Eigenschaften, die diesem Filter entsprechen",
+      "status-activated": "Aktiviert",
+      "status-deactivated": "Deaktiviert",
+      "headers": {
+        "status": "Status",
+        "name": "Name",
+        "currency": "Währung",
+        "create-date": "Erstellungsdatum",
+        "create-date-format": "D MMM YYYY"
+      },
+      "modal": {
+        "title-add": "Neue Eigenschaft hinzufügen",
+        "title-edit": "[{id}] {name}",
+        "title-import": "Eigenschaften importieren",
+        "field-import": "Geben Sie Eigenschafts-IDs ein, getrennt durch Leerzeichen oder Komma. Nicht-Ziffern werden ignoriert.",
+        "found-ids": "Keine Eigenschaften gefunden | 1 Eigenschaft gefunden | {n} Eigenschaften gefunden",
+        "import-success": "1 Eigenschaft ist importiert worden | {n} Eigenschaften sind importiert worden",
+        "import-done": "Eigenschaft {id} wurde importiert"
+      }
+    },
+    "nearby": {
+      "title": "Was ist in der Nähe",
+      "transportation": "Transport",
+      "shopping-and-dining": "Einkaufen und Essen gehen",
+      "culture-and-history": "Kultur und Geschichte",
+      "next-airport": "Nächster Flughafen",
+      "next-train-station": "Nächster Bahnhof",
+      "next-mortorway-exit": "Nächste Autobahnausfahrt",
+      "public-transportation": "Öffentliche Verkehrsmittel",
+      "city-center": "Stadtzentrum",
+      "airport-code": "Flughafen-Code",
+      "next-train-station-code": "Bahnhofsvorwahl",
+      "motorway-code": "Autobahnvorwahl",
+      "city-center-code": "Code Stadtzentrum",
+      "distance": "Entfernung",
+      "units": "Einheiten",
+      "type": "Typ",
+      "button-revert-changes": "Änderungen rückgängig machen",
+      "bus-station": "Busbahnhof",
+      "ferry-station": "Fähre Station",
+      "metro-station": "U-Bahn-Station",
+      "trolley-station": "Trolley-Station"
+    },
+    "booking": {
+      "title": "Buchungsstatus",
+      "title-logs": "Hotel Status Geschichte",
+      "heading": "Ihr Objekt ist {mode} auf {all} Vertriebskanälen, einschließlich CultBooking.",
+      "tip-on": "Alle aktivierten Kanäle werden mit den Verfügbarkeiten und Preisen aktualisiert.",
+      "tip-off": "Die Kanäle werden nicht mit den Verfügbarkeiten und Preisen aktualisiert.",
+      "bookable": "BUCHBAR",
+      "unbookable": "NICHT BUCHBAR",
+      "all": "ALLE",
+      "on": "Ein",
+      "off": "Aus",
+      "headers": {
+        "username": "Benutzername",
+        "date": "Datum",
+        "date-format": "D MMM YYYY, HH:mm:ss",
+        "changed-to": "Status geändert in"
+      },
+      "no-logs": "Noch keine Historie",
+      "modal": {
+        "title": "Status ändern",
+        "button-on": "Ja, schalten Sie sie EIN",
+        "button-off": "Ja, schalten Sie sie AUS",
+        "question": "Sind Sie sicher, dass Sie {all} Vertriebskanäle (einschließlich CultBooking) auf {mode} setzen möchten?"
+      }
+    }
+  },
+  "auth": {
+    "expired": {
+      "title": "Sitzung abgelaufen",
+      "head": "Deine Sitzung ist abgelaufen",
+      "text": "Bitte neu laden und einloggen.",
+      "button": "Neu laden"
+    }
+  },
+  "tel-iso": "de",
+  "errors": {
+    "too-many-attempts": "{message} Nochmals versuchen {when}",
+    "tel": {
+      "0": "Ungültige Telefonnummer",
+      "1": "Ungültige Ländervorwahl",
+      "2": "Zu kurz",
+      "3": "Zu lang",
+      "4": "@:errors.tel.0",
+      "-99": "@:errors.tel.0"
+    }
+  },
+  "validation": {
+    "required": "Pflichtfeld",
+    "required_string": "Pflichtfeld",
+    "email": "Gültige E-Mail-Adresse eingeben",
+    "accepted": "Sie müssen dies akzeptieren",
+    "sameAs": "Stimmt nicht überein {target}",
+    "is_not": "Sollte nicht {other} sein",
+    "min": "Muss mindestens {length} Zeichen haben",
+    "max": "Darf nicht mehr als {length} Zeichen haben",
+    "confirmed": "Bestätigung stimmt nicht überein",
+    "between": "Zahl sollte {min}-{max} sein",
+    "numeric": "Dieses Feld sollte eine Zahl sein",
+    "minvalue": "Muss {min} oder mehr sein",
+    "maxvalue": "Muss {max} oder weniger sein",
+    "url": "Ungültige URL",
+    "date_format": "Ungültiges Datumsformat",
+    "password-uppercase-letters": "Das Passwort muss mindestens einen Großbuchstaben enthalten.",
+    "password-lowercase-letters": "Das Passwort muss mindestens einen Kleinbuchstaben enthalten",
+    "password-numbers": "Das Passwort muss mindestens eine Zahl enthalten",
+    "password-special-chars": "Das Passwort muss mindestens ein Sonderzeichen enthalten, z. B. ! @ # ?",
+    "password-no-spaces": "Das Passwort darf keine Leerzeichen enthalten",
+    "telValid": "Ungültiges Telefon"
+  },
+  "all": "Alle",
+  "error": "Fehler",
+  "plans": {
+    "freemium-plan": "Freemium-Plan"
+  },
+  "distance-units": {
+    "m": "Meter | Meter",
+    "km": "Kilometer | Kilometer",
+    "ft": "Fuß | Füße",
+    "mi": "Meile | Meilen"
+  },
+  "channel-update-types": [
+    "Preise und Verfügbarkeit",
+    "Nur Verfügbarkeit",
+    "Nur Preise",
+    "Keine Updates"
+  ],
+  "labels": {
+    "email": "E-Mail",
+    "password": "Passwort",
+    "currency": "Währung",
+    "confirm-password": "Bestätigen Sie das Passwort"
+  },
+  "components": {
+    "products-selector": {
+      "checkbox-toggle-all": "Alle auswählen/abwählen",
+      "rooms-selected": "1 Zimmertyp ausgewählt | {n} Zimmertypen ausgewählt",
+      "plans-selected": "1 Tarifplan ausgewählt | {n} Tarifpläne ausgewählt"
+    }
+  }
+}

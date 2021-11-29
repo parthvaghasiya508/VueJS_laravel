@@ -1,0 +1,418 @@
+.page-masterdata {
+  color: $semigray;
+  $tabs-border: #ccc;
+  $tabs-hover: #aaa;
+  $tabs-active: #484848;
+  $tabs-mobile-active: $primary;
+  $tabs-border-bottom: #edf4fc;
+  $rate-star-color: $primary;
+  $icon-color: #F7981C;
+
+  @include media-breakpoint-down(sm) {
+    background-color: $white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+
+  .spinner {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin-left: 15px;
+    text-align: left;
+    position: relative;
+    top: -1px;
+  }
+
+  .b-rating {
+    padding: 0 !important;
+  }
+
+  span.required {
+    color: $danger;
+    font-weight: bold;
+    padding-left: 2px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    // padding: 25px 30px 0;
+    background: $white;
+    // box-shadow: 0 0 8px rgba(0, 0, 0, 0.17);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+  }
+  .title p{
+    padding-left:3.5rem;
+    margin-bottom: 2rem;
+  }
+
+  /* Style the tabs */
+  .tabs {
+    display: flex;
+    overflow-x: auto;
+    margin-bottom: -2px;
+    ul {
+      list-style-type: none;
+      margin-left: 20px;
+    }
+    a {
+      float: left;
+      cursor: pointer;
+      padding: 10px 59px;
+      transition: background-color 0.2s;
+      border: 1px solid $tabs-border;
+      border-right: none;
+      background-color: $notes-background;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.17);
+      font-weight: bold;
+    }
+    a:first-child {
+      border-radius: 8.5px 0 0 0;
+    }
+    a:last-child {
+      border-right: 1px solid $tabs-border;
+      border-radius: 0 8.5px 0 0;
+    }
+    /* Change background color of tabs on hover */
+    a:hover {
+      background-color: $tabs-hover;
+      color: white;
+    }
+    /* Styling for active tab */
+    a.active {
+      background-color: white;
+      color: $tabs-active;
+      border-bottom: 2px solid white;
+      cursor: default;
+    }
+
+  }
+  /* Style the tab content */
+  .tab-content {
+    padding: 50px 58px;
+    border: 1px solid $tabs-border;
+    border-radius: 0 8.5px 8.5px 8.5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.17);
+    background: white;
+  }
+  .head-line {
+    line-height:40px;
+    font-size:14px;
+  }
+  .form-group {
+    margin-bottom: 2rem;
+  }
+  .capacity .form-group{
+    width:120px !important;
+  }
+
+  .image-selector-container {
+    width: 100%;
+    height: 140px;
+    margin-bottom: 30px;
+  }
+
+
+  .cell-qu-edit-fields {
+    display: flex;
+    align-items: center;
+    height:40px;
+  }
+  .cell-qu-edit-fields .radio-wrapper:first-of-type {
+    margin-right: 32px;
+  }
+  .radio-wrapper small{
+    font-size:12px;
+  }
+  .forMail {
+    font-size: 12px;
+  }
+  .input-padding-right {
+    padding-right: 15px;
+  }
+  .input-padding-left {
+    padding-left: 15px;
+  }
+  #currency {
+    padding: 0.375rem 1.125rem;
+  }
+
+  .opacity-50 {
+    opacity: 0.5;
+  }
+
+  .currency {
+
+    .icon-info {
+      color: $icon-color;
+    }
+
+    .modal-info {
+      display: flex;
+      padding: 20px;
+      margin-top: 20px;
+      border: 2px solid $icon-color;
+      background: rgba(255, 148, 141, 0.1);
+      border-radius: 5px;
+
+      p {
+        margin: 0;
+      }
+
+      .icon-info {
+        margin-right: 20px;
+      }
+
+      .close-info {
+        cursor: pointer;
+      }
+    }
+
+    & > div {
+      & > .icon-info {
+        cursor: pointer;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .geodata {
+    display: inline-block;
+    margin-left: 30px;
+  }
+  .cell-button {
+    display: flex;
+    align-items: center;
+    button {
+      height: 45px;
+      .save-spin {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+    }
+  }
+  .panel-content {
+    .list {
+      background: $white;
+      padding: 35px 55px;
+      border-radius: 10px;
+      &.left-edge {
+        overflow: hidden;
+        position: relative;
+        &:before {
+          content: '';
+          position: absolute;
+          left: 0; top: 0; bottom: 0;
+          width: 6px;
+          background-color: $primary;
+        }
+      }
+    }
+    .room-table{
+      th:first-child{
+        padding-left: 25px;
+        border-top-left-radius: 22.5px;
+      }
+      th:last-child {
+        border-top-right-radius: 22.5px;
+      }
+      th.w-id {
+        width: 208px;
+      }
+      th {
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: 600;
+        height: 45px;
+        padding: 14px 24px;
+        background-color: $notes-background;
+        vertical-align: top;
+      }
+      body:first-of-type tr.separator.before {
+        box-shadow: none;
+      }
+      tr.separator.before {
+        height: 12px;
+        box-shadow: 0 -1px 0 $panel-lines-light-color;
+      }
+      tr.separator.after {
+        height: 12px;
+      }
+      tr.separator {
+        vertical-align: top;
+      }
+      td:first-child {
+        padding-left: 28px;
+      }
+      td {
+        font-size: 14px;
+        padding: 0 24px;
+        line-height: 25px;
+      }
+      p{
+        margin: 0;
+        white-space: nowrap;
+      }
+
+    }
+    .add-certificate {
+      font-size: 15px;
+      background: $notes-background;
+      border: none;
+      margin: 13px 0 23px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 15px;
+      svg {
+        margin-right: 12px;
+      }
+    }
+  }
+  #rating-inline{
+    display: inline !important;
+    border: none;
+    color: $rate-star-color;
+  }
+  .panel-footer {
+    margin: 80px 40px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    padding-top: 25px !important;
+    box-shadow: none;
+    background-color: white !important;
+    .title p{
+      padding-left:0 !important;
+    }
+    .tabs {
+      margin: 0;
+      a {
+        padding: 5px 0;
+        width: 20%;
+        min-width: 120px;
+        font-size: 14px;
+        text-align: center;
+        border: none;
+        border-right: none;
+        background-color: white;
+        font-weight: bold;
+        border-bottom: 3px solid $tabs-border-bottom;
+        box-shadow: none;
+      }
+      a:first-child {
+        border-radius: 0 0 0 0;
+      }
+      a:last-child {
+        border-right: none;
+        border-radius: 0 0 0 0;
+      }
+      a:hover {
+        background-color: $tabs-hover;
+        color: white;
+      }
+      a.active {
+        background-color: white;
+        color: $tabs-mobile-active;
+        border-bottom: 3px solid $tabs-mobile-active;
+      }
+    }
+
+    /* Style the tab content */
+    .tab-content {
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+      background: white;
+    }
+    .capacity .form-group{
+      width: 100% !important;
+    }
+    .form-group {
+      margin-bottom: 1rem;
+    }
+    .input-padding-right {
+      padding-right: 15px;
+    }
+    .input-padding-left {
+        padding-left: 15px;
+    }
+    .cell-qu-edit-fields {
+      display: flex;
+      justify-content: left;
+      margin: 0 0 11px 0 !important;
+
+    }
+    .forMail {
+      font-size: 13px;
+    }
+    .geodata {
+      margin: 0;
+    }
+    .geodata:first-of-type {
+      padding-right: 10px;
+      padding-bottom: 20px;
+    }
+    .geodata:nth-child(2) {
+      padding-left: 10px;
+      padding-bottom: 20px;
+    }
+    .pos-container {
+      display: table;
+    }
+    .pos-container label {
+      display: table-footer-group;
+    }
+    .cell-button {
+      margin-top: 30px;
+      padding: 0 !important;
+      .save-spin {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+    }
+    .dots {
+      color: $dropdown-icon-color;
+      flex: 0 0 100%;
+      text-align: right;
+    }
+    .dots-wrap {
+      margin: 20px 0;
+    }
+    .tb-title {
+      font-weight: 600;
+      color: $semigray;
+      font-size: 14px;
+      p{
+        margin:0;
+      }
+    }
+    .tb-content {
+      text-align: right;
+      font-size: 12px;
+      color: $semigray;
+      font-weight: normal;
+      p{
+        margin:0;
+      }
+    }
+    .tr-wrap {
+      border-bottom: 1px solid $panel-lines-light-color;
+      height: 45px;
+    }
+    .panel-footer {
+      margin: 0 30px 40px 30px;
+    }
+    .container[data-v-e0276e34] {
+      margin: 40px 9px -20px 0;
+    }
+    .add-certificate {
+      justify-content: center;
+    }
+    .add-certificate-sm {
+      margin-top: 30px;
+    }
+  }
+}

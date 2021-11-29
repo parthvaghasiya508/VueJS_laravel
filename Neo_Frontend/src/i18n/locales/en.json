@@ -1,0 +1,1740 @@
+{
+  "yes": "Yes",
+  "no": "No",
+  "id": "ID",
+  "all": "All",
+  "error": "Error",
+  "actions": "Actions",
+  "feedback": "Feedback",
+  "feedback-form": {
+    "title": "Feedback Form",
+    "button": "Submit",
+    "message": "Thank you for your inquiry (#%s)! We'll contact you as soon as possible."
+  },
+  "langs": {
+    "en": "English",
+    "de": "German",
+    "ru": "Russian",
+    "tr": "Turkish",
+    "zh": "Chinese",
+    "pt": "Portuguese",
+    "it": "Italian",
+    "es": "Spanish",
+    "fr": "French",
+    "pl": "Polish",
+    "nl": "Dutch",
+    "ro": "Romanian",
+    "sl": "Slovenian",
+    "ar": "Arabic"
+  },
+  "links": {
+    "home": "Home",
+    "benefits": "Benefits",
+    "highlights": "Highlights",
+    "devconnect": "Developers connect",
+    "price": "Price"
+  },
+  "plans": {
+    "freemium-plan": "Freemium plan"
+  },
+  "menu": {
+    "products": "Products",
+    "property": "Property",
+    "connectivity": "Connectivity",
+    "system-health": "System Health",
+    "systemhealth": "System Health",
+    "administration": "Administration",
+    "contract-t&c": "Contract / T&C",
+    "gdpr": "GDPR",
+    "data-protection-agreement": "Data protection agreement",
+    "billing": "Billing",
+    "billing-address": "Billing address",
+    "invoice-archive": "Invoice archive",
+    "payment": "Payment",
+    "management": "Management",
+    "invoices": "Invoice archive",
+    "profile": "Profile",
+    "logout": "Log out",
+    "legal": "Legal",
+    "users": "Users & Access",
+    "admin": "Administration",
+    "other": "Other",
+    "payments": "Payment Method"
+  },
+  "date": {
+    "from": "From",
+    "from-placeholder": "Start date",
+    "price": "Price",
+    "until": "Until",
+    "until-placeholder": "End date",
+    "unlim": "Unlimited",
+    "customize-validity": "Customize validity",
+    "validity-period": "Validity period",
+    "validity-periods": "Validity periods",
+    "blockout-periods": "Blockout periods",
+    "button-add-blockout": "Add blockout period",
+    "button-add-validity": "Add validity period",
+    "price-periods": "Price periods",
+    "button-add-price-period": "Add price period"
+  },
+  "datepicker": {
+    "value-format": "DD MMM YYYY",
+    "title-format": "MMMM YYYY",
+    "no-value": "No date selected",
+    "today": "Today"
+  },
+  "distance-units": {
+    "m": "Meter | Meters",
+    "km": "Kilometer | Kilometers",
+    "ft": "Foot | Feet",
+    "mi": "Mile | Miles"
+  },
+  "buttons": {
+    "add-more": "Add more",
+    "add-new": "Add new",
+    "close": "Close",
+    "cancel": "Cancel",
+    "save": "Save",
+    "update": "Update",
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "remove": "Remove",
+    "duplicate": "Duplicate",
+    "get-started": "Get Started",
+    "back": "Back",
+    "continue": "Continue",
+    "finish": "Finish",
+    "copy": "Copy",
+    "edit-langs": "Edit Languages",
+    "change-email": "Change Email",
+    "change-password": "Change Password",
+    "revert":"Revert changes",
+    "manage-plans": "Manage plans",
+    "import": "Import"
+  },
+  "addr": {
+    "street": "Street, No.",
+    "zip": "Postal Code",
+    "city": "City",
+    "state": "Federal State",
+    "country": "Country",
+    "state-or-province": "State or Province",
+    "first-name": "First name",
+    "last-name": "Last name",
+    "hotel-name": "Property name",
+    "property-or-hotel-name": "Property or hotel name",
+    "phone": "Phone",
+    "property-phone": "Property phone",
+    "property-email": "Property email"
+  },
+  "restrictions": {
+    "minlos": "MinLoS",
+    "minlos-tip": "A guest staying on this night must book for at least X nights in total.",
+    "maxlos": "MaxLoS",
+    "maxlos-tip": "A guest staying on this night can book for X nights at most.",
+    "csale": "Closed for sale",
+    "csale-tip": "Stopping the sales, room will be unavailable.",
+    "carr": "Closed to arrival",
+    "carr-tip": "Guests can stay through this date, but they can not check-in.",
+    "cdep": "Closed to departure",
+    "cdep-tip": "Guests can stay through this date, but they can not check-out."
+  },
+  "bgarant": "Booking guarantee",
+  "bgarants": {
+    "1": {
+      "text": "None",
+      "title": "No warranty",
+      "desc": "No credit card is needed to complete reservation and confirm the transaction."
+    },
+    "3": {
+      "text": "CC/DC/Voucher",
+      "title": "Credit Card",
+      "desc": "Credit card is requested to complete reservation and confirm the transaction. Advanced payment may be needed."
+    }
+  },
+  "channel-update-types": [
+    "Rates and Availability",
+    "Availability only",
+    "Rates only",
+    "No updates"
+  ],
+  "guests-prices": {
+    "price": "Price | Today price",
+    "guests": "Number of guests",
+    "min": "(min price)",
+    "max": "(max price)"
+  },
+  "labels": {
+    "email": "Email",
+    "password": "Password",
+    "currency": "Currency",
+    "confirm-password": "Confirm Password"
+  },
+  "placeholder": {
+    "email": "name@company.com",
+    "password": "Password",
+    "filter-hotel": "Property ID or name"
+  },
+  "login": {
+    "title": "Welcome",
+    "heading": "Welcome back",
+    "tip": "Please enter your email and password to log in your account",
+    "button-login": "Log In",
+    "remember-me": "Remember me",
+    "link-reset-password": "Forgot your password?",
+    "login": "Already have an account? {login}",
+    "agents-login": "Logging you in...",
+    "agents-login-disabled": "Signing in is disabled"
+  },
+  "forgot-pwd": {
+    "title": "Forgot Password",
+    "heading": "Forgot your password?",
+    "tip": "Please enter your email and we will send you the instructions",
+    "button-send": "Send me instructions",
+    "sent-heading": "Instructions sent!",
+    "sent-to": "Instructions for resetting your password have been sent to",
+    "sent-tip": "You will receive this email within 5 minutes. Be sure to check your spam folder too."
+  },
+  "change-pwd": {
+    "title": "Change Password",
+    "sent-heading": "Email sent!",
+    "sent-to": "Instructions for resetting your password have been sent to",
+    "sent-tip": "You will receive this email within 5 minutes. Be sure to check your spam folder too."
+  },
+  "reset-pwd": {
+    "title": "Reset Password",
+    "heading": "Reset your password",
+    "tip": "Please enter and confirm new password",
+    "password-new": "New password",
+    "password-confirm": "Confirm new password",
+    "button-reset": "Reset password",
+    "button-try-again": "Try again"
+  },
+  "change-email": {
+    "title": "Change Email",
+    "heading": "Change your email",
+    "tip": "Please enter and confirm new email",
+    "email-new": "New email",
+    "email-confirm": "Confirm new email",
+    "button-change": "Change email",
+    "button-try-again": "Try again",
+    "sent-heading": "Email sent!",
+    "sent-to": "Instructions for changing your email have been sent to",
+    "sent-tip": "You will receive this email within 5 minutes. Be sure to check your spam folder too."
+  },
+  "signup": {
+    "title": "Sign Up",
+    "agreement": "By signing up, you confirm that you agree with our {tos} and {privacy}.",
+    "link-tos": "Terms of Service",
+    "link-privacy": "Privacy Policy",
+    "signup": "Don’t have an account? {signup}",
+    "button-signup": "Sign Up",
+    "steps": {
+      "0": {
+        "tip": "Please enter your email to sign up",
+        "button": "@:buttons.continue"
+      },
+      "1": {
+        "tip": "Please enter your password to sign up",
+        "button": "@:signup.button-signup"
+      }
+    },
+    "verify": {
+      "title": "Verification",
+      "heading": "Please check your email",
+      "tip": "You are just one step away to get started in CultBooking. Please, check your email to finish signing up. We sent a signup link to you at:",
+      "email-resent": "A fresh verification link has been sent to your email address.",
+      "resend": "Didn’t get the signup link? {resend}.",
+      "button-resend": "Resend it"
+    },
+    "perms": {
+      "title": "No permissions",
+      "hint": "You don't have any permission yet. Ask your manager to solve that issue.",
+      "button": "Reload page"
+    }
+  },
+  "details": {
+    "property-register-later": "I don't have a property, or want to register it later",
+    "property-register-now": "I have a property and want to register it now",
+    "steps": {
+      "0": {
+        "title": "Your details",
+        "tip": "Please enter your full name and phone",
+        "button": "@:buttons.continue"
+      },
+      "1": {
+        "title": "Property details",
+        "tip": "Please enter property or hotel name and contact details",
+        "button": "Enter CultBooking",
+        "button-skip": "Skip this step"
+      }
+    }
+  },
+  "setup": {
+    "title": "Setup | Setup - Step {n} | Setup - Step {n}",
+    "page-title": "Setup Wizard",
+    "steps": {
+      "0": {
+        "greeting": "Hi, {name}!",
+        "heading": "Welcome to CultBooking setup wizard",
+        "tip": "Our setup assistant will guide you through the entire process."
+      },
+      "1": {
+        "title": "Basic info",
+        "greeting": "Welcome, {hotel}!",
+        "tip": "Start by telling us your property’s name and contacts.",
+        "section-hotel": "What is the name of your property?",
+        "section-contacts": "What are contact details for your property?",
+        "section-currency": "What is your currency?",
+        "currency-tip": "That could be your local currency or some foreign currency."
+      },
+      "2": {
+        "tip": "Tell us about your property’s room types"
+      },
+      "4": {
+        "tip": "Tell us about your property’s rate plans"
+      },
+      "5": {
+        "title": "Get link",
+        "heading": "Generate URL link",
+        "tip": "Share this link to accept direct booking with online payment: Credit Card, PayPal & more.",
+        "engine-url": "Your booking engine URL:",
+        "link-visit-engine": "Visit your booking engine website",
+        "msg-copied": "Copied",
+        "learn-more": "Interesting in learning more?",
+        "links": [
+          "Install booking engine to Facebook page",
+          "How to create a free homestay website using blogspot?",
+          "Get us to build you a professional website for free (qualified hotels only)"
+        ]
+      }
+    }
+  },
+  "join": {
+    "title": "You've got access to a new Hotel.",
+    "error": {
+      "content": "There is an error. Please log in and go to the hotel list on the upper right corner and choose your Hotel."
+    }
+  },
+  "maintenance": {
+    "title": "We are down for maintenance.",
+    "subtitle": "Be right back soon!"
+  },
+  "months-sort": [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "June",
+    "July",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "group-config": {
+    "title": "Customization",
+    "keys": {
+      "hide-login-footer-links": "Hide login footer links"
+    }
+  },
+  "pages": {
+    "invoices": {
+      "title": "Invoices",
+      "tabs": {
+        "unpaid": "Unpaid",
+        "paid": "Paid"
+      },
+      "headers": {
+        "beneficiary": "Beneficiary",
+        "invoice": "Invoice #",
+        "produced": "Produced",
+        "period-from": "Period from",
+        "period-to": "Period to",
+        "sum": "Sum",
+        "paid": "Paid",
+        "download": "Download"
+      },
+      "heading": "Your Invoices",
+      "filter-tip": "Search by Beneficiary/Invoice #",
+      "filter-by-invoice": "Search by Invoice #",
+      "show-per-page": "Show per page",
+      "sum-format": "%{currency} %{amount}",
+      "no-unpaid-invoices": "No unpaid invoices",
+      "no-paid-invoices": "No paid invoices",
+      "format": "DD MMM YYYY"
+    },
+    "profile": {
+      "title": "Profile Settings",
+      "tabs": {
+        "personal-data": "Personal Data",
+        "login-data": "Login Data",
+        "formats-language-data": "Formats & Language"
+      },
+      "first-name": "First name",
+      "last-name": "Last name",
+      "phone-number": "Phone number",
+      "button-add-picture": "Add profile picture",
+      "button-change-picture": "Change profile picture",
+      "alert-saved": "Successfully saved",
+      "email": "Email address",
+      "password": "Password",
+      "email-change-text": "To change the email please click on the below button:'Change email'. We will send an email with next steps.",
+      "password-change-text": "To change the password please click on the below button:'Change password'. We will send an email with next steps.",
+      "date-format": "Date format",
+      "date-format-placeholder": "Eg: DD-MM-YYYY, DD.MM.YYYY, MM DD YYYY",
+      "number-format": "Number format",
+      "default-language": "Default Language"
+    },
+    "legal": {
+      "title": "Legal",
+      "title-main": "CultBooking Legal Pages",
+      "pages": [
+        { "id": 6, "slug": "legal-notice", "title": "Legal Notice" },
+        { "id": 4, "slug": "terms-and-conditions", "title": "Terms & Conditions" },
+        { "id": 11, "slug": "privacy-policy", "title": "Privacy Policy" },
+        { "id": 9, "slug": "data-processing-agreement", "title": "Data Processing Agreement" },
+        { "id": 10, "slug": "data-processors", "title": "Data Processors" }
+      ],
+      "button-download-pdf": "Download PDF"
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "button-download": "Download PDF report",
+      "button-settings": "Settings",
+      "charts": {
+        "pie": {
+          "direct": "Direct",
+          "indirect": "Indirect"
+        },
+        "dough": {
+          "title": "Direct/Indirect"
+        }
+      },
+      "groups": {
+        "book": {
+          "title": "On the books"
+        },
+        "channel": {
+          "title": "Channel"
+        },
+        "ibe": {
+          "title": "IBE",
+          "conversion-rate": "Conversion Rate : {n} %"
+        },
+        "kpi": {
+          "title": "KPI's"
+        },
+        "term": {
+          "title": "Long Term"
+        }
+      },
+      "setting": {
+        "title": "Dashboard settings",
+        "activate": "activate all",
+        "deactivate": "deactivate all",
+        "btn_save": "Save",
+        "btn_cancel": "Cancel"
+      },
+      "time-period": {
+        "label": "Time period",
+        "types": {
+          "D-1": "Yesterday",
+          "D-1_D-7": "Last 7 days",
+          "D-1_D-30": "Last 30 days",
+          "D-1_D-90": "Last 90 days",
+          "D-1_D-365": "Last 365 days",
+          "W-1": "Last week (starts Monday)",
+          "YTD-1": "Year-to-date",
+          "YTD-1_LY": "YTD Last year",
+          "M-1": "Last month",
+          "Y-1": "Last year"
+        }
+      },
+      "booking-volume-table": {
+        "title": "Booking",
+        "labels": {
+          "channel": "Channel",
+          "gross-bookings": "Gross Bookings",
+          "cancellations": "Cancellations",
+          "net-bookings": "Net Bookings",
+          "net-bookings-p": "%"
+        }
+      },
+      "booking-table": {
+        "title": "Booking Value",
+        "labels": {
+          "channel": "Channel",
+          "gross-bookings-volume": "Gross Bookings Value",
+          "cancellations-volume": "Cancellations Value",
+          "net-bookings-volume": "Net Bookings Value (NBV)",
+          "net-bookings-volume-p": "%",
+          "no-data": "No data for this period"
+        }
+      },
+      "books-group-data": {
+        "labels": {
+          "gross-bookings": "Gross Booking Value",
+          "cancellations": "Cancellations",
+          "net-bookings": "Net Booking Value",
+          "gross-bookings-roomnights": "Sold Roomnights Gross",
+          "net-bookings-roomnights": "Sold Roomnights Net",
+          "cancellations-bookings": "Cancellation Value",
+          "k-euro": "(k EUR)"
+        }
+      }
+    },
+    "reservations": {
+      "title": "Reservations",
+      "search-for": "Search for",
+      "search-for-options": {
+        "stay-period": "Stay period",
+        "check-in": "Check in",
+        "check-out": "Check out",
+        "booking-period": "Booking Period"
+      },
+      "formats": {
+        "check-date": "D MMM YYYY",
+        "check-time": "HH:mm:ss [GMT]"
+      },
+      "button-show": "Show",
+      "button-filters": "Filters",
+      "button-excel-download": "Excel Download",
+      "button-cancel": "Cancel",
+      "button-reply": "Reply",
+      "button-details": "View details",
+      "no-bookings": "There are no bookings for specified period, please select another stay period",
+      "headers": {
+        "guest": "Guest",
+        "qty": "Qty",
+        "room": "Room",
+        "checkin": "Check-in",
+        "checkout": "Check-out",
+        "status": "Status",
+        "rateplan": "Rate plan",
+        "totalprice": "Total price",
+        "creditcard": "Credit card",
+        "bookingdate": "Booking date",
+        "notes": "Notes",
+        "channel": "Channel",
+        "bookingid": "Booking ID"
+      },
+      "nights": "1 night | {n} nights",
+      "guests": "1 guest | {n} guests",
+      "guests-amt": {
+        "adults": "1 adult | {n} adults",
+        "children": "1 child | {n} children",
+        "both": "{adults} and {children}"
+      },
+      "total": "Total: {n}",
+      "per-night": "{n} / night",
+      "status": {
+        "14": "OK",
+        "15": "Cancelled",
+        "16": "OK",
+        "18": "No-show",
+        "cancel": "Cancel",
+        "noshow": "No-show"
+      },
+      "cancel-modal": {
+        "title-cancel": "Cancel reservation",
+        "title-noshow": "Mark as No-show",
+        "text-cancel": "Please note that the cancelled status applies for the entire booking.",
+        "text-noshow": "Please note that the No-show status applies for the entire booking.",
+        "text-warning": "You will not be able to revert this change.",
+        "confirm-cancel": "Do you really want to cancel booking ID {id}?",
+        "confirm-noshow": "Do you really want to mark booking ID {id} as No-show?",
+        "reason": "Reason"
+      },
+      "person-modal": {
+        "title": "Customer data for booking number {id}",
+        "no-data": "No data",
+        "no-remarks": "No remarks",
+        "booker-address": "Address (Booker)",
+        "guest-address": "Address (Guest)",
+        "guest-remarks": "Guest Remarks",
+        "room-remarks": "Room Remarks",
+        "channel-remarks": "Channel Remarks"
+      },
+      "credit-card-details-modal": {
+        "title": "Credit card details"
+      }
+    },
+    "calendar": {
+      "title": "Calendar",
+      "rooms": "No rooms | 1 room | {n} rooms",
+      "rooms-all": "All rooms",
+      "restrictions": "No restrictions | 1 restriction | {n} restrictions",
+      "restrictions-all": "All restrictions",
+      "button-search": "Set Period",
+      "button-quick-update": "Quick update",
+      "scroller-date-format": "MMM YYYY",
+      "room-id": "Room ID {id}",
+      "room-status": "Room Status",
+      "room-avail": "Availability",
+      "room-price": "Price",
+      "update-modal": {
+        "title": "Quick update",
+        "select-range-and-days": "Select range and week days",
+        "date-range": "Date range",
+        "days": "Days",
+        "days-all": "All",
+        "select-rooms": "Select rooms",
+        "what-to-edit": "Choose what to edit",
+        "avail": "Availability",
+        "avail-tip": "Update the number of room(s) to sell",
+        "price": "Price",
+        "price-tip": "{currency} daily price",
+        "status": "Status",
+        "status-open": "Open for sale",
+        "status-closed": "Closed for sale",
+        "change-more": "More restrictions to change",
+        "nights": "Nights"
+      }
+    },
+    "masterdata": {
+      "title": "Master Data",
+      "tabs": {
+        "property": "Property",
+        "address": "Address",
+        "ids": "IDs",
+        "certs": "Certificates",
+        "nearby": "What's nearby"
+      },
+      "certs": {
+        "name": "Name",
+        "upload-date": "Upload date",
+        "stars": "Stars",
+        "issued-by": "Issued by"
+      },
+      "button-add-certificate": "Add certificate",
+      "property-name": "Property name",
+      "property-type": "Property type",
+      "property-tel": "Property telephone number",
+      "property-tel-ntl": "National format",
+      "property-tel-intl": "International format",
+      "capacity": "Capacity",
+      "capacity-rooms": "Rooms",
+      "capacity-beds": "Beds",
+      "primary-email": "Primary email address",
+      "primary-email-tip": "For reservations, modifications, cancellations.",
+      "alt-email": "Alternative email address",
+      "alt-email-tip": "For management",
+      "website": "Website",
+      "choose-currency": "Choose currency",
+      "currency-text": "To change currency, you must first unmap and deactivate all the channels. To do so, go to the Connectivity / Channels. This is security restriction.",
+      "choose-group": "Choose group",
+      "geodata": "GeoData",
+      "geodata-tip": "To generate geodata please visit",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "button-show-location": "Show Location",
+      "button-add-logo": "Add logo image",
+      "button-change-logo": "Change logo image",
+      "alert-saved": "Successfully saved"
+    },
+    "contactpersons": {
+      "title": "Contact Persons",
+      "heading": "Contact Persons",
+      "button-add": "New Contact Person",
+      "no-contacts": "No contacts yet",
+      "headers": {
+        "position": "Position",
+        "salutation": "Salutation",
+        "language": "Lang.",
+        "surname": "Surname",
+        "first-name": "First Name",
+        "phone-number": "Phone Number",
+        "email-address": "Email Address"
+      },
+      "modal": {
+        "title-add": "Add a new contact person",
+        "title-edit": "Edit a person",
+        "position": "Position",
+        "salutation": "Salutation",
+        "language": "Language",
+        "surname": "Surname",
+        "first-name": "First name",
+        "phone-number": "Phone number",
+        "email-address": "Email address"
+      }
+    },
+    "facilities": {
+      "title": "Facilities",
+      "heading": "Top Facilities",
+      "description": "Listing your facilities can really help influence guests to book! Tell them which you have by clicking on checkboxes.",
+      "button-revert-changes": "Revert changes"
+    },
+    "description": {
+      "title": "Descriptions",
+      "heading": "Top Descriptions",
+      "description": "Listing your facilities can really help influence guests to book! Tell them which you have by clicking on checkboxes.",
+      "fields": [
+        { "name": "description_long", "title": "Hotel Description - Long version"},
+        { "name": "description_short", "title": "Hotel Description - Short version"},
+        { "name": "liability", "title": "Liability notice"},
+        { "name": "location", "title": "Location Description"},
+        { "name": "directions", "title": "Directions"},
+        { "name": "insider_tips", "title": "Insider Tips"}
+      ],
+      "long-version": "Hotel Description - Long version",
+      "short-version": "Hotel Description - Short version",
+      "liability-notice": "Liability notice",
+      "location": "Location Description",
+      "directions": "Directions",
+      "insider-tips": "Insider Tips"
+    },
+    "channels": {
+      "title": "Channels",
+      "title-mappings": "Channel Mapping / {name}",
+      "title-activate": "Activate {name} Channel",
+      "title-update": "Update {name} Channel",
+      "heading": "Channels activation and mapping",
+      "filter-tip": "Search by name/ID",
+      "filter-none": "No channels matching this filter",
+      "headers": {
+        "name-url": "Name / URL",
+        "name": "Name",
+        "mapping": "Mapping",
+        "ids": "Property IDs",
+        "status": "Status"
+      },
+      "tabs": {
+        "urls": "URLs",
+        "available": "Available",
+        "connected": "Connected",
+        "promos": "Promotions",
+        "contracts": "Contracts",
+        "settings": "Settings",
+        "communication": "Communication",
+        "product": "Product"
+      },
+      "no-available": "No more available channels to connect",
+      "no-connected": "No connected channels yet",
+      "connected-all": "All connected",
+      "connected-some": "{count}/{total} connected",
+      "connected-none": "Connect",
+      "button-activate": "Activate",
+      "button-deactivate": "Deactivate",
+      "button-block": "Block",
+      "status": {
+        "active": "Activated",
+        "inactive": "Deactivated",
+        "blocked": "Blocked"
+      },
+      "urls": {
+        "main-link": "Link to your main property:",
+        "custom-link": "Custom link to selected Room Types and/or Rate Plans:",
+        "custom-link-tip": "To generate a custom link, select one or more Room Types and/or Rate Plans.",
+        "open-in-new-tab": "Open in new tab",
+        "no-mapped-products": "No mapped products yet"
+      },
+      "promo": {
+        "search": "Search",
+        "all-promos": "Include overdue",
+        "button-add-promo": "Add New Promotion",
+        "button-add-contract": "Add New Contract",
+        "headers": {
+          "promo": "Promotion name and code",
+          "contract": "Contract name and code",
+          "discount": "Discount",
+          "plans": "Room Types and Rate Plans",
+          "validity": "Validity"
+        },
+        "modal": {
+          "title-add-promo": "New Promotion",
+          "title-add-contract": "New Contract",
+          "title-edit-promo": "Edit Promotion: {code}",
+          "title-view-promo": "View Promotion: {code}",
+          "title-edit-contract": "Edit Contract: {code}",
+          "title-view-contract": "View Contract: {code}",
+          "field-name-promo": "Promotion Name",
+          "field-name-contract": "Contract Name",
+          "field-code-promo": "Promotion Code",
+          "field-code-contract": "Contract Code",
+          "field-name-placeholder-promo": "Select a name for your promotion, e.g.: Promo 2021",
+          "field-name-placeholder-contract": "Select a name for your contract, e.g.: Contract 2021",
+          "field-code-placeholder-promo": "Select a code for your promo, e.g.: PROMO2021",
+          "field-code-placeholder-contract": "Select a code for your contract, e.g.: CONTRACT2021",
+          "field-discount": "Discount",
+          "field-plans": "Rate Plans",
+          "field-validity": "Validity Period"
+        },
+        "no-codes-promo": "No promotions yet",
+        "no-codes-contract": "No contracts yet",
+        "filter-no-codes-promo": "No promotions matching this filter",
+        "filter-no-codes-contract": "No contracts matching this filter"
+      },
+      "map-modal": {
+        "title": "Channel Mapping",
+        "checkbox-toggle-all": "Select/Deselect All",
+        "nothing-to-connect": "Nothing to connect yet"
+      },
+      "connect": {
+        "period": "Period",
+        "property-data": "Property Data",
+        "transmission-period": "Transmission period",
+        "transmission-end-date": "Transmission end date",
+        "transmission-format": "D MMM YYYY",
+        "time-units": {
+          "d": "Day | Days",
+          "w": "Week | Weeks",
+          "m": "Month | Months",
+          "y": "Year | Years"
+        },
+        "time-units-values": {
+          "d": "1 day | {n} days",
+          "w": "1 week | {n} weeks",
+          "m": "1 month | {n} months",
+          "y": "1 year | {n} years"
+        },
+        "btn-change-settings": "Change Settings",
+        "btn-update-rateplans": "Update RatePlans",
+        "btn-connect": "Connect",
+        "btn-disconnect": "Disconnect",
+        "tab-pending": "Pending",
+        "tab-connected": "Connected",
+        "tab-mapping": "Mapping",
+        "my-rate-plans": "My rate plans",
+        "no-pending": "No pending plans",
+        "no-connected": "No connected plans",
+        "no-plans": "No plans",
+        "selected-connections-count": "1 connection selected | {n} connections selected",
+        "selected-changes-count": "1 change | {n} changes",
+        "mapped-room": "Room",
+        "mapped-plan": "Plan",
+        "error-invalid-property-data": "Failed to load channel rate plans. Check whether Property Data is valid.",
+        "alert-connected": "Successfully connected",
+        "alert-disconnected": "Successfully disconnected",
+        "alert-updated": "Successfully updated",
+        "alert-activated": "Channel activated"
+      },
+      "settings": {
+        "color-customization": {
+          "title": "Color Customization",
+          "light-mode": "Light mode",
+          "advanced-mode": "Advanced mode",
+          "backgrounds": "Backgrounds",
+          "fonts": "Fonts",
+          "buttons": "Buttons",
+          "input-fields": "Input fields",
+          "main-background": "Main background",
+          "header-background": "Header, footer and pictures number background",
+          "product-background": "Room type and products background colors",
+          "top-color": "Top color",
+          "bottom-color": "Bottom color",
+          "background-color": "Background color",
+          "font-color": "Font color",
+          "error-color": "Error color",
+          "font-style": "Font style",
+          "success-color": "Success color",
+          "search": "Search",
+          "normal-state": "Background normal state",
+          "mouse-over": "Background mouse over",
+          "other-buttons": "Book now, book now with obligation to pay & book another room",
+          "background-normal": "Background normal state",
+          "background-mouse": "Background mouse over",
+          "language-selection": "Language selection",
+          "check-color": "Check in / Check out, promo code, pictures number & address",
+          "date-color": "Check in / Check out dates (ex: 18 aug 2019)",
+          "product-name": "Room type, rate details, cancellation policy",
+          "meals": "Meals",
+          "color-included": "Font & Icon color included",
+          "color-excluded": "Font & Icon color excluded",
+          "booking-summary": "Booking summary & Few clicks away from booking this room",
+          "product-note": "Persons, price per room/right, rooms and texts of: room type, rate details, cancellation policy",
+          "product-amount": "Product price and total price",
+          "include-sections": "It includes also sections:<br>booking summary, you are<br>just few click away and credit<br>card details on second page<br>and booking completed<br>successfully 3rd page",
+          "travel-period": "It includes also sections:<br>travel period, your selection,<br>your details, company and<br>guest details, special<br>requests, credit card details<br>on second page and booking<br>completed on third page",
+          "same-change": "Will be same as change your<br>selection, terms & conditions<br>and privacy policy (GDPR) on<br>2nd page",
+          "background-type": {
+            "flat": "Flat",
+            "gradient": "Gradient"
+          }
+        },
+        "language": "Language",
+        "default-language": "Default Language",
+        "supported-languages": "Supported Languages",
+        "additional-features" : {
+          "title": "Additional features",
+          "features": {
+            "promo_code_show": "Promo Code",
+            "address_street": "Street, No.",
+            "smart_calendar": "Smart Calendar",
+            "hotel_logo_show": "Hotel Logo",
+            "address_zip": "Post code",
+            "mandatory_phone": "Mandatory phone",
+            "cvc_input_show": "CVC field",
+            "address_show": "Footer address",
+            "address_city": "City",
+            "calendar_prices": "Prices",
+            "language_block_show": "Language",
+            "address_country": "Country",
+            "currency_block": "Currency",
+            "powered_by": "Powered By CB",
+            "show_on_map": "Show on Map Button",
+            "reservation_email_to_property": "Reservation email to property"
+          }
+        },
+        "btn-done": "Done",
+        "btn-cancel": "Cancel",
+        "btn-reset": "Reset",
+        "btn-save": "Save",
+        "btn-preview": "Preview",
+        "btn-edit": "Edit",
+        "normal": "Normal State",
+        "mouse": "Mouse Over",
+        "text": "Text",
+        "main": "Main",
+        "search": "Search",
+        "legal-notice": "LEGAL NOTICE",
+        "privacy-policy": "PRIVACY POLICY",
+        "telephone": "Telephone",
+        "email": "E-mail",
+        "show-map": "Show on map",
+        "powered-by": "Powered by",
+        "rooms": "Rooms",
+        "adults": "Adults",
+        "persons": "Persons",
+        "max-persons": "max 3 Persons",
+        "price-per-room": "Price Per Room/Night",
+        "rate-details": "Rate details",
+        "cancellation-policy": "Cancellation policy",
+        "full-included": "Full Board Included",
+        "promo-code": "Have a promo code?",
+        "pictures": "PICTURES"
+      },
+      "communication": {
+        "date-format": "ddd, D MMM YYYY",
+        "guest-email": "Guest email",
+        "logo-area": "Logo area",
+        "logo-size": "(100x100 px)",
+        "dear": "Dear",
+        "introduction-placeholder": "Type or paste your message here",
+        "body-placeholder": "Type or paste your Cancellation policy",
+        "signature-placeholder": "Type or paste your Signature here, e.g. Contact Info",
+        "best-regards": "Best Regards",
+        "reservation": {
+          "title": "Your reservation",
+          "booking-number": "Booking number",
+          "check-in": "Check in",
+          "check-out": "Check out",
+          "nights": "Nights",
+          "rooms": "Room(s)",
+          "room-price": "Price per room",
+          "total-rooms": "Total number of rooms",
+          "total-persons": "Total number of persons"
+        },
+        "cancellation": {
+          "title": "Cancellation policy",
+          "description": "Cancellation is possible until 18 o'clock before arrival free of charge",
+          "total-price": "Total price(VAT included)",
+          "info-title": "Important information for cancellation",
+          "to-cancel": "To cancel your booking, please click on the button below",
+          "enter-booking": "Enter your Booking number and your e-mail address and click on the \"Cancel Booking\" button to cancel your reservation.",
+          "btn-cancel": "Cancel-booking",
+          "cancel-booking": "To cancel your booking, please click on the button below"
+        }
+      },
+      "product": {
+        "top": {
+          "header": "Get 200% more bookings!",
+          "description": "Customize the online booking engine with your brand’s look-and-feel. Add your logo, colors, address, email and phone number, languages, currencies, and much more.",
+          "btn-activate": "Activate Now",
+          "info": "Transform your website into the most profitable online sales channel"
+        },
+        "features": {
+          "calendar": "CultBooking is a <a href='#'>hotel  booking engine</a>, or booking button, for hotels, motels, hostels, B&amp;Bs, lodges &amp; guest houses, apartments, villas, or other property and accommodation providers.",
+          "booking": "Guests can quickly and seamlessly book rooms directly from your website, social media platforms, or ad campaigns, resulting in loyal guests and a maximized online revenue.",
+          "commission": "Worried about commission fees? Enjoy commission-free bookings by adding a simple code to your website to start receiving reservations."
+        },
+        "try": {
+          "title": "Try it Out!",
+          "description": "<a href='#'>Select an arrival and departure date</a>, then click on search to view available rooms and rates.",
+          "check-in": "Check In",
+          "check-out": "Check out",
+          "search": "Search",
+          "promo-code": "Have a promo code?"
+        },
+        "details": {
+          "responsive": {
+            "title": "Responsive Design",
+            "description": {
+              "top": "The <strong>CultBooking hotel booking engine</strong> will reformat itself and adapt to any mobile phone or tablet device. Larger navigation buttons, reformatted content and optimized images appear when the user is on a mobile device.",
+              "bottom": "No matter what device your clients are on, the guest experience begins with beautiful UX/UI design and an intuitive booking process."
+            }
+          },
+          "booking": {
+            "title": "24/7 booking button",
+            "description":"Use our booking engine to entice around-the-clock direct bookings. Drive conversions on your website with all the perks that CultBooking has to offer, including commission-free direct bookings and effective technology."
+          },
+          "conversion": {
+            "title": "100% conversion oriented",
+            "description": {
+              "top": "Our goal is simple — help you convert clients into loyal guests. Automated machine learning, heat maps, and A/B testing allows us to optimize the booking process and increase revenue and business.",
+              "bottom": "We are here to get you the highest conversion rates in the market using specific Key Performance Indicators (KPIs): high conversion rates, finalized bookings, and confirmed reservations."
+            }
+          },
+          "integration": {
+            "title": "Integration made easy",
+            "description": {
+              "top": "Simplify your operations. <br> Don’t worry about complex installation or difficult settings — the booking engine can be integrated into your website with a simple snippet. We provide the code and the developer to insert it.",
+              "bottom": "The booking engine is also integrated with your Channel Manager and Property Management System (PMS)"
+            }
+          }
+        },
+        "footer": {
+          "title": "Turn your website into the most profitable online sales channel or Contact us for more details!",
+          "btn-activate":"Activate Now",
+          "btn-ask": "Ask a Question"
+        }
+      }
+    },
+    "bookingengine": {
+      "title": "Booking Engine"
+    },
+    "emergencystop": {
+      "title": "Emergency Stop"
+    },
+    "outages": {
+      "title": "Outages"
+    },
+    "suppliershealth": {
+      "title": "Suppliers Health"
+    },
+    "channelshealth": {
+      "title": "Channels Health",
+      "headers": {
+        "your-channels": "Your Channels",
+        "last-handshake": "Last Handshake",
+        "activity": "Activity"
+      },
+      "no-data": "No Data"
+    },
+    "systems": {
+      "title": "Systems",
+      "title-full": "Property Management / Channel Management / Revenue Management",
+      "title-sub": "We offer fully integrated systems as well as with non-direct connection. For non-direct connection systems you need to contact the hotel\nsoftware company to activate the software interface to CultSwitch in the hotel software.",
+      "filter-tip": "Search by Name",
+      "filter-none": "No systems matching this filter",
+      "no-connected": "No connected PMS",
+      "no-available": "No available PMS",
+      "headers": {
+        "name": "Name / URL",
+        "connection": "Connection",
+        "version": "Version selection",
+        "actions": "Actions"
+      },
+      "tabs": {
+        "connected-pms": "Connected",
+        "available-pms": "Available"
+      },
+      "choose-option": "Choose option",
+      "connection-tooltip": "After you select wich the data will be sent automatically from the hotel software (i.e Availability and Rates) the data can no longer be changed manually in the CSI. All changes can be done directly in the hotel software.",
+      "status": {
+        "active": "Activated",
+        "inactive": "Deactivated",
+        "blocked": "Blocked"
+      },
+      "button-activate": "Activate",
+      "button-deactivate": "Deactivate",
+      "button-connect": "Connect",
+      "button-mapping": "Mapping",
+      "button-revoke": "Revoke",
+      "modal": {
+        "title-update": "Update Software",
+        "title-activate": "Activate Software",
+        "user": "User",
+        "password": "Password",
+        "software": "Software",
+        "software-placeholder": "Select Software",
+        "hotel-key": "Hotel Key",
+        "hotel-key-placeholder": "Enter or paste your Hotel ID",
+        "activate": "Activate System",
+        "account-id": "Account ID",
+        "account-id-placeholder": "Enter or paste your Account ID",
+        "api-key": "API key",
+        "api-key-placeholder": "Enter your API key",
+        "change-settings": "Change Settings"
+      },
+      "certificate": {
+        "availability": "Availability",
+        "availability-rates": "Availability + Rates",
+        "availability-rates-conditions": "Availability + Rates + Booking Conditions"
+      }
+    },
+    "mapping":{
+      "title": "Mapping",
+      "title-full": "Apaleo",
+      "title-sub": "We offer fully integrated systems as well as with non-direct connection. For non-direct connection systems you need to contact the hotel\nsoftware company to activate the software interface to CultSwitch in the hotel software.",
+      "no-available": "No available Rate Plans",
+      "edit-rate-plans": "Edit Rate Plans",
+      "update-rate-plans": "Update Rate Plans",
+      "headers": {
+        "id": "Id",
+        "code": "Code",
+        "name": "Name",
+        "unit-group": "Unit Group",
+        "cltz-product": "Cltz Product"
+      },
+      "tabs": {
+        "mapping": "Mapping"
+      }
+    },
+    "mealplans": {
+      "title": "Meal plans",
+      "heading": "Your meal plans",
+      "button-add": "Add meal plan",
+      "no-meals": "No meal plans yet",
+      "alert-saved": "Successfully saved",
+      "alert-deleted": "Successfully deleted",
+      "headers": {
+        "name": "Name",
+        "type": "Type"
+      },
+      "modal": {
+        "title-add": "New meal plan",
+        "title-edit": "[{id}] {name}",
+        "section-meal-name": "Name your meal plan",
+        "section-meal-type": "Meal type selection",
+        "description": "Description",
+        "section-basic-rate": "Basic Rate",
+        "section-weekdays": "Weekdays",
+        "travel-opts": {
+          "days": "Weekdays"
+        },
+        "period-days" : ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "unlimited-validity": "Unlimited validity"
+      }
+    },
+    "promotions": {
+      "title": "Promotions",
+      "heading": "Your promotions"
+    },
+    "contracts": {
+      "title": "Contracts",
+      "heading": "Your contracts"
+    },
+    "policies": {
+      "title": "Policies",
+      "time-units": {
+        "hour": "Hour(s) | 1 hour | {n} hours",
+        "day": "Day(s) | 1 day | {n} days",
+        "week": "Week(s) | 1 week | {n} weeks",
+        "month": "Month(s) | 1 month | {n} months",
+        "year": "Year(s) | 1 year | {n} years"
+      },
+      "cancel": {
+        "title": "Cancellation policies",
+        "button-add": "Add cancellation policy",
+        "headers": {
+          "name": "Name",
+          "time": "Cancellation time",
+          "fee": "Cancellation fee"
+        },
+        "drop-times": {
+          "BeforeArrival": "before arrival",
+          "AfterBooking": "after booking",
+          "AfterConfirmation": "after confirmation"
+        },
+        "basis-types": {
+          "FullStay": "full stay",
+          "Nights": "nights"
+        },
+        "cancel-time": "{what} {when}",
+        "cancel-time-none": "None",
+        "cancel-fee": {
+          "FullStay": "{amount}{symbol} | {percents}% of full stay",
+          "Nights": "1 night | {n} nights"
+        },
+        "cancel-fee-none": "None",
+        "modal": {
+          "title-add": "New cancellation policy",
+          "title-edit": "Edit cancellation policy",
+          "name": "Cancellation Policy",
+          "description": "Description",
+          "section-time": "Cancellation time",
+          "section-fee": "Cancellation fee",
+          "fee": "Fee",
+          "fee-relation": "In relation to"
+        }
+      },
+      "bgarant": {
+        "title": "Booking guarantees",
+        "headers": {
+          "type": "Type"
+        }
+      },
+      "payment": {
+        "title": "Payment policies",
+        "button-add": "Add payment policy",
+        "headers": {
+          "name": "Name",
+          "time": "Payment time",
+          "fee": "Payment fee",
+          "type": "Payment type"
+        },
+        "types": {
+          "Deposit": "Deposit",
+          "PrePay": "Prepay"
+        },
+        "payment-time-none": "None",
+        "payment-fee": "{amount}{symbol} | {percents}%",
+        "payment-fee-none": "None",
+        "modal": {
+          "title-add": "New payment policy",
+          "title-edit": "Edit payment policy",
+          "name": "100% Prepaid",
+          "description": "Description",
+          "section-type": "Payment type",
+          "section-time": "Payment time",
+          "section-fee": "Payment fee",
+          "fee": "Fee",
+          "fee-relation": "In relation to"
+        }
+      }
+    },
+    "photos": {
+      "title": "Photos",
+      "button-library": "Media library",
+      "upload": {
+        "button-browse": "Browse files",
+        "dragndrop": "Drag & drop",
+        "or": "or"
+      },
+      "library": {
+        "title": "Media library",
+        "lowres-only": "Show low resolution images",
+        "search": "Search",
+        "name": "Name",
+        "display-name": "Display name",
+        "low-resolution": "Low resolution",
+        "related-to-rooms": "Related to the rooms",
+        "no-image-selected": "No image selected",
+        "dragnmove": "Drag & move",
+        "or-click-to-open": "or click to open"
+      }
+    },
+    "roomtypes": {
+      "title": "Room types",
+      "heading": "Your room types",
+      "button-add": "Add new room",
+      "footer": "Room ID and Property ID is the information relevant to connect your PMS.",
+      "no-rooms": "No room types yet",
+      "headers": {
+        "name": "Name",
+        "amount": "Amount",
+        "occupancy": "Occupancy",
+        "validuntil": "Validity Periods",
+        "blockout-days": "Blockout days",
+        "number": "Number"
+      },
+      "modal": {
+        "title-add": "New room type",
+        "title-edit": "[{id}] {name}",
+        "section-room-name": "Name your room type",
+        "section-room-type": "Room type selection",
+        "section-amount": "Number of rooms of this type",
+        "section-initial-price": "Initial price / night",
+        "section-occupancy": "How many guests can stay in this room?",
+        "section-occupancy-tip": "This is standard occupancy, how many beds you have",
+        "section-occupancy-more": "Is it possible to have less or more persons than the standard occupancy (optional)?",
+        "initial-price-tip": "You can change room price later in calendar",
+        "description": "Description",
+        "min-occupancy": "Minimum occupancy",
+        "max-occupancy": "Maximum occupancy"
+      }
+    },
+    "rateplans": {
+      "title": "Rate plans",
+      "heading": "Your rate plans",
+      "button-add": "Add new rate plan",
+      "no-plans": "No rate plans yet",
+      "search": "Search",
+      "headers": {
+        "name": "Name",
+        "linked-room": "Linked room type",
+        "meal-plan": "Meal plan",
+        "min-stay": "Minimum stay",
+        "cancel-policy": "Cancellation policy"
+      },
+      "modal": {
+        "title-add": "New rate plan",
+        "title-edit": "[{id}] {name}",
+        "section-connect": "Connect rate plan with room type",
+        "section-plan-name": "What is the name of your rate plan?",
+        "section-room-type": "Room type selection",
+        "section-settings": "Settings",
+        "section-price": "Price section",
+        "section-bookable": "Bookable Period",
+        "description": "Description",
+        "days-all": "All",
+        "travel-days": "Travel days",
+        "travel-opts": {
+          "bdays": "Bookable days",
+          "adays": "Arrival days",
+          "ddays": "Departure days"
+        },
+        "los": "Length of stay",
+        "minimum": "Minimum",
+        "maximum": "Maximum",
+        "standard": "Standard",
+        "bookable": {
+          "anytime": "Guest can book anytime",
+          "periods": "Guest can book from",
+          "periods-dates": "{from} to {to}",
+          "fromto": "Guest can book from {from} to {to} before arrival",
+          "until": "Guest can book until {days} before arrival",
+          "within":"Guest can book within {days} before arrival",
+          "button-add-period": "New period",
+          "placeholder-start-date": "Start date",
+          "placeholder-end-date": "End date",
+          "placeholder-days": "day | days"
+        },
+        "meal-type": "Meal type",
+        "cancel-policies": "Cancellation policies",
+        "cancel-all": "All policies",
+        "cancel-some": "No policies | 1 policy | {n} policies",
+        "payment-policy": "Payment policy",
+        "no-payment-policy": {
+          "name": "No payment policy",
+          "desc": ""
+        },
+        "price": "Price",
+        "price-for": "Price for {occupancy}",
+        "price-occupancy": "1 person/night | {n} people/night",
+        "standard-price": "Standard price",
+        "standard-price-tip": "Daily standard price is taken from calendar.",
+        "fixed-price": "Fixed price",
+        "fixed-price-tip": "Price is the same for all time.",
+        "standard-price-more": "Surcharge or reduction on standard price",
+        "surcharge": "Surcharge",
+        "reduction": "Reduction",
+        "occupancy-more": "Do you allow count of guests more or less than standard occupancy?",
+        "occupancy-pricing": "Surcharge or reduction for 1 person",
+        "children-bed": "Extra bed for children",
+        "age": "Age",
+        "languages": "Languages",
+        "rate-plan-description": "Rate plan description",
+        "room-type": "Room Type",
+        "guests-occupancy-more": "Guests more or less than standard occupancy",
+        "price-occupancy-two-person": "Price for 2 person / night"
+      }
+    },
+    "hotels": {
+      "title": "Properties",
+      "heading": "Your properties",
+      "heading-admin": "All properties",
+      "no-hotels": "No properties yet",
+      "button-add": "Add new property",
+      "button-import": "Import properties",
+      "button-activate": "Activate",
+      "button-deactivate": "Deactivate",
+      "filter-tip": "Search by name/ID",
+      "filter-no-hotels": "No properties matching this filter",
+      "status-activated": "Activated",
+      "status-deactivated": "Deactivated",
+      "headers": {
+        "status": "Status",
+        "name": "Name",
+        "currency": "Currency",
+        "create-date": "Create date",
+        "create-date-format": "D MMM YYYY"
+      },
+      "modal": {
+        "title-add": "Add new property",
+        "title-edit": "[{id}] {name}",
+        "title-import": "Import properties",
+        "field-import": "Enter property IDs, separated by space or coma. Non-digits are ignored.",
+        "found-ids": "No properties found | Found 1 property | Found {n} properties",
+        "import-success": "1 property has been imported | {n} properties have been imported",
+        "import-done": "Property {id} has been imported"
+      }
+    },
+    "nearby": {
+      "title": "What's nearby",
+      "transportation": "Transportation",
+      "shopping-and-dining": "Shopping and Dining",
+      "culture-and-history": "Culture and History",
+      "next-airport": "Next airport",
+      "next-train-station": "Next train station",
+      "next-mortorway-exit": "Next motorway exit",
+      "public-transportation": "Public transportation",
+      "city-center": "City center",
+      "airport-code": "Airport code",
+      "next-train-station-code": "Train station code",
+      "motorway-code": "Motorway code",
+      "city-center-code": "City center code",
+      "distance": "Distance",
+      "units": "Units",
+      "type": "Type",
+      "button-revert-changes": "Revert Changes",
+      "bus-station": "Bus Station",
+      "ferry-station": "Ferry Station",
+      "metro-station": "Metro Station",
+      "trolley-station": "Trolley Station"
+    },
+    "booking": {
+      "title": "Booking Status",
+      "title-logs": "Hotel status history",
+      "title-master": "Master system",
+      "heading": "Your property is {mode} on {all} distribution channels, including CultBooking.",
+      "tip-on": "All activated channels will be updated with the availabilities and prices.",
+      "tip-off": "Channels will not be updated with the availabilities and prices.",
+      "bookable": "BOOKABLE",
+      "unbookable": "UNBOOKABLE",
+      "all": "ALL",
+      "on": "On",
+      "off": "Off",
+      "roomdb-master": "RoomDB is master",
+      "headers": {
+        "username": "User Name",
+        "date": "Date",
+        "date-format": "D MMM YYYY, HH:mm:ss [GMT]",
+        "changed-to": "Status changed to"
+      },
+      "no-logs": "No history yet",
+      "modal": {
+        "title": "Status Change",
+        "button-on": "Yes, turn them ON",
+        "button-off": "Yes, turn them OFF",
+        "question": "Are you sure that you want to make {all} distribution channels (including CultBooking) {mode}?"
+      }
+    },
+    "groups": {
+      "title": "Groups",
+      "placeholder": "Search",
+      "btn-add": "Add new group",
+      "btn-assign": "Create owner",
+      "btn-check": "Check domains",
+      "btn-lock": "Lock domains",
+      "btn-unlock": "Unlock domains",
+      "btn-hotels": "Manage properties",
+      "btn-assign-agent": "Assign agent",
+      "no-groups": "No groups yet",
+      "filter-no-groups": "No groups matching this filter",
+      "tooltip-agent": "Agent linked to this Group",
+      "no-agents": "No available agents",
+      "invite-sent-to-owner": "Invite sent to owner",
+      "tabs": {
+        "groups": "Groups"
+      },
+      "manage": {
+        "title": "Manage Group",
+        "tabs": {
+          "hotels": "Properties"
+        }
+      },
+      "headers": {
+        "name": "Group Name",
+        "properties": "Properties",
+        "users": "Users",
+        "owner": "Owner",
+        "url": "Custom URL"
+      },
+      "modal": {
+        "title-add": "Create a new group",
+        "title-edit": "Edit group",
+        "field-perms": "Group permissions",
+        "field": {
+          "bdomain": {
+            "title": "Booking Engine Domain",
+            "placeholder": "mydomain.com"
+          },
+          "edomain": {
+            "title": "Extranet Domain",
+            "placeholder": "admin.mydomain.com"
+          },
+          "group": {
+            "title": "Group name",
+            "placeholder": "Preferred name"
+          }
+        },
+        "color": {
+          "title": "Color and Logo customization",
+          "main": "Left sidebar <br> Background colour",
+          "text": {
+            "title": "Left sidebar <br> Text colour",
+            "colorwhite": "White",
+            "colordark": "Dark"
+          }
+        }
+      }
+    },
+    "users": {
+      "title": "Users & Roles",
+      "no-users": "No users yet",
+      "filter-no-users": "No users matching this filter",
+      "group-owner": "Group Owner",
+      "btnAdd": "Add New User",
+      "btnInvite": "Invite User",
+      "filter-tip": "Search",
+      "check": "Only assigned users",
+      "invite-sent": "Invite sent",
+      "tabs": {
+        "users": "Users",
+        "roles": "Roles"
+      },
+      "headers": {
+        "name": "Name",
+        "properties": "Property ID & Name",
+        "login": "User Login / Email",
+        "role": "Role"
+      },
+      "modal": {
+        "invite": {
+          "title-add": "Invite user",
+          "field-email": "User login / Email address",
+          "field-email-placeholder": "Judy@gmail.com",
+          "field-role": "Role",
+          "field-role-placeholder": "Select one of the roles",
+          "roles": "No roles | 1 role | {n} roles",
+          "roles-all": "All roles",
+          "alert-sent": "Invite has been sent"
+        },
+        "role": {
+          "title": "Role: Revenue Manager",
+          "field-name-role": "Role Name",
+          "placeholder-name-role": "Revenue Manager"
+        },
+        "newUser": {
+          "title": "Create new user",
+          "field-property": "Property",
+          "field-role": "Role",
+          "title-add": "Create a new user",
+          "title-edit": "Edit user",
+          "title-add-owner": "Assign an owner to property group {group}.",
+          "perms-all-hotels": "All properties with default permissions",
+          "perms-all-hotels-tip": "Roles for specific properties can override default permissions.",
+          "perms-by-roles": "Specified by roles",
+          "perms-by-roles-tip": "User will have access only to properties they have roles for.",
+          "default-perms": "Default permissions",
+          "default-perms-tip": "Can be overriden by roles permissions",
+          "properties-access": "Access to properties:",
+          "field": {
+            "name": {
+              "first": {
+                "title": "First Name",
+                "placeholder": "Judy"
+              },
+              "last": {
+                "title": "Last Name",
+                "placeholder": "Doe"
+              }
+            },
+            "login": {
+              "title": "User login / Email address",
+              "placeholder": "Judy@gmail.com"
+            },
+            "language": {
+              "title": "Language"
+            },
+            "password": {
+              "title": "Password",
+              "title-confirm": "Confirm Password"
+            },
+            "property": "Property*",
+            "role": "Roles:"
+          }
+        },
+        "delete-user": {
+          "title": "Remove user access",
+          "message": "Do you really want to remove <b>{email}</b> access ?",
+          "user-delete-success": "User deleted successfully."
+        },
+        "title": "Status Change",
+        "button-on": "Yes, turn them ON",
+        "button-off": "Yes, turn them OFF",
+        "question": "Are you sure that you want to make {all} distribution channels (including CultBooking) {mode}?"
+      },
+      "roles": {
+        "title": "roles",
+        "no-hotels": "No roles yet",
+        "filter-no-hotels": "No roles matching this filter",
+        "btnAdd": "Add New Role",
+        "check": "Show only custom Roles",
+        "perms-inherit": "Inherit user permissions",
+        "perms-inherit-tip": "User should have permissions set in order to access this property.",
+        "perms-override": "Override or set user permissions:",
+        "perms-override-tip": "Final permissions to this property, they override user’s permissions.",
+        "modal": {
+          "title-add": "Create a new role",
+          "title-edit": "Edit role"
+        },
+        "headers": {
+          "name": "Name",
+          "properties": "ID & Property ",
+          "users": "Users",
+          "role": "Roles"
+        }
+      }
+    },
+    "group": {
+      "title": "Property Group",
+      "url-booking": "Booking:",
+      "url-admin": "Admin:"
+    },
+    "payments": {
+      "title": "Payments",
+      "heading": "Payment Method",
+      "subtitle": "We support several payment methods. Choose the one you want.",
+      "methods": {
+        "bank-transfer": "Bank Transfer",
+        "credit-card": "Credit Card",
+        "active": "current"
+      },
+      "alert-updated": "Payment method was successfully set"
+    },
+    "stripe": {
+      "title": "Stripe"
+    },
+    "subscriptions": {
+      "title": "Subscriptions"
+    }
+  },
+  "components": {
+    "products-selector": {
+      "checkbox-toggle-all": "Select/Deselect All",
+      "rooms-selected": "1 room type selected | {n} room types selected",
+      "plans-selected": "1 rate plan selected | {n} rate plans selected"
+    },
+    "account-box": {
+      "plan": "Premium Plan",
+      "buttons": {
+        "manage-plan": "Manage Plans"
+      }
+    },
+    "sepa": {
+      "info": "We will collect the amount due via the SEPA direct debit scheme by using the creditor ID and mandate reference number below. We shall inform you that we will make the direct debit transaction at least two days in advance by stating this in your invoice.",
+      "form": {
+        "labels": {
+          "creditorId": "Creditor Identifier",
+          "account": "Account holder",
+          "iban": "IBAN",
+          "authorize": "I authorize CultBooking to collect the amount due from the account specified.The direct debit authorization may be revoked in writing at any time.",
+          "defaultMethod": "Set as preferred payment method",
+          "email": "Email Address"
+        },
+        "placeholders": {
+          "creditorId": "DE22354ZZZ0928354098343",
+          "account": "Account holder name",
+          "iban": "IBAN"
+        }
+      }
+    },
+    "credit-card": {
+      "title": "Credit Card",
+      "form": {
+        "labels": {
+          "card-holder": "Card holder",
+          "card-type": "Card type",
+          "card-number": "Card number",
+          "expiration-month": "Exp. month",
+          "expiration-year": "Exp. year",
+          "cvc": "CVC code"
+        },
+        "placeholders": {
+          "card-holder": "Card holder name",
+          "card-type": "Select your credit card type",
+          "card-number": "Your card 16 digits number",
+          "expiration-month": "00",
+          "expiration-year": "2021",
+          "cvc": "123"
+        }
+      }
+    },
+    "bank-transfer": {
+      "labels": {
+        "holder": "Accound holder",
+        "bank": "Bank",
+        "iban": "IBAN",
+        "bic": "BIC"
+      }
+    }
+  },
+  "auth": {
+    "expired": {
+      "title": "Session expired",
+      "head": "Your session has expired",
+      "text": "Please, reload page and login again.",
+      "button": "Reload page"
+    }
+  },
+  "tel-iso": "us",
+  "errors": {
+    "too-many-attempts": "{message} Try again {when}",
+    "tel": {
+      "0": "Invalid phone",
+      "1": "Invalid country code",
+      "2": "Too short",
+      "3": "Too long",
+      "4": "@:errors.tel.0",
+      "-99": "@:errors.tel.0"
+    }
+  },
+  "fields": {
+    "edomain": "Extranet Domain",
+    "bdomain": "Booking Engine Domain"
+  },
+  "validation": {
+    "required": "This field is required",
+    "required_string": "This field is required",
+    "email": "This field must be a valid email",
+    "accepted": "You must accept this",
+    "sameAs": "Does not match {target}",
+    "notAs": "Should not match {target}",
+    "is_not": "Shouldn't be {other}",
+    "min": "Must be at least {length} characters",
+    "max": "May not be greater than {length} characters",
+    "confirmed": "Confirmation does not match",
+    "between": "Number should be {min}-{max}",
+    "numeric": "This field should be a number",
+    "minvalue": "Must be {min} or more",
+    "maxvalue": "Must be {max} or less",
+    "url": "Invalid URL",
+    "domain": "Invalid domain",
+    "date_format": "Invalid date format",
+    "password-uppercase-letters": "The password must contain at least one capital letter",
+    "password-lowercase-letters": "The password must contain at least one lowercase letter",
+    "password-numbers": "The password must contain at least one number",
+    "password-special-chars": "The password must contain at least one special character , e.g., ! @ # ?.",
+    "password-no-spaces": "The password should not contain space",
+    "telValid": "Invalid phone"
+  },
+  "property-types": [
+    { "id": 3, "type": "Apartment" },
+    { "id": 4, "type": "Bed and breakfast" },
+    { "id": 6, "type": "Campground" },
+    { "id": 9, "type": "Conference-Venue" },
+    { "id": 15, "type": "Guest Farm" },
+    { "id": 16, "type": "Guest house limited service" },
+    { "id": 18, "type": "Holiday resort" },
+    { "id": 19, "type": "Hostel" },
+    { "id": 20, "type": "Hotel" },
+    { "id": 21, "type": "Inn" },
+    { "id": 27, "type": "Motel" },
+    { "id": 28, "type": "Ranch" },
+    { "id": 29, "type": "Residential apartment" },
+    { "id": 32, "type": "Self catering accommodation" },
+    { "id": 34, "type": "Vacation home" },
+    { "id": 40, "type": "Pension" },
+    { "id": 47, "type": "Full service" },
+    { "id": 1001, "type": "Hut" },
+    { "id": 1002, "type": "Not specified" },
+    { "id": 1003, "type": "Youth Guest House" },
+    { "id": 1004, "type": "Youth Hostel" },
+    { "id": 1005, "type": "Huts_Hotels" },
+    { "id": 1006, "type": "Private_Home" },
+    { "id": 1007, "type": "Private_Room" },
+    { "id": 1008, "type": "Beach hotel" },
+    { "id": 1009, "type": "Winter sports hotel" },
+    { "id": 1010, "type": "Luxury hotel" },
+    { "id": 1011, "type": "Design hotel" },
+    { "id": 1012, "type": "Small, intimate, quiet hotel" },
+    { "id": 1013, "type": "Family hotel" },
+    { "id": 1014, "type": "Handicapped accessible hotel" }
+  ]
+}

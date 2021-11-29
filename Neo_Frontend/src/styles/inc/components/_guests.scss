@@ -1,0 +1,10 @@
+.guests-wrapper {
+  margin: 0;
+  white-space: nowrap;
+  svg {
+    + svg {
+      margin-left: 3px;
+    }
+    margin-bottom: 2px;
+  }
+}

@@ -1,0 +1,14 @@
+.sort-indicator {
+  display: inline-block;
+  line-height: inherit;
+  vertical-align: text-top;
+  button {
+    display: block;
+    line-height: 6px;
+    padding: 0; margin: 1px 0;
+    color: #91929D;
+    &.active {
+      color: $primary;
+    }
+  }
+}

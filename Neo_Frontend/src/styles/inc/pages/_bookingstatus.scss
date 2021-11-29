@@ -1,0 +1,119 @@
+.page-booking-status {
+  color: $semigray;
+
+  @include media-breakpoint-down(sm) {
+    padding: 25px 30px 0;
+    background: $white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.17);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+
+  p.status {
+    font-size: 18px;
+    line-height: 25px;
+    &:first-of-type {
+      margin-top: 40px;
+      margin-bottom: 4px;
+    }
+    &:last-of-type {
+      margin-bottom: 20px;
+    }
+    max-width: 790px;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+  .logs-title {
+    margin: 40px 0 -10px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+  }
+  .logs-table {
+    padding: 40px 60px;
+    th, td {
+      padding: 0 15px;
+      font-size: 14px;
+      line-height: 19px;
+      &:first-of-type {
+        padding-left: 24px;
+      }
+      &:last-of-type {
+        padding-right: 24px;
+        text-align: left;
+      }
+    }
+    th {
+      font-weight: 600;
+      height: 45px;
+      background-color: $notes-background;
+      white-space: nowrap;
+      &.w-date {
+        width: 250px;
+      }
+      &.w-id {
+        width: 100px;
+      }
+      &.w-status {
+        width: 150px;
+      }
+      &:first-child {
+        border-top-left-radius: 22.5px;
+      }
+      &:last-child {
+        border-top-right-radius: 22.5px;
+      }
+    }
+    tr.separator {
+      vertical-align: top;
+      &.before {
+        height: 12px;
+        box-shadow: 0 -1px 0 $panel-lines-light-color;
+      }
+      &.after {
+        height: 12px;
+      }
+    }
+    tbody:first-of-type tr.separator.before {
+      box-shadow: none;
+    }
+    td {
+      height: 40px;
+      line-height: 40px;
+      vertical-align: top;
+      &.w-empty {
+        height: 100px;
+        vertical-align: middle;
+        font-weight: 600;
+        text-align: center;
+      }
+    }
+    p {
+      margin: 0;
+      white-space: nowrap;
+    }
+  }
+
+  @include media-breakpoint-between(md, lg) {
+    .panel.panel-content {
+      border-radius: 0px;
+      box-shadow: none;
+
+      .logs-table {
+        padding: 10px;
+
+        thead {
+          border-bottom: 1px solid $panel-lines-light-color;
+        }
+
+        th, td {
+          white-space: normal;
+          background: transparent;
+        }
+      }
+    }
+  }
+}

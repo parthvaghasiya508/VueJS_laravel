@@ -1,0 +1,203 @@
+$switch-border-width: 3px;
+$switch-bg-off: #c8c9ce;
+$switch-bg-on: $primary;
+$switch-color-bg-off: $danger;
+$switch-color-bg-on: $success;
+$switch-bg-disabled: #dedee2;
+$switch-button-size: 24px;
+$switch-button-bg: #fff;
+$switch-min-width: 65px;
+$switch-max-width: 85px;
+$switch-border-width-sm: 2px;
+$switch-button-size-sm: 16px;
+$switch-min-width-sm: 40px;
+$switch-max-width-sm: 40px;
+$switch-border-width-md: 3px;
+$switch-button-size-md: 24px;
+$switch-min-width-md: 60px;
+$switch-max-width-md: 60px;
+
+.switcher-wrapper {
+  display: block;
+  input[type='checkbox'] {
+    display: none;
+
+    &:checked {
+      & + .switcher-label {
+        background-color: $switch-bg-on;
+        &.colored {
+          background-color: $switch-color-bg-on;
+        }
+        .switcher-button {
+          left: calc(100% - #{$switch-border-width});
+          transform: translateX(-100%);
+        }
+        &.small {
+          .switcher-button {
+            left: calc(100% - #{$switch-border-width-sm});
+          }
+        }
+        .switcher-text {
+          &:first-of-type {
+            opacity: 1;
+          }
+          &:last-of-type {
+            opacity: 0;
+          }
+        }
+      }
+    }
+    &:disabled, &.disabled {
+      & + .switcher-label {
+        cursor: default;
+        background-color: $switch-bg-disabled !important;
+      }
+    }
+  }
+
+  .switcher-label {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    align-items: center;
+    margin: 0;
+    user-select: none;
+
+    transition: background-color 0.2s;
+    width: $switch-min-width;
+    &.labels {
+      width: $switch-max-width;
+    }
+    height: $switch-button-size + ( $switch-border-width * 2 );
+    border-radius: $switch-button-size;
+    background-color: $switch-bg-off;
+    &.colored {
+      background-color: $switch-color-bg-off;
+    }
+    text-align: left;
+
+    .switcher-button {
+      transition: all 0.2s;
+      position: absolute;
+      top: $switch-border-width;
+      left: $switch-border-width;
+      width: $switch-button-size;
+      height: $switch-button-size;
+      border-radius: $switch-button-size;
+      background-color: $switch-button-bg;
+    }
+    .switcher-text {
+      font-size: 18px;
+      line-height: $switch-button-size;
+      font-weight: 600;
+      color: $white;
+      position: absolute;
+      text-align: center;
+      top: $switch-border-width;
+      bottom: $switch-border-width;
+      transition: opacity 0.2s;
+      &:first-of-type {
+        left: $switch-button-size / 2;
+        right: $switch-button-size + $switch-border-width * 2;
+        opacity: 0;
+      }
+      &:last-of-type {
+        left: $switch-button-size + $switch-border-width * 2;
+        right: $switch-button-size / 2;
+      }
+    }
+
+    &.small {
+      width: $switch-min-width-sm;
+      &.labels {
+        width: $switch-max-width-sm;
+      }
+      height: $switch-button-size-sm + ( $switch-border-width-sm * 2 );
+      border-radius: $switch-button-size-sm;
+      .switcher-button {
+        top: $switch-border-width-sm;
+        left: $switch-border-width-sm;
+        width: $switch-button-size-sm;
+        height: $switch-button-size-sm;
+        border-radius: $switch-button-size-sm;
+      }
+      .switcher-text {
+        font-size: 14px;
+        line-height: $switch-button-size-sm;
+        top: $switch-border-width-sm;
+        bottom: $switch-border-width-sm;
+        &:first-of-type {
+          left: $switch-button-size-sm / 2;
+          right: $switch-button-size-sm + $switch-border-width-sm * 2;
+          opacity: 0;
+        }
+        &:last-of-type {
+          left: $switch-button-size-sm + $switch-border-width-sm * 2;
+          right: $switch-button-size-sm / 2;
+        }
+      }
+    }
+
+    &.medium {
+      width: $switch-min-width-md;
+      &.labels {
+        width: $switch-max-width-md;
+      }
+      height: $switch-button-size-md + ( $switch-border-width-md * 2 );
+      border-radius: $switch-button-size-md;
+      .switcher-button {
+        top: $switch-border-width-md;
+        left: $switch-border-width-md;
+        width: $switch-button-size-md;
+        height: $switch-button-size-md;
+        border-radius: $switch-button-size-md;
+      }
+      .switcher-text {
+        font-size: 14px;
+        line-height: $switch-button-size-md;
+        top: $switch-border-width-md;
+        bottom: $switch-border-width-md;
+        &:first-of-type {
+          left: $switch-button-size-md / 2;
+          right: $switch-button-size-md + $switch-border-width-md * 2;
+          opacity: 0;
+        }
+        &:last-of-type {
+          left: $switch-button-size-md + $switch-border-width-md * 2;
+          right: $switch-button-size-md / 2;
+        }
+      }
+    }
+
+    @include media-breakpoint-down(sm) {
+      width: $switch-min-width-sm;
+      &.labels {
+        width: $switch-max-width-sm;
+      }
+      height: $switch-button-size-sm + ( $switch-border-width-sm * 2 );
+      border-radius: $switch-button-size-sm;
+      .switcher-button {
+        top: $switch-border-width-sm;
+        left: $switch-border-width-sm;
+        width: $switch-button-size-sm;
+        height: $switch-button-size-sm;
+        border-radius: $switch-button-size-sm;
+      }
+      .switcher-text {
+        font-size: 10px;
+        line-height: $switch-button-size-sm;
+        top: $switch-border-width-sm;
+        bottom: $switch-border-width-sm;
+        &:first-of-type {
+          left: $switch-button-size-sm / 4;
+          right: $switch-button-size-sm + $switch-border-width-sm * 2;
+          opacity: 0;
+        }
+        &:last-of-type {
+          left: $switch-button-size-sm + $switch-border-width-sm * 2;
+          right: $switch-button-size-sm / 2;
+        }
+      }
+    }
+  }
+}

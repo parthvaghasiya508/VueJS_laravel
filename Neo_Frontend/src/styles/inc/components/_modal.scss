@@ -1,0 +1,360 @@
+.modal {
+  .modal-dialog {
+    @include media-breakpoint-up(md) {
+      &.modal-xxl {
+        max-width: 100%;
+        margin-left: 30px;
+        margin-right: 30px;
+      }
+      &.modal-lg {
+        max-width: 1065px;
+      }
+      &.modal-md {
+        max-width: 50%;
+      }
+      &.modal-sm {
+        max-width: 400px;
+      }
+    }
+    @include media-breakpoint-down(sm) {
+      min-width: 100vw;
+      min-height: 100vh;
+      padding: 0;
+      margin: 0;
+    }
+  }
+  header {
+    padding: 25px 30px;
+    border: none;
+    button.close {
+      padding: 16px 12px 12px;
+      margin: -12px -12px -12px auto;
+      outline: none;
+    }
+    @include media-breakpoint-down(sm) {
+      padding-bottom: 0;
+      flex-direction: row-reverse;
+      button.close {
+        padding: 5px 8px 0 22px;
+        margin: -10px -8px 0 0;
+      }
+    }
+    .modal-title {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 27px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      @include media-breakpoint-down(sm) {
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        margin: 0 10px;
+        flex-grow: 1;
+      }
+    }
+  }
+  footer {
+    justify-content: space-evenly;
+    padding: 60px 0;
+    border: none;
+
+    button {
+      width: 245px;
+      margin: 0;
+    }
+    @include media-breakpoint-down(sm) {
+      padding-left: 20px;
+      padding-right: 20px;
+
+      button {
+        width: 100%;
+      }
+
+      button:last-child {
+        margin-top: 10px;
+      }
+    }
+
+    @include media-breakpoint-between(md, lg) {
+
+      button {
+        margin-top: 10px;
+      }
+    }
+  }
+  .modal-content {
+    border: none;
+    @include media-breakpoint-up(md) {
+      max-height: 60%;
+      border-radius: 10px;
+    }
+    @include media-breakpoint-down(sm) {
+      min-height: 100vh;
+      border-radius: 0;
+    }
+  }
+  .modal-body {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0;
+  }
+
+  &.form-modal {
+    .modal-body {
+      padding: 5px 135px 0;
+      .edge {
+        position: relative;
+        &:before {
+          position: absolute;
+          display: block;
+          content: '';
+          width: 3px;
+          top: 0;
+          bottom: 0;
+          background-color: $progress-bg;
+          left: -100px;
+          border-radius: 20px;
+        }
+        &.active:before {
+          background-color: $primary;
+        }
+      }
+      .inner {
+        h3, h4, h5, h6 {
+          width: calc(100% - 30px) !important;
+          margin-left: 15px !important;
+        }
+      }
+      h3 {
+        margin: 28px 0;
+        font-size: 17px;
+        line-height: 23px;
+        font-weight: 600;
+        position: relative;
+        &:before {
+          display: inline-block;
+          content: attr(content);
+          background: #fff;
+          position: relative;
+          z-index: 9;
+          padding-right: 40px;
+        }
+        &:after {
+          display: block;
+          content: '';
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 12px;
+          border-top: 1px solid $panel-lines-light-color;
+          z-index: 8;
+        }
+      }
+      h5 {
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: 600;
+        padding: 5px 0 25px;
+        margin: 0;
+      }
+      h4, h6 {
+        line-height: 40px;
+        background-color: $notes-background;
+        margin: 0 -13px 10px;
+        padding-left: 13px;
+        padding-right: 13px;
+        border-radius: 74px;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        svg {
+          margin-left: 11px;
+        }
+        + div {
+          display: none;
+          margin: 16px -30px 0;
+          background-color: $notes-background;
+          border-radius: 10px;
+          &.danger {
+            background-color: $notes-danger-background;
+          }
+          padding: 10px 15px;
+          h3 {
+            margin: 35px 15px 20px;
+            &:first-of-type {
+              margin-top: 15px;
+            }
+            &:before {
+              background: $notes-background;
+            }
+          }
+          h5.line {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 600;
+            position: relative;
+            &:before {
+              display: inline-block;
+              content: attr(content);
+              background: $notes-background;
+              position: relative;
+              z-index: 9;
+              padding-right: 20px;
+            }
+            &:after {
+              display: block;
+              content: '';
+              position: absolute;
+              left: 0;
+              right: 0;
+              top: 12px;
+              border-top: 1px dashed $panel-lines-light-color;
+              z-index: 8;
+            }
+          }
+          .row-edit {
+            margin-left: 0;
+            margin-right: 0;
+          }
+        }
+        &.opened {
+          background-color: transparent;
+          + div {
+            display: block;
+          }
+        }
+      }
+      h4 {
+        font-size: 17px;
+      }
+    }
+    .row-edit {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      height: 45px;
+      align-items: center;
+    }
+    .cell-edit-label {
+      font-weight: 600;
+      max-width: 250px;
+    }
+    .cell-edit-field {
+      //
+    }
+    .cell-edit-fields {
+      display: flex;
+      align-items: center;
+    }
+    footer {
+      justify-content: center;
+      padding-top: 45px;
+      button {
+        margin: 0 15px;
+      }
+    }
+    @include media-breakpoint-down(sm) {
+      .modal-body {
+        padding: 20px 30px 0;
+        .edge:before {
+          left: -30px;
+          width: 7px;
+        }
+        h3 {
+          margin: 40px 0 30px;
+          &:first-of-type {
+            margin: 20px 0;
+          }
+          &:before {
+            display: block;
+            text-align: center;
+            padding-right: 0;
+          }
+          &:after {
+            display: none;
+          }
+        }
+        h5 {
+          text-align: center;
+          padding: 0 0 10px;
+        }
+        .row-edit {
+          margin-top: 0;
+          margin-bottom: 55px;
+          position: relative;
+          &.no-tip {
+            margin-bottom: 15px;
+          }
+        }
+        h4,h6 {
+          margin: 0 -15px;
+          padding-left: 15px;
+          padding-right: 15px;
+          + div {
+            margin: 20px -15px 0;
+            padding: 30px 0 8px;
+            @include media-breakpoint-down(sm) {
+              padding-top: 15px;
+            }
+            border-radius: 4px;
+            .row-edit {
+              //
+            }
+            h3 {
+              &:first-of-type {
+                margin-top: 0;
+                margin-bottom: 15px;
+              }
+            }
+          }
+          &.opened {
+            background-color: transparent;
+            + div {
+              display: block;
+            }
+          }
+        }
+        h4, h6 {
+          text-align: center;
+        }
+      }
+      .cell-edit-label {
+        max-width: 50%;
+      }
+      .cell-edit-field {
+        justify-content: flex-end;
+      }
+      .cell-edit-fields {
+        flex: 0 0 50%;
+        justify-content: space-between;
+        .radio-wrapper {
+          flex: 0 0 40%;
+          small {
+            margin-left: 10px;
+          }
+          &:first-of-type {
+            margin-right: 0;
+          }
+        }
+      }
+      .cell-edit-tip {
+        min-width: 100%;
+        position: absolute;
+        right: 0;
+        top: 100%;
+        margin-top: 8px;
+        text-align: right;
+      }
+      footer {
+        padding: 30px 0;
+        button {
+          width: 140px;
+        }
+      }
+    }
+  }
+}

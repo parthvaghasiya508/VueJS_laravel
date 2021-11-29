@@ -1,0 +1,453 @@
+$transparent: transparent;
+.media-library-modal {
+  .modal-content {
+    background-color: $drop-box-color;
+    overflow-x: hidden;
+    @include media-breakpoint-down(sm) {
+      height: unset;
+    }
+    .modal-header {
+      padding: 0 30px;
+      height: 77px;
+      display: flex;
+      align-items: center;
+      .modal-title {
+        width: 100%;
+        > div {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        .filter-option {
+          display: flex;
+          align-items: center;
+          .resolution-filter {
+            font-size: 14px;
+          }
+          .search-filter {
+            margin-left: 45px;
+            margin-right: 30px;
+            @include media-breakpoint-down(lg) {
+              display: none;
+            }
+          }
+          @include media-breakpoint-down(sm) {
+            display: none;
+          }
+        }
+      }
+    }
+    .modal-body {
+      display: flex;
+      position: static;
+      span {
+        width: 100%;
+      }
+      .media-body {
+        display: flex;
+        height: 100%;
+        .media {
+          flex-grow: 100;
+          height: calc(100vh - 136px);
+          overflow-y: scroll;
+          @include media-breakpoint-down(sm) {
+            display: flex;
+            justify-content: center;
+          }
+          .media-gallery {
+            //max-width: 1238px;
+            padding: 0 20px;
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            .drop-box {
+              height: 191px;
+              border-radius: 10px;
+              display: flex;
+              justify-content: center;
+              flex: 0 0 calc(100% / 6);
+              background-color: $white;
+              @include media-breakpoint-up(lg) {
+                .dropper-md { display: none; }
+              }
+              @include media-breakpoint-down(xl) {
+                flex: 0 0 20%;
+              }
+              @include media-breakpoint-down(lg) {
+                flex: 0 0 25%;
+                height: 180px;
+              }
+              @include media-breakpoint-down(md) {
+                flex: 0 0 calc(100% / 3);
+                height: 150px;
+                .dropper-lg { display: none; }
+              }
+              @include media-breakpoint-down(sm) {
+                flex: 0 0 50%;
+                height: 145px;
+              }
+            }
+            @include media-breakpoint-down(xl) {
+              //max-width: 987px;
+            }
+            @include media-breakpoint-down(lg) {
+              //max-width: 645px;
+            }
+            @include media-breakpoint-down(md) {
+              //max-width: 399px;
+            }
+            // @include media-breakpoint-down(sm) {
+            //   max-width: 399px;
+            //   padding: 0;
+            // }
+          }
+          .media-item {
+            flex: 0 0 calc(100% / 6);
+            padding: 5px;
+            height: 191px;
+            border-radius: 14px;
+            .media-image {
+              //max-width: 221px;
+              height: 148px;
+              margin: auto;
+              border-radius: 10px;
+              background-size: cover;
+              position: relative;
+              overflow: hidden;
+              cursor: pointer;
+              .item-shadow {
+                display: none;
+              }
+              @include media-breakpoint-down(xl) {
+                height: 148px;
+                //max-width: 221px;
+              }
+              @include media-breakpoint-down(lg) {
+                height: 139px;
+                //max-width: 211px;
+              }
+              @include media-breakpoint-down(md) {
+                //flex: 0 0 33.33%;
+                height: 118px;
+              }
+              @include media-breakpoint-down(sm) {
+                //flex: 0 0 50%;
+                height: 106px;
+              }
+
+            }
+            .media-image:hover {
+              .item-shadow {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: #5A5C6C;
+                opacity: 0.85;
+                border-radius: 10px;
+                .drag-item {
+                  color: $white;
+                  font-size: 12px;
+                  text-align: center;
+                  font-weight: 600;
+                  line-height: 24px;
+                  .drag-move {
+                    margin-top: 4px;
+                    font-size: 16px;
+                  }
+                }
+              }
+            }
+            .sel-mark {
+              position: absolute;
+              left: 12px;
+              bottom: 10px;
+              z-index: 5;
+            }
+            .resolution-mark {
+              position: absolute;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 80px;
+              height: 80px;
+              top: -40px;
+              right: -40px;
+              background: $danger;
+              transform: rotate(45deg);
+              svg {
+                margin-top: 50px;
+                transform: rotate(-45deg);
+                color: $white;
+                @include media-breakpoint-down(sm) {
+                  margin-top: 80px;
+                  margin-right: -15px;
+                  width: 20.33px;
+                  height: 20.33px;
+                  color: $white;
+                }
+              }
+              @include media-breakpoint-down(sm) {
+                width: 120px;
+                height: 120px;
+                top: -68px;
+                right: -60px;
+              }
+            }
+            .control-option {
+              height: 24px;
+              margin: 8px 5px 0;
+              @include media-breakpoint-down(md) {
+                margin: 1px 2px 0;
+              }
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              // display: none;
+              .room-edit {
+                display: none;
+              }
+              .room-name {
+                height: 21.88px;
+                background-color: $transparent;
+                border: none;
+                flex-grow: 100;
+                text-overflow: ellipsis;
+                @include media-breakpoint-down(xl) {
+                  max-width: 167px;
+                }
+                @include media-breakpoint-down(lg) {
+                  max-width: 143px;
+                }
+                @include media-breakpoint-down(md) {
+                  max-width: 129px;
+                }
+              }
+              .room-delete {
+                display: none;
+              }
+            }
+            /*
+            .control-option:hover {
+              .room-edit {
+                display: block;
+              }
+              .room-delete {
+                display: block;
+              }
+            }
+            */
+            @include media-breakpoint-down(xl) {
+              flex: 0 0 20%;
+              padding: 5px;
+              height: 161px;
+            }
+            @include media-breakpoint-down(lg) {
+              flex: 0 0 25%;
+              padding: 5px;
+              height: 180px;
+            }
+            @include media-breakpoint-down(md) {
+              flex: 0 0 calc(100% / 3);
+              padding: 5px;
+              height: 150px;
+            }
+            @include media-breakpoint-down(sm) {
+              flex: 0 0 50%;
+              padding: 8px;
+              height: 145px;
+            }
+          }
+          .media-item:hover {
+            background-color: $white;
+          }
+        }
+        .media-detail-backdrop {
+          pointer-events: all;
+          position: absolute;
+          left: 0; right: 0; top: 0; bottom: 0;
+          background-color: rgba(0, 0, 0, 0.5);
+          z-index: 10;
+          display: none;
+          &.active {
+            display: block;
+          }
+        }
+        .media-detail {
+          width: 382px;
+          z-index: 10;
+          display: flex;
+          flex-direction: column;
+          box-shadow: 0 0 8px rgba(0, 0, 0, 0.17);
+          background: #fff;
+          border-radius: 10px 10px 10px 0;
+          position: absolute;
+          top: 0; bottom: 0; right: 0;
+          transition: all 0.1s ease;
+          transform: translateX(100%);
+          &.active {
+            transform: none;
+          }
+          .detail-image {
+            width: 100%;
+            background-size: cover;
+            border-radius: 10px;
+            flex: 0 0 260px;
+            @include media-breakpoint-down(xl) {
+              width: 320px;
+              flex: 0 0 217px;
+            }
+          }
+          .detail-decription {
+            margin-top: 37.4px;
+            padding: 0 28px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            overflow: hidden;
+            .detail-info {
+              width: 100%;
+              display: flex;
+              .name-info {
+                overflow: hidden;
+                flex-grow: 1;
+                font-weight: 600;
+                font-size: 17px;
+                line-height: 23px;
+                color: $dropdown-arrow-color;
+                margin-right: 10px;
+                .room-name {
+                  font-size: 14px;
+                  line-height: 24px;
+                  height: 24px;
+                  white-space: nowrap;
+                  text-overflow: ellipsis;
+                  overflow: hidden;
+                }
+                .real {
+                  margin-top: 6px;
+                }
+                .display {
+                  margin-top: 7.5px;
+                }
+                .display-name {
+                  margin-top: 21.63px;
+                  .room-name {
+                    display: flex;
+                    align-items: center;
+                    .room-edit {
+                      cursor: pointer;
+                      margin-right: 4px;
+                      flex-grow: 0;
+                      flex-shrink: 0;
+                      padding: 0;
+                      color: $dropdown-icon-color;
+                    }
+                    .edit-name {
+                      padding: 0;
+                      flex-grow: 1;
+                      overflow: hidden;
+                      text-overflow: ellipsis;
+                      border: none;
+                      background: none;
+                      outline: none;
+                      font-weight: 600;
+                      font-size: 14px;
+                      line-height: 24px;
+                    }
+                  }
+                }
+                @include media-breakpoint-down(xl) {
+                  width: 140px;
+                }
+              }
+              .image-info {
+                padding-left: 15px;
+                padding-right: 10px;
+                box-shadow: -1px 0 0 0 $panel-lines-light-color;
+                flex-grow: 0;
+                flex-shrink: 0;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 24px;
+                color: $dropdown-arrow-color;
+                .image-resolution {
+                  color: $primary;
+                  .low-resolution {
+                    visibility: hidden;
+                    font-size: 12px;
+                    line-height: 18px;
+                  }
+                  &.lowres {
+                    color: $danger;
+                    .low-resolution {
+                      visibility: visible;
+                    }
+                  }
+                }
+                .image-delete {
+                  margin-top: 18px;
+                  padding: 0;
+                  cursor: pointer;
+                  color: $dropdown-icon-color;
+                }
+              }
+            }
+            .detail-relatives {
+              margin-top: 40px;
+              font-weight: 600;
+              font-size: 17px;
+              line-height: 40px;
+              flex: 0 0;
+            }
+            .related-rooms {
+              overflow: scroll;
+              flex-grow: 1;
+              font-size: 14px;
+              font-weight: normal;
+              .rooms {
+                margin: 15px 0;
+              }
+            }
+            .control-btn {
+              display: flex;
+              justify-content: space-between;
+              margin: 30px 0;
+              button {
+                width: 153px;
+                @include media-breakpoint-down(xl) {
+                  width: 122px;
+                }
+              }
+            }
+            @include media-breakpoint-down(xl) {
+              margin-top: 22.35px;
+            }
+          }
+          .detail-empty {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            font-weight: 600;
+          }
+          @include media-breakpoint-down(xl) {
+            width: 319px;
+          }
+          @include media-breakpoint-down(md) {
+            width: 319px;
+          }
+          @include media-breakpoint-down(sm) {
+            display: none;
+          }
+        }
+      }
+    }
+    .modal-footer {
+      display: none;
+    }
+  }
+}
